@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rl337.org/sitemap.xml

@@ -4,15 +4,21 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi, I'm Richard! Welcome to my corner of the internet.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+This is where I share my thoughts, projects, and the occasional crazy idea. I'm passionate about technology, development, and exploring new ways to solve problems.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+## What You'll Find Here
 
+- **Tech insights** and lessons learned from building software
+- **Project showcases** and behind-the-scenes development stories  
+- **Random thoughts** on technology, productivity, and life
+- **Tutorials** and guides for things I've figured out
 
-[jekyll-organization]: https://github.com/jekyll
+## Connect With Me
+
+- [GitHub](https://github.com/rl337) - Where the code lives
+- [Twitter](https://twitter.com/rl337) - Quick thoughts and updates
+- Email: rlee@tokyo3.com
+
+Thanks for stopping by! Feel free to reach out if you want to chat about anything you see here.

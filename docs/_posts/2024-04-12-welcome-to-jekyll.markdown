@@ -1,29 +1,39 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2024-04-12 02:23:43 +0000
-categories: jekyll update
+title: "Welcome to rl337.org - A Fresh Start"
+date: 2024-04-12 02:23:43 +0000
+categories: [personal, website]
+tags: [jekyll, github-pages, blogging]
+author: Richard Lee
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+Welcome to my newly modernized blog! After years of letting this site sit dormant, I've finally given it the attention it deserves.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+## What's New
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+I've updated the site with modern Jekyll practices and a fresh approach to content. Here's what you can expect:
 
-Jekyll also offers powerful support for code snippets:
+- **Better performance** with optimized configurations
+- **Enhanced SEO** with proper metadata and sitemaps
+- **Modern features** like RSS feeds and social media integration
+- **Responsive design** that works great on all devices
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+## The Tech Stack
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+This site is built with:
+- **Jekyll** for static site generation
+- **GitHub Pages** for hosting
+- **Minima theme** (for now, but open to exploring others)
+- **Modern plugins** for enhanced functionality
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+## What's Coming
+
+I'm planning to share more about:
+- Development experiences and lessons learned
+- Interesting projects I'm working on
+- Thoughts on technology trends
+- Tutorials and guides for things I've figured out
+
+Thanks for stopping by, and I hope you'll find something interesting here!
+
+*P.S. - If you have suggestions for improvements or want to chat about anything you see here, feel free to reach out!*

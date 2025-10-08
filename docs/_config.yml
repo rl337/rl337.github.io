@@ -21,17 +21,74 @@
 title: Richard's Blog
 email: rlee@tokyo3.com
 description: >- # this means to ignore newlines until "baseurl:"
-    This is where I let my crazy out.
+  This is where I let my crazy out.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rl337.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rl337
-github_username:  rl337
+github_username: rl337
+
+# SEO and Social Media
+author: Richard Lee
+lang: en
+timezone: America/New_York
+
+# Social Media Links
+social:
+  name: Richard Lee
+  links:
+    - https://github.com/rl337
+    - https://twitter.com/rl337
+
+# Site Settings
+markdown: kramdown
+highlighter: rouge
+sass:
+  style: compressed
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Richard Lee"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-paginate
 
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive
+    tag: archive
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
