@@ -11,6 +11,7 @@ import yaml
 from datetime import datetime, timedelta
 from pathlib import Path
 import argparse
+import time
 
 class GitHubRepoAnalyzer:
     def __init__(self, username, token=None):
@@ -41,6 +42,13 @@ class GitHubRepoAnalyzer:
             }
             
             response = self.session.get(url, params=params)
+            
+            # Handle rate limiting
+            if response.status_code == 429:
+                print(f"Rate limited. Waiting 60 seconds...")
+                time.sleep(60)
+                continue
+                
             response.raise_for_status()
             
             page_repos = response.json()
@@ -50,7 +58,9 @@ class GitHubRepoAnalyzer:
             repos.extend(page_repos)
             page += 1
             
-            # Rate limiting protection
+            # Rate limiting protection - small delay between requests
+            time.sleep(0.5)
+            
             if len(page_repos) < per_page:
                 break
         
@@ -80,24 +90,24 @@ class GitHubRepoAnalyzer:
         
         # Extract key information
         analysis = {
-            'name': repo['name'],
-            'full_name': repo['full_name'],
-            'description': repo['description'] or 'No description available',
-            'url': repo['html_url'],
-            'homepage': repo['homepage'],
-            'created_at': repo['created_at'],
-            'updated_at': repo['updated_at'],
-            'pushed_at': repo['pushed_at'],
-            'language': repo['language'],
+            'name': repo.get('name', 'Unknown'),
+            'full_name': repo.get('full_name', 'Unknown'),
+            'description': repo.get('description') or 'No description available',
+            'url': repo.get('html_url', ''),
+            'homepage': repo.get('homepage'),
+            'created_at': repo.get('created_at', ''),
+            'updated_at': repo.get('updated_at', ''),
+            'pushed_at': repo.get('pushed_at', ''),
+            'language': repo.get('language'),
             'languages': languages,
             'topics': repo.get('topics', []),
-            'stars': repo['stargazers_count'],
-            'forks': repo['forks_count'],
-            'size': repo['size'],
-            'open_issues': repo['open_issues_count'],
+            'stars': repo.get('stargazers_count', 0),
+            'forks': repo.get('forks_count', 0),
+            'size': repo.get('size', 0),
+            'open_issues': repo.get('open_issues_count', 0),
             'license': repo.get('license', {}).get('name') if repo.get('license') else None,
-            'archived': repo['archived'],
-            'disabled': repo['disabled'],
+            'archived': repo.get('archived', False),
+            'disabled': repo.get('disabled', False),
             'activity_score': activity_score,
             'activity_level': activity_level,
             'recent_commits': len(recent_commits),
@@ -116,26 +126,30 @@ class GitHubRepoAnalyzer:
         score += len(recent_commits) * 10
         
         # Recent push (last 7 days = 50 points, last 30 days = 20 points)
-        if repo['pushed_at']:
-            push_date = datetime.fromisoformat(repo['pushed_at'].replace('Z', '+00:00'))
-            days_since_push = (datetime.now(push_date.tzinfo) - push_date).days
-            
-            if days_since_push <= 7:
-                score += 50
-            elif days_since_push <= 30:
-                score += 20
-            elif days_since_push <= 90:
-                score += 10
+        if repo.get('pushed_at'):
+            try:
+                push_date = datetime.fromisoformat(repo['pushed_at'].replace('Z', '+00:00'))
+                days_since_push = (datetime.now(push_date.tzinfo) - push_date).days
+                
+                if days_since_push <= 7:
+                    score += 50
+                elif days_since_push <= 30:
+                    score += 20
+                elif days_since_push <= 90:
+                    score += 10
+            except (ValueError, TypeError):
+                pass  # Skip if date parsing fails
         
         # Stars and forks (community engagement)
-        score += repo['stargazers_count'] * 2
-        score += repo['forks_count'] * 5
+        score += (repo.get('stargazers_count') or 0) * 2
+        score += (repo.get('forks_count') or 0) * 5
         
         # Open issues (maintenance activity)
-        score += repo['open_issues_count'] * 1
+        score += (repo.get('open_issues_count') or 0) * 1
         
         # Size (project complexity)
-        if repo['size'] > 1000:  # Large projects
+        size = repo.get('size', 0)
+        if isinstance(size, (int, float)) and size > 1000:  # Large projects
             score += 5
         
         return score

@@ -1,0 +1,58 @@
+# Jekyll generated files and directories
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
+.bundle/
+vendor/
+
+# Generated project files (created by GitHub Actions)
+docs/_projects/
+docs/_projects_backup_*
+
+# Temporary test files
+docs/debug_*.markdown
+docs/test_*.markdown
+docs/simple_*.markdown
+docs/collection_*.markdown
+docs/projects_simple.markdown
+
+# Python virtual environment and cache
+scripts/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Node.js (if used for any build tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp

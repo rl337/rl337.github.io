@@ -50,6 +50,8 @@ collections:
   projects:
     output: true
     permalink: /:collection/:name/
+    sort_by: activity_score
+    reverse: true
 
 # Defaults
 defaults:
@@ -89,6 +91,9 @@ jekyll-archives:
   permalinks:
     category: /categories/:name/
     tag: /tags/:name/
+# Include collections
+include:
+  - _projects
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
