@@ -33,7 +33,8 @@ Once a task is started and a Github Issue is created the following steps in the 
 1. Verify changes are logically complete and consistent with the overall style of the project
 2. Run all checks defined in the run_checks.sh
 3. Clean up any artifacts that might have been created during development of the task.  Add relevant entries to .gitignore. Fix problems found with step 2.  If there were problems fixed, return to step 1.  
-4. Check in all relevant changes and new files into the branch.  Push changes to to remote, creating a PR if one does not yet exist.
-5. Wait for verification github action to complete.  If the action fails, analyze failure treating that failure like a local test failure and return to step 3.
-6. When previous closing steps are complete, update the GitHub issue with what was accomplished.
+4. Check in all relevant changes and new files into the branch.  Push changes to to remote.
+5. **Create a pull request against main that references the GitHub issue using "Closes #<issue_number>" in the PR title or description.**
+6. Wait for verification github action to complete.  If the action fails, analyze failure treating that failure like a local test failure and return to step 3.
+7. When previous closing steps are complete, update the GitHub issue with what was accomplished.
 
