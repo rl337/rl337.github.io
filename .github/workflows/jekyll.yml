@@ -40,6 +40,11 @@ jobs:
                   cd docs
                   bundle install
 
+            - name: Run validation checks
+              run: |
+                  chmod +x run_checks.sh
+                  ./run_checks.sh
+
             - name: Generate project files
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
