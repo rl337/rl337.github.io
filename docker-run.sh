@@ -31,5 +31,6 @@ docker run --rm \
     -v "$(pwd)":/workspace \
     -v /workspace/scripts/venv \
     -w /workspace \
+    -e DOCKER_CONTAINER=true \
     rl337-dev \
     "$@"
