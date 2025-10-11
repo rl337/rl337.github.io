@@ -34,37 +34,8 @@ jobs:
           scripts/htmlcov/
         retention-days: 7
         
-    - name: Comment PR with results
-      if: github.event_name == 'pull_request' && always()
-      uses: actions/github-script@v6
-      with:
-        script: |
-          const fs = require('fs');
-          const path = require('path');
-          
-          // This would be enhanced to parse actual test results
-          const comment = `## 🔍 Validation Results
-          
-          **Status:** ${process.env.VALIDATION_STATUS || 'Completed'}
-          
-          All validation checks have been run. Check the Actions tab for detailed results.
-          
-          ### Checks Performed:
-          - ✅ Python syntax and linting
-          - ✅ Jekyll build validation  
-          - ✅ Shell script validation
-          - ✅ YAML syntax validation
-          - ✅ File structure validation
-          - ✅ Security checks
-          
-          View full details in the [Actions tab](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}).`;
-          
-          github.rest.issues.createComment({
-            issue_number: context.issue.number,
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            body: comment
-          });
+    # Note: PR commenting removed due to GITHUB_TOKEN permissions
+    # The validation results are visible in the Actions tab
 
   jekyll-build:
     runs-on: ubuntu-latest
