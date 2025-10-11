@@ -63,3 +63,11 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# Docker artifacts
+.dockerignore
+docker-compose.override.yml
+
+# Coverage reports
+scripts/coverage.xml
+scripts/htmlcov/
