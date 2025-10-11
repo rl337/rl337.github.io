@@ -1,22 +1,67 @@
-# Use the official Ruby base image
-FROM ruby:latest
+# Multi-stage Dockerfile for rl337.org development environment
+# This container provides all necessary tools for Python, Jekyll, and shell script validation
 
-# Label the image
-LABEL maintainer="yourname@example.com"
+FROM ubuntu:22.04
 
-# Install build dependencies and Jekyll
-RUN apt-get update -qq && apt-get install -y nodejs build-essential
+# Set environment variables
+ENV DEBIAN_FRONTEND=noninteractive
+ENV PYTHONUNBUFFERED=1
+ENV LANG=C.UTF-8
+ENV LC_ALL=C.UTF-8
 
-# Install Jekyll and Bundler
-RUN gem install jekyll bundler
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    # Python and pip
+    python3 \
+    python3-pip \
+    python3-venv \
+    python3-dev \
+    # Ruby and Jekyll dependencies
+    ruby \
+    ruby-dev \
+    build-essential \
+    zlib1g-dev \
+    libssl-dev \
+    libffi-dev \
+    # Shell script validation
+    shellcheck \
+    # Markdown validation - install Node.js 20+
+    curl -fsSL https://deb.nodesource.com/setup_20.x | bash - \
+    && apt-get install -y nodejs \
+    # Link validation
+    curl \
+    wget \
+    # Git for version control
+    git \
+    # Other utilities
+    make \
+    && rm -rf /var/lib/apt/lists/*
 
-# Set the default directory inside the container
-WORKDIR /srv/jekyll
+# Install Node.js packages for markdown validation
+RUN npm install -g markdownlint-cli
 
-RUN chmod a+rwx /srv/jekyll
+# Install Python packages globally (will be overridden by venv in scripts)
+RUN pip3 install --no-cache-dir \
+    pytest \
+    pytest-cov \
+    flake8 \
+    black \
+    isort \
+    mypy \
+    types-requests \
+    types-PyYAML
 
-# Set Jekyll as the default entrypoint (this lets you use any jekyll command)
-ENTRYPOINT ["jekyll"]
+# Install Ruby gems
+RUN gem install bundler jekyll
 
-# By default, just show the help menu (when no parameters are passed)
-CMD ["--help"]
+# Set working directory
+WORKDIR /workspace
+
+# Copy project files
+COPY . /workspace/
+
+# Make scripts executable
+RUN chmod +x run_checks.sh scripts/*.sh
+
+# Set default command
+CMD ["/bin/bash"]

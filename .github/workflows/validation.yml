@@ -15,35 +15,14 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
       
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.11'
-        
-    - name: Set up Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.1'
-        bundler-cache: true
-        working-directory: docs/
-        
-    - name: Install Python dependencies
+    - name: Build Docker image
       run: |
-        cd scripts
-        python -m venv venv
-        source venv/bin/activate
-        pip install -r requirements.txt
-        pip install pytest pytest-cov flake8 black isort mypy
+        docker build -t rl337-dev .
         
-    - name: Install Jekyll dependencies
+    - name: Run comprehensive validation in Docker
       run: |
-        cd docs
-        bundle install
-        
-    - name: Run comprehensive validation
-      run: |
-        chmod +x run_checks.sh
-        ./run_checks.sh
+        chmod +x run_checks.sh docker-run.sh
+        ./docker-run.sh ./run_checks.sh
         
     - name: Upload test results
       uses: actions/upload-artifact@v3
@@ -95,17 +74,14 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
       
-    - name: Set up Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.1'
-        bundler-cache: true
-        working-directory: docs/
-        
-    - name: Build Jekyll site
+    - name: Build Docker image
       run: |
-        cd docs
-        bundle exec jekyll build --safe
+        docker build -t rl337-dev .
+        
+    - name: Build Jekyll site in Docker
+      run: |
+        chmod +x docker-run.sh
+        ./docker-run.sh bash -c "cd docs && bundle exec jekyll build --safe"
         
     - name: Upload site artifacts
       uses: actions/upload-artifact@v3

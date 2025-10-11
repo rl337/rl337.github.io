@@ -20,6 +20,13 @@ PYTHON_SCRIPT_DIR="$REPO_ROOT/scripts"
 JEKYLL_DIR="$REPO_ROOT/docs"
 PYTHON_VENV="$PYTHON_SCRIPT_DIR/venv"
 
+# Docker detection
+IN_DOCKER=false
+if [ -f /.dockerenv ] || [ -n "${DOCKER_CONTAINER:-}" ]; then
+    IN_DOCKER=true
+    echo -e "${BLUE}🐳 Running inside Docker container${NC}"
+fi
+
 # Counters for reporting
 TOTAL_CHECKS=0
 PASSED_CHECKS=0
@@ -53,21 +60,30 @@ command_exists() {
 setup_python_env() {
     echo -e "${YELLOW}🐍 Setting up Python environment...${NC}"
     
-    if [ ! -d "$PYTHON_VENV" ]; then
-        echo -e "${YELLOW}📦 Creating Python virtual environment...${NC}"
+    if [ "$IN_DOCKER" = true ]; then
+        echo -e "${YELLOW}🐳 Using system Python in Docker container${NC}"
         cd "$PYTHON_SCRIPT_DIR"
-        python3 -m venv venv
+        # In Docker, we use system Python with globally installed packages
+        # No need for virtual environment
+    else
+        if [ ! -d "$PYTHON_VENV" ]; then
+            echo -e "${YELLOW}📦 Creating Python virtual environment...${NC}"
+            cd "$PYTHON_SCRIPT_DIR"
+            python3 -m venv venv
+        fi
+        
+        echo -e "${YELLOW}📦 Activating Python virtual environment...${NC}"
+        cd "$PYTHON_SCRIPT_DIR"
+        source venv/bin/activate
     fi
-    
-    echo -e "${YELLOW}📦 Activating Python virtual environment...${NC}"
-    cd "$PYTHON_SCRIPT_DIR"
-    source venv/bin/activate
     
     echo -e "${YELLOW}📦 Installing Python dependencies...${NC}"
     pip install -r requirements.txt
     
-    # Install additional tools for validation
-    pip install pytest pytest-cov flake8 black isort mypy
+    # Install additional tools for validation (only if not in Docker)
+    if [ "$IN_DOCKER" = false ]; then
+        pip install pytest pytest-cov flake8 black isort mypy
+    fi
 }
 
 # Function to setup Ruby/Jekyll environment
@@ -82,10 +98,18 @@ setup_ruby_env() {
     cd "$JEKYLL_DIR"
     echo -e "${YELLOW}📦 Installing Jekyll dependencies...${NC}"
     
-    # Try to install without sudo, fall back to system gems if needed
-    if ! bundle install --path vendor/bundle 2>/dev/null; then
-        echo -e "${YELLOW}⚠️  Could not install Jekyll dependencies. Skipping Jekyll validation${NC}"
-        return 0
+    if [ "$IN_DOCKER" = true ]; then
+        # In Docker, install gems globally
+        if ! bundle install 2>/dev/null; then
+            echo -e "${YELLOW}⚠️  Could not install Jekyll dependencies. Skipping Jekyll validation${NC}"
+            return 0
+        fi
+    else
+        # Try to install without sudo, fall back to system gems if needed
+        if ! bundle install --path vendor/bundle 2>/dev/null; then
+            echo -e "${YELLOW}⚠️  Could not install Jekyll dependencies. Skipping Jekyll validation${NC}"
+            return 0
+        fi
     fi
 }
 
