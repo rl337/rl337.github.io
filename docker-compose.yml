@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  dev:
+    build: .
+    container_name: rl337-dev
+    volumes:
+      - .:/workspace
+      - /workspace/scripts/venv  # Exclude venv from volume mount
+    working_dir: /workspace
+    command: /bin/bash
+    stdin_open: true
+    tty: true
+    environment:
+      - PYTHONUNBUFFERED=1
+      - LANG=C.UTF-8
+      - LC_ALL=C.UTF-8

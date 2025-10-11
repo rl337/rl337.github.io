@@ -28,6 +28,13 @@ __pycache__/
 pip-log.txt
 pip-delete-this-directory.txt
 
+# Python testing artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
 # Node.js (if used for any build tools)
 node_modules/
 npm-debug.log*
