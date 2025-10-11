@@ -25,7 +25,7 @@ jobs:
         ./docker-run.sh ./run_checks.sh
         
     - name: Upload test results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       if: always()
       with:
         name: validation-results
@@ -84,7 +84,7 @@ jobs:
         ./docker-run.sh bash -c "cd docs && bundle exec jekyll build --safe"
         
     - name: Upload site artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: jekyll-site
         path: docs/_site/
