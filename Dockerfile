@@ -25,9 +25,6 @@ RUN apt-get update && apt-get install -y \
     libffi-dev \
     # Shell script validation
     shellcheck \
-    # Markdown validation - install Node.js 20+
-    curl -fsSL https://deb.nodesource.com/setup_20.x | bash - \
-    && apt-get install -y nodejs \
     # Link validation
     curl \
     wget \
@@ -36,6 +33,10 @@ RUN apt-get update && apt-get install -y \
     # Other utilities
     make \
     && rm -rf /var/lib/apt/lists/*
+
+# Install Node.js 20+ for markdownlint compatibility
+RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - \
+    && apt-get install -y nodejs
 
 # Install Node.js packages for markdown validation
 RUN npm install -g markdownlint-cli
