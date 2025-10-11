@@ -39,8 +39,8 @@ class TestGitHubRepoAnalyzer(unittest.TestCase):
         score = analyzer.calculate_activity_score(repo, [])
         self.assertIsInstance(score, int)
         self.assertGreaterEqual(score, 0)
-        # Should be 10*2 + 5*5 + 2*1 + 5 = 42
-        self.assertEqual(score, 42)
+        # Should be 10*2 + 5*5 + 2*1 + 5 = 47 (includes size bonus for >1000)
+        self.assertEqual(score, 47)
     
     def test_get_activity_level(self):
         """Test activity level determination"""
