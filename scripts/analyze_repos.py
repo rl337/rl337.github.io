@@ -191,8 +191,8 @@ class GitHubRepoAnalyzer:
     
     def generate_project_frontmatter(self, analysis):
         """Generate Jekyll frontmatter for a project"""
-        # Determine if project should be featured
-        featured = analysis['activity_level'] in ['very_active', 'active'] and analysis['stars'] > 5
+        # Determine if project should be featured (will be overridden by top 5 logic)
+        featured = analysis['activity_level'] in ['very_active', 'active'] and analysis['stars'] > 0
         
         # Create technologies list
         technologies = []
@@ -330,6 +330,10 @@ def main():
     
     # Sort by activity score (most active first)
     analyses.sort(key=lambda x: x['activity_score'], reverse=True)
+    
+    # Mark top 5 projects as featured
+    for i, analysis in enumerate(analyses[:5]):
+        analysis['featured'] = True
     
     # Save project files
     print(f"Saving {len(analyses)} project files...")

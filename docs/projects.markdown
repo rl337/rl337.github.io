@@ -5,13 +5,13 @@ permalink: /projects/
 description: "A showcase of my development projects and experiments"
 ---
 
-Here are the projects I've worked on, automatically analyzed from my GitHub repositories. Projects are ranked by activity level, from most active to archived.
+Here are all the projects I've worked on, automatically analyzed from my GitHub repositories. Projects are ranked by activity level, from most active to archived.
 
 ## 🔥 Very Active Projects
 
 {% assign very_active = site.projects | where: "activity_level", "very_active" %}
 {% for project in very_active %}
-### [{{ project.title }}]({{ project.url }})
+### {{ project.title }}
 
 {{ project.description }}
 
@@ -28,7 +28,7 @@ Here are the projects I've worked on, automatically analyzed from my GitHub repo
 
 {% assign active = site.projects | where: "activity_level", "active" %}
 {% for project in active %}
-### [{{ project.title }}]({{ project.url }})
+### {{ project.title }}
 
 {{ project.description }}
 
@@ -45,28 +45,68 @@ Here are the projects I've worked on, automatically analyzed from my GitHub repo
 
 {% assign moderate = site.projects | where: "activity_level", "moderate" %}
 {% for project in moderate %}
-- **[{{ project.title }}]({{ project.url }})** - {{ project.description }} (⭐ {{ project.stars }})
+### {{ project.title }}
+
+{{ project.description }}
+
+**Technologies:** {{ project.technologies | join: ', ' }}  
+**Status:** 📈 Moderate | ⭐ {{ project.stars }} stars | 🍴 {{ project.forks }} forks  
+**Last Updated:** {{ project.last_updated }}
+
+{% if project.github %}[View on GitHub]({{ project.github }}){% endif %}{% if project.live_url %} | [Live Demo]({{ project.live_url }}){% endif %}
+
+---
 {% endfor %}
 
 ## 📉 Low Activity
 
 {% assign low = site.projects | where: "activity_level", "low" %}
 {% for project in low %}
-- **[{{ project.title }}]({{ project.url }})** - {{ project.description }} (⭐ {{ project.stars }})
+### {{ project.title }}
+
+{{ project.description }}
+
+**Technologies:** {{ project.technologies | join: ', ' }}  
+**Status:** 📉 Low | ⭐ {{ project.stars }} stars | 🍴 {{ project.forks }} forks  
+**Last Updated:** {{ project.last_updated }}
+
+{% if project.github %}[View on GitHub]({{ project.github }}){% endif %}{% if project.live_url %} | [Live Demo]({{ project.live_url }}){% endif %}
+
+---
 {% endfor %}
 
 ## 😴 Idle Projects
 
 {% assign idle = site.projects | where: "activity_level", "idle" %}
 {% for project in idle %}
-- **[{{ project.title }}]({{ project.url }})** - {{ project.description }} (⭐ {{ project.stars }})
+### {{ project.title }}
+
+{{ project.description }}
+
+**Technologies:** {{ project.technologies | join: ', ' }}  
+**Status:** 😴 Idle | ⭐ {{ project.stars }} stars | 🍴 {{ project.forks }} forks  
+**Last Updated:** {{ project.last_updated }}
+
+{% if project.github %}[View on GitHub]({{ project.github }}){% endif %}{% if project.live_url %} | [Live Demo]({{ project.live_url }}){% endif %}
+
+---
 {% endfor %}
 
 ## 📦 Archived Projects
 
 {% assign archived = site.projects | where: "activity_level", "archived" %}
 {% for project in archived %}
-- **[{{ project.title }}]({{ project.url }})** - {{ project.description }} (⭐ {{ project.stars }})
+### {{ project.title }}
+
+{{ project.description }}
+
+**Technologies:** {{ project.technologies | join: ', ' }}  
+**Status:** 📦 Archived | ⭐ {{ project.stars }} stars | 🍴 {{ project.forks }} forks  
+**Last Updated:** {{ project.last_updated }}
+
+{% if project.github %}[View on GitHub]({{ project.github }}){% endif %}{% if project.live_url %} | [Live Demo]({{ project.live_url }}){% endif %}
+
+---
 {% endfor %}
 
 ---

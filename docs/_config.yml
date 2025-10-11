@@ -48,8 +48,7 @@ sass:
 # Collections
 collections:
   projects:
-    output: true
-    permalink: /:collection/:name/
+    output: false
     sort_by: activity_score
     reverse: true
 
