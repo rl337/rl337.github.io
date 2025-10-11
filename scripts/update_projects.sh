@@ -30,12 +30,12 @@ if [ ! -d "$SCRIPT_DIR/venv" ]; then
     echo -e "${YELLOW}📦 Creating virtual environment...${NC}"
     cd "$SCRIPT_DIR"
     python3 -m venv venv
-    source venv/bin/activate
+    . venv/bin/activate
     pip install -r requirements.txt
 else
     echo -e "${YELLOW}📦 Activating virtual environment...${NC}"
     cd "$SCRIPT_DIR"
-    source venv/bin/activate
+    . venv/bin/activate
 fi
 
 # Check for GitHub token
@@ -62,7 +62,7 @@ cd "$REPO_ROOT"
 python3 "$SCRIPT_DIR/analyze_repos.py" \
     --username "$USERNAME" \
     --output "$OUTPUT_DIR" \
-    $TOKEN_ARG
+    "$TOKEN_ARG"
 
 # Check if any files were created
 if [ -d "$OUTPUT_DIR" ] && [ "$(ls -A "$OUTPUT_DIR")" ]; then
@@ -71,11 +71,11 @@ if [ -d "$OUTPUT_DIR" ] && [ "$(ls -A "$OUTPUT_DIR")" ]; then
     
     # Show summary
     echo -e "${YELLOW}📊 Project Summary:${NC}"
-    ls -la "$OUTPUT_DIR"/*.md | wc -l | xargs echo "Total project files:"
+    find "$OUTPUT_DIR" -name "*.md" -type f | wc -l | xargs echo "Total project files:"
     
     # Show top 5 most active projects
     echo -e "${YELLOW}🔥 Most Active Projects:${NC}"
-    grep -l "activity_level: very_active\|activity_level: active" "$OUTPUT_DIR"/*.md | head -5 | while read file; do
+    grep -l "activity_level: very_active\|activity_level: active" "$OUTPUT_DIR"/*.md | head -5 | while read -r file; do
         title=$(grep "title:" "$file" | head -1 | sed 's/title: //' | tr -d '"')
         echo "  - $title"
     done
