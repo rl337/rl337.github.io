@@ -128,6 +128,13 @@ main() {
     setup_python_env
     setup_ruby_env
     
+    # Set up Python activation command based on Docker detection
+    if [ "$IN_DOCKER" = true ]; then
+        PYTHON_ACTIVATE=""
+    else
+        PYTHON_ACTIVATE="source venv/bin/activate &&"
+    fi
+    
     echo -e "\n${BLUE}🔧 PYTHON VALIDATION${NC}"
     echo -e "${BLUE}===================${NC}"
     
@@ -135,24 +142,24 @@ main() {
     run_check "Python syntax validation" "cd '$PYTHON_SCRIPT_DIR' && python3 -m py_compile analyze_repos.py"
     
     # Python linting with flake8
-    run_check "Python linting (flake8)" "cd '$PYTHON_SCRIPT_DIR' && source venv/bin/activate && flake8 analyze_repos.py --max-line-length=100 --ignore=E501,W503"
+    run_check "Python linting (flake8)" "cd '$PYTHON_SCRIPT_DIR' && $PYTHON_ACTIVATE flake8 analyze_repos.py --max-line-length=100 --ignore=E501,W503"
     
     # Python code formatting check with black
-    run_check "Python code formatting (black)" "cd '$PYTHON_SCRIPT_DIR' && source venv/bin/activate && black --check analyze_repos.py"
+    run_check "Python code formatting (black)" "cd '$PYTHON_SCRIPT_DIR' && $PYTHON_ACTIVATE black --check analyze_repos.py"
     
     # Python import sorting check with isort
-    run_check "Python import sorting (isort)" "cd '$PYTHON_SCRIPT_DIR' && source venv/bin/activate && isort --check-only analyze_repos.py"
+    run_check "Python import sorting (isort)" "cd '$PYTHON_SCRIPT_DIR' && $PYTHON_ACTIVATE isort --check-only analyze_repos.py"
     
     # Python type checking with mypy (if available)
     if command_exists mypy; then
-        run_check "Python type checking (mypy)" "cd '$PYTHON_SCRIPT_DIR' && source venv/bin/activate && mypy analyze_repos.py --ignore-missing-imports"
+        run_check "Python type checking (mypy)" "cd '$PYTHON_SCRIPT_DIR' && $PYTHON_ACTIVATE mypy analyze_repos.py --ignore-missing-imports"
     else
         echo -e "${YELLOW}⚠️  Skipping mypy (not installed)${NC}"
     fi
     
     # Python unit tests (if they exist)
     if [ -d "$PYTHON_SCRIPT_DIR/tests" ] || [ -f "$PYTHON_SCRIPT_DIR/test_*.py" ]; then
-        run_check "Python unit tests (pytest)" "cd '$PYTHON_SCRIPT_DIR' && source venv/bin/activate && pytest -v"
+        run_check "Python unit tests (pytest)" "cd '$PYTHON_SCRIPT_DIR' && $PYTHON_ACTIVATE pytest -v"
     else
         echo -e "${YELLOW}⚠️  No Python tests found - creating basic test structure${NC}"
         # Create a basic test file
@@ -211,11 +218,11 @@ class TestGitHubRepoAnalyzer(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 EOF
-        run_check "Python unit tests (pytest)" "cd '$PYTHON_SCRIPT_DIR' && source venv/bin/activate && pytest tests/ -v"
+        run_check "Python unit tests (pytest)" "cd '$PYTHON_SCRIPT_DIR' && $PYTHON_ACTIVATE pytest tests/ -v"
     fi
     
     # Python test coverage
-    run_check "Python test coverage" "cd '$PYTHON_SCRIPT_DIR' && source venv/bin/activate && pytest --cov=analyze_repos --cov-report=term-missing tests/"
+    run_check "Python test coverage" "cd '$PYTHON_SCRIPT_DIR' && $PYTHON_ACTIVATE pytest --cov=analyze_repos --cov-report=term-missing tests/"
     
     echo -e "\n${BLUE}💎 JEKYLL/RUBY VALIDATION${NC}"
     echo -e "${BLUE}========================${NC}"
