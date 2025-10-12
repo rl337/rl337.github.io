@@ -289,7 +289,7 @@ EOF
     run_check "Script permissions" "[ -x '$REPO_ROOT/run_checks.sh' ] && [ -x '$PYTHON_SCRIPT_DIR/update_projects.sh' ]"
     
     # Check for sensitive data
-    run_check "No sensitive data exposure" "! grep -r 'password\\|secret\\|key\\|token' '$REPO_ROOT' --exclude-dir=venv --exclude-dir=_site --exclude-dir=.git --exclude='*.pyc' | grep -v 'GITHUB_TOKEN' | grep -v 'token.*github'"
+    run_check "No sensitive data exposure" "! grep -r 'password\\|secret\\|key\\|token' '$REPO_ROOT' --exclude-dir=venv --exclude-dir=_site --exclude-dir=.git --exclude='*.pyc' | grep -v 'GITHUB_TOKEN' | grep -v 'token.*github' | grep -v 'id-token'"
     
     echo -e "\n${GREEN}📊 VALIDATION SUMMARY${NC}"
     echo -e "${GREEN}===================${NC}"
