@@ -23,6 +23,9 @@ jobs:
         run: |
           chmod +x run_checks.sh
           echo "🐳 Running Docker command..."
+          echo "🐳 Testing Docker container..."
+          docker run --rm rl337-dev echo "🐳 Docker container is working!"
+          echo "🐳 Running validation in Docker..."
           docker run --rm \
             -v "$(pwd)":/workspace \
             -w /workspace \
