@@ -25,6 +25,12 @@ IN_DOCKER=false
 if [ -f /.dockerenv ] || [ -n "${DOCKER_CONTAINER:-}" ]; then
     IN_DOCKER=true
     echo -e "${BLUE}🐳 Running inside Docker container${NC}"
+    echo -e "${BLUE}🐳 DOCKER_CONTAINER=${DOCKER_CONTAINER:-unset}${NC}"
+    echo -e "${BLUE}🐳 /.dockerenv exists: $([ -f /.dockerenv ] && echo 'yes' || echo 'no')${NC}"
+else
+    echo -e "${YELLOW}🐳 Running outside Docker container${NC}"
+    echo -e "${YELLOW}🐳 DOCKER_CONTAINER=${DOCKER_CONTAINER:-unset}${NC}"
+    echo -e "${YELLOW}🐳 /.dockerenv exists: $([ -f /.dockerenv ] && echo 'yes' || echo 'no')${NC}"
 fi
 
 # Counters for reporting
