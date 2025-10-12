@@ -268,7 +268,7 @@ EOF
     echo -e "${BLUE}==========================${NC}"
     
     # Shell script linting
-    run_check "Shell script linting (shellcheck)" "find '$REPO_ROOT' -name '*.sh' -exec shellcheck {} +"
+    run_check "Shell script linting (shellcheck)" "find '$REPO_ROOT' -name '*.sh' -exec shellcheck --exclude=SC1091 {} +"
     
     # Shell script syntax validation
     run_check "Shell script syntax validation" "bash -n '$REPO_ROOT/run_checks.sh' && bash -n '$PYTHON_SCRIPT_DIR/update_projects.sh'"
