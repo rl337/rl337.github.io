@@ -28,7 +28,7 @@ jobs:
             -w /workspace \
             -e DOCKER_CONTAINER=true \
             rl337-dev \
-            bash -c "echo '🐳 Inside Docker container' && echo 'DOCKER_CONTAINER='$DOCKER_CONTAINER && ./run_checks.sh"
+            /bin/bash -c "echo '🐳 Inside Docker container' && echo 'DOCKER_CONTAINER='$DOCKER_CONTAINER && ./run_checks.sh"
 
       - name: Upload test results
         uses: actions/upload-artifact@v4
