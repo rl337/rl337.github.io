@@ -43,6 +43,8 @@ RUN npm install -g markdownlint-cli
 
 # Install Python packages globally (will be overridden by venv in scripts)
 RUN pip3 install --no-cache-dir \
+    requests \
+    PyYAML \
     pytest \
     pytest-cov \
     flake8 \

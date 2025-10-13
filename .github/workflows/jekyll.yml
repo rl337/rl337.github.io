@@ -42,7 +42,7 @@ jobs:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
               run: |
                   chmod +x docker-run.sh
-                  ./docker-run.sh bash -c "cd scripts && python analyze_repos.py --username rl337 --output ../docs/_projects --token $GITHUB_TOKEN"
+                  ./docker-run.sh bash -c "cd scripts && python3 analyze_repos.py --username rl337 --output ../docs/_projects --token $GITHUB_TOKEN"
 
             - name: Build with Jekyll in Docker
               run: |
