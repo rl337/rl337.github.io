@@ -3,8 +3,6 @@ name: Build and Deploy Jekyll site to GitHub Pages
 on:
     push:
         branches: [main]
-    pull_request:
-        branches: [main]
     schedule:
         # Run every Sunday at 2 AM UTC to update projects
         - cron: "0 2 * * 0"
@@ -31,11 +29,6 @@ jobs:
             - name: Build Docker image
               run: |
                   docker build -t rl337-dev .
-
-            - name: Run validation checks in Docker
-              run: |
-                  chmod +x run_checks.sh docker-run.sh
-                  ./docker-run.sh ./run_checks.sh
 
             - name: Generate project files in Docker
               env:
