@@ -47,7 +47,7 @@ jobs:
             - name: Build with Jekyll in Docker
               run: |
                   chmod +x docker-run.sh
-                  ./docker-run.sh bash -c "cd docs && bundle exec jekyll build --baseurl '${{ steps.prep.outputs.baseurl }}'"
+                  ./docker-run.sh bash -c "cd docs && bundle install --path vendor/bundle && bundle exec jekyll build --baseurl '${{ steps.prep.outputs.baseurl }}'"
               env:
                   JEKYLL_ENV: production
 
