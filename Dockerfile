@@ -61,6 +61,9 @@ WORKDIR /workspace
 # Copy project files
 COPY . /workspace/
 
+# Install Jekyll dependencies from Gemfile
+RUN cd docs && bundle install --path vendor/bundle
+
 # Make scripts executable
 RUN chmod +x run_checks.sh scripts/*.sh
 
