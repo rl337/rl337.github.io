@@ -7,25 +7,33 @@ tags: [cli, documentation, static-site, python, github-actions]
 author: Richard Lee
 ---
 
-# Trouble - A Multi-Purpose CLI Tool for Static Documentation
-
-I'm excited to introduce **Trouble**, a versatile CLI tool I've developed for generating static documentation files. This project was born out of the need for a simple, flexible solution to create and publish documentation via GitHub Pages, especially for projects that need automated documentation generation.
+I'm excited to introduce **Trouble**, a versatile CLI tool I've developed for
+generating static documentation files. This project was born out of the need for
+a simple, flexible solution to create and publish documentation via GitHub
+Pages, especially for projects that need automated documentation generation.
 
 ## 🛠️ What is Trouble?
 
-Trouble is a Python-based CLI tool designed to generate static documentation files (Markdown or HTML) that can be published via GitHub Pages. It's particularly useful for projects that need automated documentation generation as part of their CI/CD pipeline.
+Trouble is a Python-based CLI tool designed to generate static documentation
+files (Markdown or HTML) that can be published via GitHub Pages. It's
+particularly useful for projects that need automated documentation generation as
+part of their CI/CD pipeline.
 
 ## 🎯 Key Features
 
 ### Template-Based Generation
-Trouble uses Python's `string.Template` for flexible templating, allowing you to create reusable templates for different types of documentation:
+
+Trouble uses Python's `string.Template` for flexible templating, allowing you to
+create reusable templates for different types of documentation:
 
 - **Markdown templates** (`.md.template`)
 - **HTML templates** (`.html.template`)
 - **Variable substitution** using `${variable}` syntax
 
 ### JSON-Driven Content
-The tool reads page data from a `trouble/data.json` file, where each key represents a page with associated metadata:
+
+The tool reads page data from a `trouble/data.json` file, where each key
+represents a page with associated metadata:
 
 ```json
 {
@@ -38,7 +46,10 @@ The tool reads page data from a `trouble/data.json` file, where each key represe
 ```
 
 ### GitHub Actions Integration
-Trouble is designed to work seamlessly with GitHub Actions, automatically generating and publishing documentation when changes are merged to the main branch.
+
+Trouble is designed to work seamlessly with GitHub Actions, automatically
+generating and publishing documentation when changes are merged to the main
+branch.
 
 ## 🚀 How It Works
 
@@ -50,6 +61,7 @@ python -m trouble generate
 ```
 
 The `generate` command:
+
 1. Reads page data from `trouble/data.json`
 2. Processes templates in the `trouble/templates/` directory
 3. Outputs generated files to the `docs/` directory
@@ -74,7 +86,8 @@ Templates use Python's `string.Template` syntax for variable substitution:
 
 ### GitHub Actions Workflow
 
-The project includes a `.github/workflows/publish.yml` file that defines the GitHub Action for automated documentation publishing:
+The project includes a `.github/workflows/publish.yml` file that defines the
+GitHub Action for automated documentation publishing:
 
 ```yaml
 name: Publish Documentation
@@ -105,6 +118,7 @@ Trouble is perfect for:
 ## 🔧 Technical Implementation
 
 The tool is built with:
+
 - **Python 3.x** as the core language
 - **JSON** for data storage and configuration
 - **string.Template** for templating
@@ -113,7 +127,7 @@ The tool is built with:
 
 ## 📊 Project Structure
 
-```
+```text
 trouble/
 ├── trouble/              # Main Python package
 │   ├── __init__.py
@@ -129,11 +143,13 @@ trouble/
 To use Trouble in your own project:
 
 1. **Install the tool**:
+
    ```bash
    pip install trouble
    ```
 
 2. **Create your data file**:
+
    ```json
    {
      "my_page": {
@@ -145,6 +161,7 @@ To use Trouble in your own project:
    ```
 
 3. **Create templates**:
+
    ```html
    <!-- templates/page.html.template -->
    <h1>${title}</h1>
@@ -152,19 +169,24 @@ To use Trouble in your own project:
    ```
 
 4. **Generate documentation**:
+
    ```bash
    python -m trouble generate
    ```
 
 ## 🔗 Links and Resources
 
-- **[GitHub Repository](https://github.com/rl337/trouble)** - Source code and documentation
-- **[Generated Documentation](https://rl337.github.io/trouble/)** - Live examples of generated pages
-- **[GitHub Actions Workflow](https://github.com/rl337/trouble/blob/main/.github/workflows/publish.yml)** - CI/CD configuration
+- **[GitHub Repository](https://github.com/rl337/trouble)** - Source code and
+  documentation
+- **[Generated Documentation](https://rl337.github.io/trouble/)** - Live
+  examples of generated pages
+- **[GitHub Actions Workflow](https://github.com/rl337/trouble/blob/main/.github/workflows/publish.yml)**
+  - CI/CD configuration
 
 ## 🎯 Future Development
 
 Planned enhancements include:
+
 - **More template engines** (Jinja2, Mustache)
 - **Configuration file support** (YAML, TOML)
 - **Plugin system** for custom generators
@@ -173,10 +195,17 @@ Planned enhancements include:
 
 ## 💡 Why Trouble?
 
-The name "Trouble" reflects the tool's purpose - it helps you get out of trouble when you need quick, automated documentation generation. It's designed to be simple yet powerful, solving the common problem of maintaining up-to-date documentation without manual effort.
+The name "Trouble" reflects the tool's purpose - it helps you get out of
+trouble when you need quick, automated documentation generation. It's designed
+to be simple yet powerful, solving the common problem of maintaining
+up-to-date documentation without manual effort.
 
-Trouble represents my approach to building practical tools that solve real problems. It's not about complexity - it's about providing a clean, simple solution that just works.
+Trouble represents my approach to building practical tools that solve real
+problems. It's not about complexity - it's about providing a clean, simple
+solution that just works.
 
 ---
 
-*Need automated documentation generation for your project? Check out [Trouble](https://github.com/rl337/trouble) and see how it can simplify your documentation workflow!*
+*Need automated documentation generation for your project? Check out
+[Trouble](https://github.com/rl337/trouble) and see how it can simplify your
+documentation workflow!*

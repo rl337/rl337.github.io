@@ -7,23 +7,28 @@ tags: [ai, coding-agent, together-ai, flask, web-interface, automation]
 author: Richard Lee
 ---
 
-# June - A Coding Agent with Web Interface
-
-I'm excited to share **June**, a coding agent I've developed that uses Together.ai as its backend to provide automated coding assistance through a web interface. This project represents my exploration into AI-powered development tools and their practical applications.
+I'm excited to share **June**, a coding agent I've developed that uses
+Together.ai as its backend to provide automated coding assistance through a web
+interface. This project represents my exploration into AI-powered development
+tools and their practical applications.
 
 ## 🤖 What is June?
 
-June is a coding agent that leverages Together.ai's API to provide intelligent coding assistance. It's designed as a long-running process with a web interface that allows users to submit coding tasks and receive automated solutions.
+June is a coding agent that leverages Together.ai's API to provide intelligent
+coding assistance. It's designed as a long-running process with a web interface
+that allows users to submit coding tasks and receive automated solutions.
 
 ## 🎯 Key Features
 
 ### AI-Powered Coding
+
 - **Together.ai integration** for intelligent code generation
 - **Task-based workflow** for structured coding assistance
 - **Automated processing** of coding requests
 - **Error handling** and result management
 
 ### Web Interface
+
 - **Real-time status** monitoring
 - **Task management** with status tracking
 - **Live updates** with automatic refresh
@@ -31,6 +36,7 @@ June is a coding agent that leverages Together.ai's API to provide intelligent c
 - **Activity logging** for transparency
 
 ### API Endpoints
+
 - **GET /status**: Current agent status and task counts
 - **GET /tasks**: List all tasks with statuses and results
 - **POST /tasks**: Submit new coding tasks via JSON
@@ -38,6 +44,7 @@ June is a coding agent that leverages Together.ai's API to provide intelligent c
 ## 🛠️ Technical Implementation
 
 ### Modern Python Architecture
+
 June is built with modern Python practices:
 
 - **Python 3.x** with Poetry for dependency management
@@ -48,7 +55,7 @@ June is built with modern Python practices:
 
 ### Core Components
 
-```
+```text
 june_agent/
 ├── __init__.py           # Package initialization
 ├── __main__.py          # Main entry point and agent loop
@@ -60,7 +67,9 @@ june_agent/
 ```
 
 ### Web Service Architecture
+
 The Flask web service provides:
+
 - **RESTful API** for task management
 - **Real-time updates** through automatic refresh
 - **Error handling** for robust operation
@@ -69,6 +78,7 @@ The Flask web service provides:
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - **Python 3.8+**
 - **Poetry** for dependency management
 - **Together.ai API key**
@@ -103,6 +113,7 @@ The agent will start and be available at `http://localhost:8080`.
 ## 🌐 Web Interface
 
 ### Dashboard Features
+
 - **Agent Status**: Current operational status
 - **Task Queue**: Pending, processing, completed, and failed tasks
 - **Task Submission**: Form for submitting new coding tasks
@@ -111,6 +122,7 @@ The agent will start and be available at `http://localhost:8080`.
 ### API Usage
 
 #### Submit a Task
+
 ```bash
 curl -X POST -H "Content-Type: application/json" \
   -d '{"description":"Write a python function to calculate factorial"}' \
@@ -118,11 +130,13 @@ curl -X POST -H "Content-Type: application/json" \
 ```
 
 #### Check Status
+
 ```bash
 curl http://localhost:8080/status
 ```
 
 #### List Tasks
+
 ```bash
 curl http://localhost:8080/tasks
 ```
@@ -145,6 +159,7 @@ poetry run pytest tests/test_task.py
 ## 📊 Project Status
 
 ### Current Features
+
 - ✅ **AI-powered coding** with Together.ai
 - ✅ **Web interface** for task management
 - ✅ **RESTful API** for programmatic access
@@ -154,6 +169,7 @@ poetry run pytest tests/test_task.py
 - ✅ **Modern Python packaging** with Poetry
 
 ### Planned Features
+
 - 🔄 **Enhanced AI models** for better code generation
 - 🔄 **Task prioritization** and scheduling
 - 🔄 **Result caching** for improved performance
@@ -172,14 +188,20 @@ June is perfect for:
 
 ## 🔗 Links and Resources
 
-- **[GitHub Repository](https://github.com/rl337/june)** - Source code and documentation
-- **[Project README](https://github.com/rl337/june/blob/main/README.md)** - Detailed setup and usage instructions
-- **[Together.ai Documentation](https://docs.together.ai/)** - AI API documentation
-- **[Flask Documentation](https://flask.palletsprojects.com/)** - Web framework documentation
+- **[GitHub Repository](https://github.com/rl337/june)** - Source code and
+  documentation
+- **[Project README](https://github.com/rl337/june/blob/main/README.md)** -
+  Detailed setup and usage instructions
+- **[Together.ai Documentation](https://docs.together.ai/)** - AI API
+  documentation
+- **[Flask Documentation](https://flask.palletsprojects.com/)** - Web framework
+  documentation
 
 ## 💡 Why June?
 
-The name "June" reflects the project's purpose - it's like having a helpful assistant available year-round to help with coding tasks. The agent is designed to be:
+The name "June" reflects the project's purpose - it's like having a helpful
+assistant available year-round to help with coding tasks. The agent is designed
+to be:
 
 - **Reliable** and always available
 - **Intelligent** in understanding coding requests
@@ -188,7 +210,9 @@ The name "June" reflects the project's purpose - it's like having a helpful assi
 
 ## 🎨 Development Philosophy
 
-June represents my approach to building AI-powered tools that are both powerful and accessible. It's not just about using AI for the sake of it - it's about creating tools that genuinely help developers be more productive:
+June represents my approach to building AI-powered tools that are both powerful
+and accessible. It's not just about using AI for the sake of it - it's about
+creating tools that genuinely help developers be more productive:
 
 - **Simple interface** for complex AI capabilities
 - **Reliable operation** through robust error handling
@@ -198,6 +222,7 @@ June represents my approach to building AI-powered tools that are both powerful 
 ## 🚀 Future Development
 
 Planned enhancements include:
+
 - **Enhanced AI models** for better code understanding
 - **Task scheduling** and prioritization
 - **Result caching** for improved performance
@@ -206,4 +231,6 @@ Planned enhancements include:
 
 ---
 
-*Interested in AI-powered development tools or automated coding assistance? Check out [June](https://github.com/rl337/june) and see how it can enhance your development workflow!*
+*Interested in AI-powered development tools or automated coding assistance?
+Check out [June](https://github.com/rl337/june) and see how it can enhance your
+development workflow!*

@@ -21,6 +21,15 @@ All work and changes to the repository should be part of a task.  A task has a d
 
 When Starting a distinct task that has a clear starting point and end goal, create an Issue in the github issue tracker via the github MCP (configured via Cursor MCPs) and start a branch named after a 5 digit issue's ID left padded with 0s and suffixed with a snake case identifier transformation of the issue title.  You should check into this branch often and check github action statuses on your checkins fixing any problems that arise with them.  When the task is complete, create a PR against main for me to review and merge.
 
+## Validation on Every Checkin
+**CRITICAL**: Before every git commit and push, you MUST run `./run_checks.sh` and ensure ALL checks pass. If any checks fail, you MUST fix the issues before committing. This includes:
+- All linting checks (flake8, black, isort, mypy, shellcheck, markdownlint)
+- All tests (pytest with coverage)
+- All build checks (Jekyll build, Docker builds)
+- All other validation checks defined in run_checks.sh
+
+**No exceptions**: Do not commit code that fails validation checks. If you encounter persistent issues that cannot be resolved, document them in the GitHub issue and ask for guidance.
+
 Issue tracking should take the place of status markdowns in the repository.
 
 # Automatic Task Instructions
@@ -31,10 +40,11 @@ Once a task is started and a Github Issue is created the following steps in the 
 3. If checks introduced in step 2 of starting steps fail, those failures become part of the scope of this task.
 ## Closing Steps
 1. Verify changes are logically complete and consistent with the overall style of the project
-2. Run all checks defined in the run_checks.sh
+2. **MANDATORY**: Run `./run_checks.sh` and ensure ALL checks pass before proceeding
 3. Clean up any artifacts that might have been created during development of the task.  Add relevant entries to .gitignore. Fix problems found with step 2.  If there were problems fixed, return to step 1.  
-4. Check in all relevant changes and new files into the branch.  Push changes to to remote.
-5. **Create a pull request against main that references the GitHub issue using "Closes #<issue_number>" in the PR title or description.**
-6. Wait for verification github action to complete.  If the action fails, analyze failure treating that failure like a local test failure and return to step 3.
-7. When previous closing steps are complete, update the GitHub issue with what was accomplished.
+4. **MANDATORY**: Run `./run_checks.sh` one final time before committing to ensure all checks still pass
+5. Check in all relevant changes and new files into the branch.  Push changes to to remote.
+6. **Create a pull request against main that references the GitHub issue using "Closes #<issue_number>" in the PR title or description.**
+7. Wait for verification github action to complete.  If the action fails, analyze failure treating that failure like a local test failure and return to step 3.
+8. When previous closing steps are complete, update the GitHub issue with what was accomplished.
 
