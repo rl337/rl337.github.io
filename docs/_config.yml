@@ -65,6 +65,12 @@ defaults:
       type: "pages"
     values:
       layout: "page"
+  - scope:
+      path: "_projects"
+      type: "projects"
+    values:
+      layout: "project"
+      show_in_nav: false
 
 # Build settings
 theme: minima
