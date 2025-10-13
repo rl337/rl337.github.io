@@ -1,0 +1,41 @@
+name: Build Jekyll site for Pull Requests
+
+on:
+    pull_request:
+        branches: [main]
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+
+            - name: Build Docker image
+              run: |
+                  docker build -t rl337-dev .
+
+            - name: Run validation checks in Docker
+              run: |
+                  chmod +x run_checks.sh docker-run.sh
+                  ./docker-run.sh ./run_checks.sh
+
+            - name: Generate project files in Docker
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              run: |
+                  chmod +x docker-run.sh
+                  ./docker-run.sh bash -c "cd scripts && python3 analyze_repos.py --username rl337 --output ../docs/_projects --token $GITHUB_TOKEN"
+
+            - name: Build with Jekyll in Docker
+              run: |
+                  chmod +x docker-run.sh
+                  ./docker-run.sh bash -c "cd docs && bundle install --path vendor/bundle && bundle exec jekyll build --baseurl ''"
+              env:
+                  JEKYLL_ENV: production
+
+            - name: Upload site artifacts
+              uses: actions/upload-artifact@v4
+              with:
+                  name: jekyll-site-pr
+                  path: docs/_site/
+                  retention-days: 1

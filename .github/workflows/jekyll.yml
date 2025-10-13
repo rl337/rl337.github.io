@@ -3,8 +3,6 @@ name: Build and Deploy Jekyll site to GitHub Pages
 on:
     push:
         branches: [main]
-    pull_request:
-        branches: [main]
     schedule:
         # Run every Sunday at 2 AM UTC to update projects
         - cron: "0 2 * * 0"
@@ -25,38 +23,24 @@ jobs:
         steps:
             - uses: actions/checkout@v4
 
-            - name: Setup Ruby
-              uses: ruby/setup-ruby@v1
-              with:
-                  ruby-version: "3.1"
-                  bundler-cache: true
-                  cache-version: 0
-
             - name: Setup Pages
               uses: actions/configure-pages@v4
 
-            - name: Install Jekyll dependencies
+            - name: Build Docker image
               run: |
-                  cd docs
-                  bundle install
+                  docker build -t rl337-dev .
 
-            - name: Generate project files
+            - name: Generate project files in Docker
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
               run: |
-                  cd scripts
-                  python3 -m venv venv
-                  source venv/bin/activate
-                  pip install -r requirements.txt
-                  python analyze_repos.py \
-                    --username rl337 \
-                    --output ../docs/_projects \
-                    --token $GITHUB_TOKEN
+                  chmod +x docker-run.sh
+                  ./docker-run.sh bash -c "cd scripts && python3 analyze_repos.py --username rl337 --output ../docs/_projects --token $GITHUB_TOKEN"
 
-            - name: Build with Jekyll
+            - name: Build with Jekyll in Docker
               run: |
-                  cd docs
-                  bundle exec jekyll build --baseurl "${{ steps.prep.outputs.baseurl }}"
+                  chmod +x docker-run.sh
+                  ./docker-run.sh bash -c "cd docs && bundle install --path vendor/bundle && bundle exec jekyll build --baseurl '${{ steps.prep.outputs.baseurl }}'"
               env:
                   JEKYLL_ENV: production
 
