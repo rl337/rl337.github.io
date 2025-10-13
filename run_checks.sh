@@ -288,8 +288,8 @@ EOF
     # Check for proper permissions
     run_check "Script permissions" "[ -x '$REPO_ROOT/run_checks.sh' ] && [ -x '$PYTHON_SCRIPT_DIR/update_projects.sh' ]"
     
-    # Check for sensitive data
-    run_check "No sensitive data exposure" "! grep -r 'password\\|secret\\|key\\|token' '$REPO_ROOT' --exclude-dir=venv --exclude-dir=_site --exclude-dir=.git --exclude-dir=vendor --exclude='*.pyc' --exclude='*.pyi' | grep -v 'GITHUB_TOKEN' | grep -v 'token.*github' | grep -v 'id-token' | grep -v 'typing_extensions' | grep -v 'mypy'"
+    # Check for sensitive data (look for actual secrets, not documentation or test code)
+    run_check "No sensitive data exposure" "! grep -r 'password\\s*=\\|secret\\s*=\\|api_key\\s*=\\|private_key\\s*=\\|access_token\\s*=' '$REPO_ROOT' --exclude-dir=venv --exclude-dir=_site --exclude-dir=.git --exclude-dir=vendor --exclude='*.pyc' --exclude='*.pyi' | grep -v 'GITHUB_TOKEN' | grep -v 'fake_' | grep -v 'test_' | grep -v 'example_'"
     
     echo -e "\n${GREEN}📊 VALIDATION SUMMARY${NC}"
     echo -e "${GREEN}===================${NC}"
