@@ -252,7 +252,7 @@ EOF
     
     # Markdown linting (if markdownlint is available)
     if command_exists markdownlint; then
-        run_check "Markdown linting" "find '$JEKYLL_DIR' -name '*.md' -not -path '*/_site/*' -not -path '*/vendor/*' | xargs markdownlint"
+        run_check "Markdown linting" "find '$JEKYLL_DIR' -name '*.md' -not -path '*/_site/*' -not -path '*/vendor/*' | xargs markdownlint --config ../.markdownlint.json"
     else
         echo -e "${YELLOW}⚠️  Skipping markdown linting (markdownlint not installed)${NC}"
     fi
