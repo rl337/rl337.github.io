@@ -7,10 +7,12 @@ tags: [pygame, procedural-generation, 2d-platformer, python]
 author: Richard Lee
 ---
 
-I'm excited to share **The Dark Closet**, a unique 2D platformer game I've been
-developing that combines procedural asset generation with classic platformer
-mechanics. This project represents my exploration into procedural content
-generation and modern Python game development practices.
+![The Dark Closet Game]({{ '/assets/images/blog/dark-closet-game.png' | relative_url }})
+*The Dark Closet - where a boy discovers a portal in his closet and chooses conquest over wonder*
+
+What if Pinocchio wasn't about becoming a real boy, but about a boy who discovers a magical portal in his closet and decides to conquer whatever lies beyond? That's the twisted premise behind **The Dark Closet**, a 2D platformer that became one of my most technically challenging and personally rewarding projects.
+
+This isn't just a game - it's an experiment in procedural generation, a deep dive into Python game development, and a journey through the surprisingly complex world of making things that are both fun to play and maintainable to develop.
 
 ## 🎮 What is The Dark Closet?
 
@@ -52,20 +54,28 @@ The project includes a full test suite with:
 - Camera following for smooth gameplay
 - Procedurally generated character customization
 
-## 🛠️ Technical Implementation
+## 🛠️ The Procedural Generation Challenge
 
-The game is built using:
+![Procedural Generation]({{ '/assets/images/blog/dark-closet-procedural.png' | relative_url }})
+*The procedural generation system creating unique character sprites*
 
-- **Python 3.10+** as the core language
-- **Pygame** for graphics and game loop
-- **Poetry** for dependency management
-- **pytest** for comprehensive testing
-- **GitHub Actions** for automated builds and deployment
+One of the most fascinating aspects of The Dark Closet is the procedural generation system. Looking at the commit history, I can see exactly where this became a major focus - commits like `77add47a` ("Implement intelligent frame selection for test sequences") show the evolution of this system.
 
-The procedural generation system creates unique character sprites by combining
-different body parts, facial features, and equipment. This approach allows for
-thousands of unique character combinations while maintaining a consistent art
-style.
+The challenge wasn't just generating random sprites - it was creating sprites that looked good, were consistent with the game's art style, and could be used in actual gameplay without looking jarring or out of place.
+
+### The Art Style Problem
+
+The biggest challenge was maintaining visual consistency. How do you generate thousands of unique characters while ensuring they all look like they belong in the same game? The solution involved:
+
+1. **Layered generation** - Building characters from consistent base components
+2. **Style constraints** - Ensuring all generated elements follow the same color palette and proportions
+3. **Quality filtering** - Automatically rejecting combinations that don't look right
+
+### The Testing Nightmare
+
+Testing procedural generation is... interesting. How do you write tests for something that's designed to be random? Looking at commits like `6bd13e78` ("Fix headless operation and full level capture"), I can see the evolution of my testing approach.
+
+The solution was to test the *system*, not the output. I focused on testing that the generation process was deterministic when given the same seed, that it could handle edge cases without crashing, and that the generated assets were valid and usable.
 
 ## 📊 Project Status
 
@@ -111,13 +121,27 @@ The project continues to evolve with plans for:
 - Performance optimizations
 - Web-based playable demo
 
-The Dark Closet represents my passion for combining creative game design with
-robust software engineering practices. It's a testament to how modern Python
-development tools can create engaging, well-tested games that are both fun to
-play and maintainable to develop.
+## 💡 The Callback System Breakthrough
+
+![Callback System]({{ '/assets/images/blog/dark-closet-callbacks.png' | relative_url }})
+*The object callback system that made interactive gameplay possible*
+
+One of the most interesting technical challenges was implementing the object callback system. Looking at commit `0ce8b255` ("Implement object OnAction callbacks and brick breaking mechanics"), I can see exactly when this became a reality.
+
+The problem was simple: how do you make objects in the game world interactive? How do you make bricks breakable, ladders climbable, and switches functional? The solution was a callback system that allows objects to define their own behavior when interacted with.
+
+### The Brick Breaking Test
+
+The most satisfying part was getting the brick breaking mechanics working. I spent hours debugging why the character wasn't actually breaking bricks when jumping into them. The issue? The collision detection was working, but the callback system wasn't properly triggering the "OnBreak" behavior.
+
+When it finally worked, it was like magic - the character would jump up, hit a brick, and it would disappear with a satisfying visual effect. It's amazing how such a simple interaction can feel so rewarding when it works correctly.
+
+### What I Learned
+
+Building The Dark Closet taught me more about game development than I expected. The biggest lesson? Games are incredibly complex systems where every small detail matters. A tiny bug in the collision detection can break the entire gameplay experience.
+
+But it also taught me that good software engineering practices - testing, documentation, modular design - aren't just for business applications. They're essential for creating games that are both fun and maintainable.
 
 ---
 
-*Interested in procedural generation or Python game development? Check out the
-[source code](https://github.com/rl337/the-dark-closet) and feel free to
-contribute or ask questions!*
+*If you're interested in procedural generation, Python game development, or just want to see how a simple platformer can become a complex technical project, check out [The Dark Closet](https://github.com/rl337/the-dark-closet). It might just inspire your next game development adventure!*
