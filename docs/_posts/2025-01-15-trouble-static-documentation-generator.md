@@ -7,18 +7,25 @@ tags: [cli, documentation, static-site, python, github-actions]
 author: Richard Lee
 ---
 
-![Trouble CLI Tool]({{ '/assets/images/blog/trouble-cli.png' | relative_url }})
+![Trouble CLI Tool]({{ '/assets/images/blog/trouble-cli.png' | relative_url }}})
 *Trouble in action - generating documentation from templates and data*
 
-You know that moment when you realize you've been manually updating the same documentation files across multiple projects, and you think "there has to be a better way"? That's exactly where I found myself a few months ago, drowning in repetitive documentation tasks and looking for a solution.
+You know that moment when you realize you've been manually updating the same doc
+umentation files across multiple projects, and you think "there has to be a better way"? T
+hat's exactly where I found myself a few months ago, drowning in repetitive documenta
+tion tasks and looking for a solution.
 
-That frustration led me to build **Trouble** - a CLI tool that started as a simple script to generate documentation from templates but evolved into something much more interesting: a flexible system for automated documentation generation that actually works.
+That frustration led me to build **Trouble** - a CLI tool that started as a simp
+le script to generate documentation from templates but evolved into something much
+ more interesting: a flexible system for automated documentation generation that
+ actually works.
 
 ## 🛠️ What is Trouble?
 
 Trouble is a Python-based CLI tool designed to generate static documentation
 files (Markdown or HTML) that can be published via GitHub Pages. It's
 particularly useful for projects that need automated documentation generation as
+
 part of their CI/CD pipeline.
 
 ## 🎯 Key Features
@@ -26,6 +33,7 @@ part of their CI/CD pipeline.
 ### Template-Based Generation
 
 Trouble uses Python's `string.Template` for flexible templating, allowing you to
+
 create reusable templates for different types of documentation:
 
 - **Markdown templates** (`.md.template`)
@@ -119,26 +127,43 @@ Trouble is perfect for:
 
 ## 🔧 The Development Journey
 
-![Development Process]({{ '/assets/images/blog/trouble-development.png' | relative_url }})
+![Development Process]({{ '/assets/images/blog/trouble-development.png' | relati
+ve_url }})
 *The evolution from simple script to comprehensive CLI tool*
 
-Looking at the commit history, I can see exactly where Trouble evolved from a simple script into something more sophisticated. The early commits show basic functionality, but then something interesting happened - I started collaborating with AI agents to improve the tool.
+Looking at the commit history, I can see exactly where Trouble evolved from a si
+mple script into something more sophisticated. The early commits show basic function
+ality, but then something interesting happened - I started collaborating with AI agent
+s to improve the tool.
 
 ### The AI Collaboration
 
-One of the most fascinating aspects of developing Trouble was the AI collaboration. Looking at commits like `88406a93` ("Refactor: Improve etude discovery and logging"), I can see where AI agents (specifically Cursor Agent) helped improve the codebase.
+One of the most fascinating aspects of developing Trouble was the AI collaborati
+on. Looking at commits like `88406a93` ("Refactor: Improve etude discovery and logg
+ing"), I can see where AI agents (specifically Cursor Agent) helped improve the codeba
+se.
 
-The AI didn't just write code - it helped me think through problems differently. When I was stuck on the etude discovery system, the AI suggested a completely different approach that was more robust and maintainable.
+The AI didn't just write code - it helped me think through problems differently.
+ When I was stuck on the etude discovery system, the AI suggested a completely d
+ifferent approach that was more robust and maintainable.
 
 ### The Data Build Failures
 
-One of the most challenging periods was dealing with data build failures. Looking at commit `3866631a` ("Investigate data build failures and alternative api"), I can see exactly where this became a major focus.
+One of the most challenging periods was dealing with data build failures. Lookin
+g at commit `3866631a` ("Investigate data build failures and alternative api"), I
+ can see exactly where this became a major focus.
 
-The issue was that the tool was trying to fetch data from external APIs that weren't always reliable. The solution was to implement a more robust data fetching system with proper error handling and fallback mechanisms.
+The issue was that the tool was trying to fetch data from external APIs that wer
+en't always reliable. The solution was to implement a more robust data fetching syst
+em with proper error handling and fallback mechanisms.
 
 ### The Testing Evolution
 
-Testing a CLI tool that generates documentation is... interesting. How do you test something that's designed to produce different output every time? The solution was to focus on testing the *process*, not the output - ensuring that the tool could handle various input formats, error conditions, and edge cases without crashing.
+Testing a CLI tool that generates documentation is... interesting. How do you te
+st something that's designed to produce different output every time? The solution 
+was to focus on testing the *process*, not the output - ensuring that the tool coul
+d handle various input formats, error conditions, and edge cases without crashing
+.
 
 ## 📊 Project Structure
 
@@ -195,7 +220,8 @@ To use Trouble in your own project:
   documentation
 - **[Generated Documentation](https://rl337.github.io/trouble/)** - Live
   examples of generated pages
-- **[GitHub Actions Workflow](https://github.com/rl337/trouble/blob/main/.github/workflows/publish.yml)**
+- **[GitHub Actions Workflow](https://github.com/rl337/trouble/blob/main/.github
+/workflows/publish.yml)**
   - CI/CD configuration
 
 ## 🎯 Future Development
@@ -210,27 +236,43 @@ Planned enhancements include:
 
 ## 💡 What I Learned About Documentation and AI
 
-![Project Reflection]({{ '/assets/images/blog/trouble-reflection.png' | relative_url }})
+![Project Reflection]({{ '/assets/images/blog/trouble-reflection.png' | relative
+_url }})
 *The intersection of documentation, automation, and AI collaboration*
 
-Building Trouble taught me more about documentation than I expected. The biggest revelation? Good documentation isn't just about writing - it's about creating systems that keep documentation current and useful.
+Building Trouble taught me more about documentation than I expected. The biggest
+ revelation? Good documentation isn't just about writing - it's about creating s
+ystems that keep documentation current and useful.
 
 ### The Documentation Problem
 
-The real problem with documentation isn't that it's hard to write - it's that it's hard to keep current. Code changes, APIs evolve, and documentation becomes outdated faster than you can update it manually.
+The real problem with documentation isn't that it's hard to write - it's that it
+'s hard to keep current. Code changes, APIs evolve, and documentation becomes outd
+ated faster than you can update it manually.
 
-Trouble solves this by making documentation generation part of the development process. When your code changes, your documentation updates automatically. It's not perfect, but it's a lot better than manually maintaining dozens of documentation files.
+Trouble solves this by making documentation generation part of the development p
+rocess. When your code changes, your documentation updates automatically. It's not perf
+ect, but it's a lot better than manually maintaining dozens of documentation files.
 
 ### The AI Collaboration Experience
 
-Working with AI agents on this project was eye-opening. The AI didn't just write code - it helped me think through problems differently. When I was stuck on a particular issue, the AI would suggest approaches I hadn't considered.
+Working with AI agents on this project was eye-opening. The AI didn't just write
+ code - it helped me think through problems differently. When I was stuck on a p
+articular issue, the AI would suggest approaches I hadn't considered.
 
-But it also taught me that AI collaboration isn't about replacing human thinking - it's about augmenting it. The AI could generate code quickly, but I still needed to understand the problem, evaluate the solutions, and make the final decisions.
+But it also taught me that AI collaboration isn't about replacing human thinking
+ - it's about augmenting it. The AI could generate code quickly, but I still nee
+ded to understand the problem, evaluate the solutions, and make the final decisions
+.
 
 ### The Name
 
-I named it "Trouble" because that's exactly what it solves - the trouble of maintaining documentation manually. It's not a fancy name, but it's honest about what the tool does.
+I named it "Trouble" because that's exactly what it solves - the trouble of main
+taining documentation manually. It's not a fancy name, but it's honest about what the t
+ool does.
 
 ---
 
-*If you're tired of manually updating documentation or want to experiment with AI-assisted development, check out [Trouble](https://github.com/rl337/trouble). It might just change how you think about documentation and automation!*
+*If you're tired of manually updating documentation or want to experiment with A
+I-assisted development, check out [Trouble](https://github.com/rl337/trouble). It might ju
+st change how you think about documentation and automation!*

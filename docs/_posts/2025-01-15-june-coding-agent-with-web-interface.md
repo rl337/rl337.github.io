@@ -7,25 +7,41 @@ tags: [ai, coding-agent, together-ai, flask, web-interface, automation]
 author: Richard Lee
 ---
 
-![June AI Agent]({{ '/assets/images/blog/june-ai-agent.png' | relative_url }})
+![June AI Agent]({{ '/assets/images/blog/june-ai-agent.png' | relative_url }}})
 *June's web interface showing the AI coding agent in action*
 
-Have you ever wished you had a coding assistant that could just... work in the background, handling the tedious parts of development while you focus on the big picture? That's exactly what I was thinking when I started building **June** - an AI-powered coding agent that's become one of my most experimental and surprisingly useful projects.
+Have you ever wished you had a coding assistant that could just... work in the b
+ackground, handling the tedious parts of development while you focus on the big picture? T
+hat's exactly what I was thinking when I started building **June** - an AI-powered co
+ding agent that's become one of my most experimental and surprisingly useful project
+s.
 
-What began as a simple experiment with Together.ai's API quickly evolved into something much more interesting: a persistent coding assistant that could actually execute code, save files, and provide real-time feedback through a web interface. Let me tell you about the journey.
+What began as a simple experiment with Together.ai's API quickly evolved into so
+mething much more interesting: a persistent coding assistant that could actually execut
+e code, save files, and provide real-time feedback through a web interface. Let m
+e tell you about the journey.
 
 ## 🤖 The AI Assistant Experiment
 
-![AI Development]({{ '/assets/images/blog/june-development.png' | relative_url }})
+![AI Development]({{ '/assets/images/blog/june-development.png' | relative_url }}
+})
 *The evolution from simple API calls to a full-featured coding assistant*
 
-The idea for June came from a simple frustration: I was spending too much time on boilerplate code and repetitive tasks. I'd heard about Together.ai's API and thought "what if I could just ask an AI to handle the boring stuff?"
+The idea for June came from a simple frustration: I was spending too much time o
+n boilerplate code and repetitive tasks. I'd heard about Together.ai's API and th
+ought "what if I could just ask an AI to handle the boring stuff?"
 
-But here's the thing - most AI coding assistants are just chat interfaces. They can suggest code, but they can't actually *do* anything with it. I wanted something that could take action, execute code, save files, and give me real results.
+But here's the thing - most AI coding assistants are just chat interfaces. They 
+can suggest code, but they can't actually *do* anything with it. I wanted something
+ that could take action, execute code, save files, and give me real results.
 
-Looking at the commit history, I can see exactly where this project took off. The early commits show me struggling with basic API integration, but then something interesting happened in commit `24cf0631` - I added function calling capabilities.
+Looking at the commit history, I can see exactly where this project took off. Th
+e early commits show me struggling with basic API integration, but then something
+ interesting happened in commit `24cf0631` - I added function calling capabiliti
+es.
 
-That's when June went from being a fancy chatbot to being a real coding assistant.
+That's when June went from being a fancy chatbot to being a real coding assistan
+t.
 
 ## 🎯 Key Features
 
@@ -152,16 +168,26 @@ curl http://localhost:8080/tasks
 
 ## 🧪 The Testing Challenge
 
-![Testing AI]({{ '/assets/images/blog/june-testing.png' | relative_url }})
+![Testing AI]({{ '/assets/images/blog/june-testing.png' | relative_url }}})
 *Testing an AI agent that can modify its own code - a unique challenge*
 
-One of the most interesting aspects of developing June was figuring out how to test an AI system. How do you write tests for something that's designed to be unpredictable and creative?
+One of the most interesting aspects of developing June was figuring out how to t
+est an AI system. How do you write tests for something that's designed to be unpred
+ictable and creative?
 
-The breakthrough came when I realized I needed to test the *system*, not the AI's responses. I focused on testing the function calling mechanism, the file operations, and the web interface - the parts that needed to work reliably regardless of what the AI decided to do.
+The breakthrough came when I realized I needed to test the *system*, not the AI'
+s responses. I focused on testing the function calling mechanism, the file operat
+ions, and the web interface - the parts that needed to work reliably regardless of wh
+at the AI decided to do.
 
-Looking at commits like `43cddf7e` ("Add context to scenario test assertions"), I can see the evolution of my testing approach. I started with simple unit tests, then moved to scenario-based testing where I'd give June a task and verify it could complete it end-to-end.
+Looking at commits like `43cddf7e` ("Add context to scenario test assertions"), 
+I can see the evolution of my testing approach. I started with simple unit tests,
+ then moved to scenario-based testing where I'd give June a task and verify it c
+ould complete it end-to-end.
 
-The most fascinating part? June actually helped me improve its own tests. I'd ask it to write test cases, and it would come up with scenarios I hadn't thought of.
+The most fascinating part? June actually helped me improve its own tests. I'd as
+k it to write test cases, and it would come up with scenarios I hadn't thought of
+.
 
 ```bash
 # Run all tests
@@ -217,23 +243,31 @@ June is perfect for:
 
 ## 💡 What I Learned About AI Development
 
-![AI Insights]({{ '/assets/images/blog/june-insights.png' | relative_url }})
+![AI Insights]({{ '/assets/images/blog/june-insights.png' | relative_url }}})
 *The surprising lessons from building an AI coding assistant*
 
-Building June taught me more about AI development than I expected. The biggest surprise? The AI isn't the hard part - it's everything around it.
+Building June taught me more about AI development than I expected. The biggest s
+urprise? The AI isn't the hard part - it's everything around it.
 
 ### The Real Challenges
 
-The Together.ai API is actually quite straightforward to use. The real challenges were:
+The Together.ai API is actually quite straightforward to use. The real challenge
+s were:
 
-1. **Function calling reliability** - Making sure the AI could consistently call the right functions with the right parameters
-2. **Error handling** - What happens when the AI generates invalid code or tries to access files it shouldn't?
-3. **Security** - How do you give an AI agent the ability to execute code without creating a security nightmare?
+1. **Function calling reliability** - Making sure the AI could consistently call
+ the right functions with the right parameters
+2. **Error handling** - What happens when the AI generates invalid code or tries
+ to access files it shouldn't?
+3. **Security** - How do you give an AI agent the ability to execute code withou
+t creating a security nightmare?
 4. **Testing** - How do you test a system that's designed to be unpredictable?
 
 ### The Unexpected Benefits
 
-The most surprising thing about June isn't what it can do - it's how it changed my own development process. Having an AI that can actually execute code and save files means I can offload the tedious parts of development and focus on the interesting problems.
+The most surprising thing about June isn't what it can do - it's how it changed 
+my own development process. Having an AI that can actually execute code and save f
+iles means I can offload the tedious parts of development and focus on the interesti
+ng problems.
 
 I've used June to:
 - Generate boilerplate code for new projects
@@ -243,8 +277,12 @@ I've used June to:
 
 ### The Name
 
-I named it "June" because it's like having a helpful assistant available year-round, but also because "June" sounds friendly and approachable - not intimidating like "AI Agent" or "Coding Bot."
+I named it "June" because it's like having a helpful assistant available year-ro
+und, but also because "June" sounds friendly and approachable - not intimidating lik
+e "AI Agent" or "Coding Bot."
 
 ---
 
-*If you're curious about AI-powered development tools or want to experiment with automated coding assistance, check out [June](https://github.com/rl337/june). It might just change how you think about the future of software development!*
+*If you're curious about AI-powered development tools or want to experiment with
+ automated coding assistance, check out [June](https://github.com/rl337/june). I
+t might just change how you think about the future of software development!*

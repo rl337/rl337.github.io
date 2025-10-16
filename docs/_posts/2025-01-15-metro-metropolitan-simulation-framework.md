@@ -3,16 +3,26 @@ layout: post
 title: "Metro - A Python Framework for Metropolitan Area Simulation"
 date: 2025-01-15 13:00:00 -0500
 categories: [projects, python, simulation, visualization]
-tags: [python, simulation, matplotlib, demographics, visualization, urban-planning]
+tags: [python, simulation, matplotlib, demographics, visualization, urban-planni
+ng]
 author: Richard Lee
 ---
 
-![Metro City Simulation]({{ '/assets/images/blog/metro-city-simulation.png' | relative_url }})
-*A generated metropolitan area showing the complex interplay of zones, roads, and demographics*
+![Metro City Simulation]({{ '/assets/images/blog/metro-city-simulation.png' | re
+lative_url }})
+*A generated metropolitan area showing the complex interplay of zones, roads, an
+d demographics*
 
-Have you ever looked at a city and wondered "how did this all come together?" The intricate web of roads, the way neighborhoods evolve, the complex dance between commercial centers and residential areas - it's like watching a living organism grow and change over time.
+Have you ever looked at a city and wondered "how did this all come together?" Th
+e intricate web of roads, the way neighborhoods evolve, the complex dance between
+ commercial centers and residential areas - it's like watching a living organism
+ grow and change over time.
 
-That fascination led me to build **Metro**, a Python framework for simulating and visualizing metropolitan areas. What started as a simple "what if I could model a city?" experiment became one of my most ambitious and rewarding projects, taking me from Java to Python, from static visualizations to interactive web applications, and from basic shapes to complex temporal evolution systems.
+That fascination led me to build **Metro**, a Python framework for simulating an
+d visualizing metropolitan areas. What started as a simple "what if I could model
+ a city?" experiment became one of my most ambitious and rewarding projects, tak
+ing me from Java to Python, from static visualizations to interactive web applicati
+ons, and from basic shapes to complex temporal evolution systems.
 
 ## 🏙️ What is Metro?
 
@@ -53,25 +63,36 @@ capabilities.
 
 ## 🛠️ The Great Migration
 
-![Java to Python]({{ '/assets/images/blog/metro-migration.png' | relative_url }})
+![Java to Python]({{ '/assets/images/blog/metro-migration.png' | relative_url }}}
+)
 *The complete rewrite from Java to Python - a journey of modernization*
 
-One of the most significant decisions I made with Metro was to completely rewrite it from Java to Python. Looking at commit `04648ba8` ("Implement GitHub Pages webapp with hierarchical seed system"), I can see exactly when this transformation happened.
+One of the most significant decisions I made with Metro was to completely rewrit
+e it from Java to Python. Looking at commit `04648ba8` ("Implement GitHub Pages w
+ebapp with hierarchical seed system"), I can see exactly when this transformation hap
+pened.
 
-The original Java version was functional but limited. It was hard to extend, difficult to test, and didn't integrate well with modern web technologies. The Python rewrite wasn't just a language change - it was a complete architectural overhaul.
+The original Java version was functional but limited. It was hard to extend, dif
+ficult to test, and didn't integrate well with modern web technologies. The Python rew
+rite wasn't just a language change - it was a complete architectural overhaul.
 
 ### Why Python?
 
 The decision to switch to Python came from several realizations:
 
-1. **Matplotlib integration** - Python's matplotlib library is incredibly powerful for data visualization
+1. **Matplotlib integration** - Python's matplotlib library is incredibly powerf
+ul for data visualization
 2. **Web integration** - Python's Flask made it easy to create web interfaces
-3. **Testing ecosystem** - pytest and the broader Python testing ecosystem is much more mature
-4. **Community** - The Python data science community has amazing tools for this kind of work
+3. **Testing ecosystem** - pytest and the broader Python testing ecosystem is mu
+ch more mature
+4. **Community** - The Python data science community has amazing tools for this 
+kind of work
 
 ### The Rewrite Process
 
-The migration wasn't just a port - it was a complete reimagining. I kept the core concepts (zones, demographics, rendering) but rebuilt everything from the ground up with modern Python practices:
+The migration wasn't just a port - it was a complete reimagining. I kept the cor
+e concepts (zones, demographics, rendering) but rebuilt everything from the groun
+d up with modern Python practices:
 
 - **Type hints throughout** for better code clarity
 - **Comprehensive testing** with pytest and coverage
@@ -177,28 +198,45 @@ The project follows comprehensive testing practices:
 
 ## 🎯 The Temporal Evolution Breakthrough
 
-![City Evolution]({{ '/assets/images/blog/metro-evolution.png' | relative_url }})
-*Watching a city grow from founding to modern times - the temporal evolution feature*
+![City Evolution]({{ '/assets/images/blog/metro-evolution.png' | relative_url }}}
+)
+*Watching a city grow from founding to modern times - the temporal evolution fea
+ture*
 
-One of the most exciting features I added was the temporal evolution system. Looking at commit `40111925` ("Implement temporal city evolution with Roman grid system"), I can see exactly when this became a reality.
+One of the most exciting features I added was the temporal evolution system. Loo
+king at commit `40111925` ("Implement temporal city evolution with Roman grid system
+"), I can see exactly when this became a reality.
 
-The idea came from a simple question: "What if I could watch a city grow over time?" Not just generate a static city, but actually simulate how it would develop from its founding to the present day.
+The idea came from a simple question: "What if I could watch a city grow over ti
+me?" Not just generate a static city, but actually simulate how it would develop fro
+m its founding to the present day.
 
 ### The Roman Grid System
 
-The temporal evolution starts with a Roman grid system - the classic cardo and decumanus roads intersecting at 90 degrees. This isn't just historical accuracy; it's based on real urban planning principles that have influenced city development for thousands of years.
+The temporal evolution starts with a Roman grid system - the classic cardo and d
+ecumanus roads intersecting at 90 degrees. This isn't just historical accuracy; it's bas
+ed on real urban planning principles that have influenced city development for tho
+usands of years.
 
 The system simulates four distinct eras:
 - **Founding Era (0-50 AD)**: Roman grid, mixed-use core, basic infrastructure
-- **Growth Era (50-200 AD)**: Zone differentiation, secondary roads, first monuments
-- **Expansion Era (200-500 AD)**: Diagonal roads, key monuments, specialized zones
-- **Modernization Era (500-1500 AD)**: Complex infrastructure, modern zones, transportation hubs
+- **Growth Era (50-200 AD)**: Zone differentiation, secondary roads, first monum
+ents
+- **Expansion Era (200-500 AD)**: Diagonal roads, key monuments, specialized zon
+es
+- **Modernization Era (500-1500 AD)**: Complex infrastructure, modern zones, tra
+nsportation hubs
 
 ### The Interactive Timeline
 
-The web interface includes a timeline slider that lets you scrub through time and watch the city evolve. It's mesmerizing to see how a simple Roman settlement grows into a complex metropolitan area with specialized zones, transportation networks, and key landmarks.
+The web interface includes a timeline slider that lets you scrub through time an
+d watch the city evolve. It's mesmerizing to see how a simple Roman settlement gr
+ows into a complex metropolitan area with specialized zones, transportation network
+s, and key landmarks.
 
-This feature alone took weeks to get right, but the result is something I'm genuinely proud of - a tool that doesn't just generate cities, but tells the story of how they develop.
+This feature alone took weeks to get right, but the result is something I'm genu
+inely proud of - a tool that doesn't just generate cities, but tells the story of how
+ they develop.
 
 ## 🔗 Links and Resources
 
@@ -211,30 +249,45 @@ This feature alone took weeks to get right, but the result is something I'm genu
 
 ## 💡 What I Learned About Cities and Code
 
-![Project Reflection]({{ '/assets/images/blog/metro-reflection.png' | relative_url }})
+![Project Reflection]({{ '/assets/images/blog/metro-reflection.png' | relative_u
+rl }})
 *The intersection of urban planning, data science, and software development*
 
-Building Metro taught me more about cities than I expected. The biggest revelation? Cities are incredibly complex systems that follow patterns, but those patterns are often hidden beneath layers of history, politics, and human behavior.
+Building Metro taught me more about cities than I expected. The biggest revelati
+on? Cities are incredibly complex systems that follow patterns, but those patterns 
+are often hidden beneath layers of history, politics, and human behavior.
 
 ### The Patterns That Emerged
 
-As I built the simulation engine, I started noticing patterns that I hadn't anticipated:
+As I built the simulation engine, I started noticing patterns that I hadn't anti
+cipated:
 
-- **Road networks** naturally evolve to connect important points, not just follow grids
+- **Road networks** naturally evolve to connect important points, not just follo
+w grids
 - **Zone specialization** happens gradually, not all at once
 - **Key landmarks** influence development in ways that ripple outward
 - **Transportation** shapes everything - where people live, work, and shop
 
 ### The Technical Challenges
 
-The most challenging part wasn't the urban planning theory - it was making the simulation both realistic and performant. How do you simulate a city with a million people without grinding to a halt? How do you make the temporal evolution smooth and believable?
+The most challenging part wasn't the urban planning theory - it was making the s
+imulation both realistic and performant. How do you simulate a city with a million people
+ without grinding to a halt? How do you make the temporal evolution smooth and b
+elievable?
 
-The solution involved hierarchical modeling, efficient data structures, and a lot of optimization. But the result is something that can generate and animate complex cities in real-time.
+The solution involved hierarchical modeling, efficient data structures, and a lo
+t of optimization. But the result is something that can generate and animate comp
+lex cities in real-time.
 
 ### The Name
 
-I named it "Metro" because metropolitan areas are the most complex and interesting urban systems. They're not just big cities - they're interconnected networks of cities, suburbs, and infrastructure that create something greater than the sum of their parts.
+I named it "Metro" because metropolitan areas are the most complex and interesti
+ng urban systems. They're not just big cities - they're interconnected networks of
+ cities, suburbs, and infrastructure that create something greater than the sum 
+of their parts.
 
 ---
 
-*If you're fascinated by cities, data visualization, or just want to watch virtual cities grow and evolve, check out [Metro](https://github.com/rl337/metro). It might just change how you see the urban world around you!*
+*If you're fascinated by cities, data visualization, or just want to watch virtu
+al cities grow and evolve, check out [Metro](https://github.com/rl337/metro). It m
+ight just change how you see the urban world around you!*
