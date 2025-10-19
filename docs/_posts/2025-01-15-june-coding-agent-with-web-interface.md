@@ -7,7 +7,7 @@ tags: [ai, coding-agent, together-ai, flask, web-interface, automation]
 author: Richard Lee
 ---
 
-![June AI Agent]({{ '/assets/images/blog/june-ai-agent.png' | relative_url }}})
+![June AI Agent]({{ '/assets/images/blog/june-ai-agent.png' | relative_url }})
 *June's web interface showing the AI coding agent in action*
 
 Have you ever wished you had a coding assistant that could just... work in the b
@@ -168,7 +168,7 @@ curl http://localhost:8080/tasks
 
 ## 🧪 The Testing Challenge
 
-![Testing AI]({{ '/assets/images/blog/june-testing.png' | relative_url }}})
+![Testing AI]({{ '/assets/images/blog/june-testing.png' | relative_url }})
 *Testing an AI agent that can modify its own code - a unique challenge*
 
 One of the most interesting aspects of developing June was figuring out how to t
@@ -243,7 +243,7 @@ June is perfect for:
 
 ## 💡 What I Learned About AI Development
 
-![AI Insights]({{ '/assets/images/blog/june-insights.png' | relative_url }}})
+![AI Insights]({{ '/assets/images/blog/june-insights.png' | relative_url }})
 *The surprising lessons from building an AI coding assistant*
 
 Building June taught me more about AI development than I expected. The biggest s

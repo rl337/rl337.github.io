@@ -8,8 +8,7 @@ ng]
 author: Richard Lee
 ---
 
-![Metro City Simulation]({{ '/assets/images/blog/metro-city-simulation.png' | re
-lative_url }})
+![Metro City Simulation]({{ '/assets/images/blog/metro-city-simulation.png' | relative_url }})
 *A generated metropolitan area showing the complex interplay of zones, roads, an
 d demographics*
 
@@ -63,8 +62,7 @@ capabilities.
 
 ## 🛠️ The Great Migration
 
-![Java to Python]({{ '/assets/images/blog/metro-migration.png' | relative_url }}}
-)
+![Java to Python]({{ '/assets/images/blog/metro-migration.png' | relative_url }})
 *The complete rewrite from Java to Python - a journey of modernization*
 
 One of the most significant decisions I made with Metro was to completely rewrit
@@ -198,8 +196,7 @@ The project follows comprehensive testing practices:
 
 ## 🎯 The Temporal Evolution Breakthrough
 
-![City Evolution]({{ '/assets/images/blog/metro-evolution.png' | relative_url }}}
-)
+![City Evolution]({{ '/assets/images/blog/metro-evolution.png' | relative_url }})
 *Watching a city grow from founding to modern times - the temporal evolution fea
 ture*
 
@@ -249,8 +246,7 @@ inely proud of - a tool that doesn't just generate cities, but tells the story o
 
 ## 💡 What I Learned About Cities and Code
 
-![Project Reflection]({{ '/assets/images/blog/metro-reflection.png' | relative_u
-rl }})
+![Project Reflection]({{ '/assets/images/blog/metro-reflection.png' | relative_url }})
 *The intersection of urban planning, data science, and software development*
 
 Building Metro taught me more about cities than I expected. The biggest revelati

@@ -8,6 +8,13 @@ description: "Richard's blog - where technology meets creativity"
 
 Hey there! I'm Richard, and this is my digital space where I share thoughts on technology, development, and the occasional random idea that pops into my head.
 
+<div class="sugar-glider-hero">
+  <img src="{{ '/assets/images/sugar-gliders/sugar-glider-hero.png' | relative_url }}" 
+       alt="Sugar Glider in Digital Landscape" 
+       class="hero-image">
+  <p><em>Meet my digital companion - always ready to explore the world of code and creativity! 🦎</em></p>
+</div>
+
 ## Featured Projects
 
 Here are my most active and interesting projects:
@@ -26,6 +33,12 @@ Here are my most active and interesting projects:
 ## Latest Posts
 
 Check out my most recent thoughts and projects below, or browse through the [archives](/archives/) to see everything I've written.
+
+## Meet My Mascot 🦎🍓
+
+You might have noticed the little sugar glider in my header - that's my unofficial logo! Just like Scrat from Ice Age is obsessed with his acorn, my sugar glider is completely fixated on strawberries. It represents my approach to coding: that same single-minded determination and passion for solving problems, even when they seem impossible (or deliciously out of reach).
+
+The strawberry obsession? Well, sometimes the best solutions come from being a little bit obsessed with the things you love! 🍓
 
 ## What I'm About
 

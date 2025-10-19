@@ -52,7 +52,9 @@ RUN pip3 install --no-cache-dir \
     isort \
     mypy \
     types-requests \
-    types-PyYAML
+    types-PyYAML \
+    midjourney-mcp \
+    Pillow
 
 # Install Ruby gems
 RUN gem install bundler jekyll
