@@ -54,7 +54,8 @@ RUN pip3 install --no-cache-dir \
     types-requests \
     types-PyYAML \
     midjourney-mcp \
-    Pillow
+    Pillow \
+    aiohttp
 
 # Install Ruby gems
 RUN gem install bundler jekyll
