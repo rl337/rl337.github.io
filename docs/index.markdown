@@ -8,6 +8,13 @@ description: "Richard's blog - where technology meets creativity"
 
 Hey there! I'm Richard, and this is my digital space where I share thoughts on technology, development, and the occasional random idea that pops into my head.
 
+<div class="sugar-glider-hero">
+  <img src="{{ '/assets/images/sugar-gliders/sugar-glider-hero.png' | relative_url }}" 
+       alt="Sugar Glider in Digital Landscape" 
+       class="hero-image">
+  <p><em>Meet my digital companion - always ready to explore the world of code and creativity! 🦎</em></p>
+</div>
+
 ## Featured Projects
 
 Here are my most active and interesting projects:

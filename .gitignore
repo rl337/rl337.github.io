@@ -71,3 +71,8 @@ docker-compose.override.yml
 # Coverage reports
 scripts/coverage.xml
 scripts/htmlcov/
+
+# Environment files with sensitive data
+env.sh
+.env
+*.env

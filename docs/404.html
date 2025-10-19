@@ -20,6 +20,13 @@ layout: default
 <div class="container">
   <h1>404</h1>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <div class="sugar-glider-error">
+    <img src="{{ '/assets/images/sugar-gliders/sugar-glider-error.png' | relative_url }}" 
+         alt="Concerned Sugar Glider" 
+         class="error-mascot">
+  </div>
+
+  <p><strong>Oops! Page not found :(</strong></p>
+  <p>Even my sugar glider friend is confused about where this page went!</p>
+  <p><a href="{{ '/' | relative_url }}">Let's go back home</a> and try again.</p>
 </div>

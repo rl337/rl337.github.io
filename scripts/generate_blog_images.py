@@ -19,6 +19,40 @@ except ImportError:
     print("Error: midjourney_mcp not found. Make sure it's installed in the Docker container.")
     sys.exit(1)
 
+# Sugar glider decorative images for website
+SUGAR_GLIDER_IMAGES = {
+    "mascot": {
+        "filename": "sugar-glider-mascot.png",
+        "prompt": "A cute, stylized sugar glider character in a friendly pose, designed as a website mascot. The glider should have large, expressive eyes, soft fur texture, and a welcoming expression. Clean, modern illustration style suitable for web use, with a warm color palette.",
+        "aspect_ratio": "1:1"
+    },
+    "hero": {
+        "filename": "sugar-glider-hero.png", 
+        "prompt": "A majestic sugar glider gliding through a digital landscape with code symbols, circuit patterns, and tech elements floating around. The scene represents the journey of software development and creativity. Modern, stylized illustration with a tech aesthetic.",
+        "aspect_ratio": "16:9"
+    },
+    "footer": {
+        "filename": "sugar-glider-footer.png",
+        "prompt": "A small, cute sugar glider sitting peacefully in the corner of a website footer, looking content and friendly. Simple, minimalist design that works well as a small decorative element. Soft colors and clean lines.",
+        "aspect_ratio": "4:3"
+    },
+    "loading": {
+        "filename": "sugar-glider-loading.png",
+        "prompt": "A playful sugar glider in various poses showing different stages of activity - coding, thinking, celebrating. Perfect for loading animations or progress indicators. Clean, animated-style illustration with bright, cheerful colors.",
+        "aspect_ratio": "1:1"
+    },
+    "error": {
+        "filename": "sugar-glider-error.png",
+        "prompt": "A concerned but still cute sugar glider looking at a broken computer or error message, with a helpful and empathetic expression. The glider should look like it's trying to help fix the problem. Friendly, approachable design.",
+        "aspect_ratio": "4:3"
+    },
+    "success": {
+        "filename": "sugar-glider-success.png",
+        "prompt": "A happy, celebrating sugar glider with arms raised in victory, surrounded by success symbols like checkmarks, stars, and celebration elements. Bright, positive colors and an energetic pose.",
+        "aspect_ratio": "1:1"
+    }
+}
+
 # Image specifications for each blog post
 BLOG_IMAGES = {
     "curioshelf": {
@@ -142,9 +176,9 @@ async def generate_image(prompt: str, aspect_ratio: str) -> str:
         return f"Error generating image: {str(e)}"
 
 async def generate_all_images():
-    """Generate all images for blog posts."""
-    print("🎨 Starting AI image generation for blog posts...")
-    print("=" * 60)
+    """Generate all images for blog posts and website decorations."""
+    print("🎨 Starting AI image generation for blog posts and website decorations...")
+    print("=" * 70)
     
     # Check if environment variables are set
     if not os.getenv("TOKEN_R") or not os.getenv("TOKEN_I"):
@@ -155,6 +189,21 @@ async def generate_all_images():
     
     results = {}
     
+    # Generate sugar glider decorative images
+    print(f"\n🦎 Generating sugar glider decorative images...")
+    results["sugar_gliders"] = []
+    
+    for image_type, image_spec in SUGAR_GLIDER_IMAGES.items():
+        print(f"  🖼️  Generating {image_spec['filename']}...")
+        result = await generate_image(image_spec["prompt"], image_spec["aspect_ratio"])
+        results["sugar_gliders"].append({
+            "filename": image_spec["filename"],
+            "type": image_type,
+            "result": result
+        })
+        print(f"     ✅ Generated: {image_spec['filename']}")
+    
+    # Generate blog post images
     for project, data in BLOG_IMAGES.items():
         print(f"\n📸 Generating images for {project}...")
         results[project] = []
@@ -178,6 +227,7 @@ async def generate_all_images():
     print("1. Review the generated images")
     print("2. Download the images you like")
     print("3. Replace the placeholder images in docs/assets/images/blog/")
+    print("4. Add sugar glider images to website decorations")
 
 if __name__ == "__main__":
     asyncio.run(generate_all_images())

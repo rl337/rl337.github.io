@@ -1,6 +1,13 @@
 <header class="site-header" role="banner">
   <div class="wrapper">
-    <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+    <a class="site-title" rel="author" href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/images/sugar-gliders/sugar-glider-mascot.png' | relative_url }}" 
+           alt="Sugar Glider Mascot" 
+           class="site-mascot" 
+           width="32" 
+           height="32">
+      {{ site.title | escape }}
+    </a>
     <nav class="site-nav">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
       <label for="nav-trigger">

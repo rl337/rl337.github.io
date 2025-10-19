@@ -1,0 +1,84 @@
+{
+  "curioshelf": [
+    {
+      "filename": "curioshelf-interface.png",
+      "result": "Error: Failed to get websocket token"
+    },
+    {
+      "filename": "asset-chaos.png",
+      "result": "Error: Failed to get websocket token"
+    },
+    {
+      "filename": "curioshelf-development.png",
+      "result": "Error: Failed to get websocket token"
+    },
+    {
+      "filename": "curioshelf-reflection.png",
+      "result": "Error: Failed to get websocket token"
+    }
+  ],
+  "june": [
+    {
+      "filename": "june-ai-agent.png",
+      "result": "Error: Failed to get websocket token"
+    },
+    {
+      "filename": "june-development.png",
+      "result": "Error: Failed to get websocket token"
+    },
+    {
+      "filename": "june-testing.png",
+      "result": "Error: Failed to get websocket token"
+    },
+    {
+      "filename": "june-insights.png",
+      "result": "Error: Failed to get websocket token"
+    }
+  ],
+  "metro": [
+    {
+      "filename": "metro-city-simulation.png",
+      "result": "Error: Failed to get websocket token"
+    },
+    {
+      "filename": "metro-migration.png",
+      "result": "Error: Failed to get websocket token"
+    },
+    {
+      "filename": "metro-evolution.png",
+      "result": "Error: Failed to get websocket token"
+    },
+    {
+      "filename": "metro-reflection.png",
+      "result": "Error: Failed to get websocket token"
+    }
+  ],
+  "dark-closet": [
+    {
+      "filename": "dark-closet-game.png",
+      "result": "Error: Failed to get websocket token"
+    },
+    {
+      "filename": "dark-closet-procedural.png",
+      "result": "Error: Failed to get websocket token"
+    },
+    {
+      "filename": "dark-closet-callbacks.png",
+      "result": "Error: Failed to get websocket token"
+    }
+  ],
+  "trouble": [
+    {
+      "filename": "trouble-cli.png",
+      "result": "Error: Failed to get websocket token"
+    },
+    {
+      "filename": "trouble-development.png",
+      "result": "Error: Failed to get websocket token"
+    },
+    {
+      "filename": "trouble-reflection.png",
+      "result": "Error: Failed to get websocket token"
+    }
+  ]
+}

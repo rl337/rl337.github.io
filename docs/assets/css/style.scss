@@ -71,6 +71,77 @@ body {
     }
 }
 
+// Sugar Glider Mascot Styling
+.site-mascot {
+    vertical-align: middle;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    
+    &:hover {
+        transform: scale(1.1) rotate(5deg);
+    }
+}
+
+.footer-mascot {
+    margin-top: 1rem;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+    
+    &:hover {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+}
+
+.footer-sugar-glider {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+// Sugar Glider Hero Section (for homepage)
+.sugar-glider-hero {
+    text-align: center;
+    margin: 2rem 0;
+    
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+}
+
+// Sugar Glider Loading Animation
+.sugar-glider-loading {
+    display: inline-block;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+// Sugar Glider Error/Success States
+.sugar-glider-error,
+.sugar-glider-success {
+    text-align: center;
+    margin: 1rem 0;
+    
+    img {
+        max-width: 200px;
+        height: auto;
+    }
+}
+
 // Responsive improvements
 @media (max-width: 768px) {
     .project-card {
@@ -80,5 +151,15 @@ body {
     .social-links {
         flex-direction: column;
         gap: 0.5rem;
+    }
+    
+    .site-mascot {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .footer-mascot {
+        width: 36px;
+        height: 27px;
     }
 }
