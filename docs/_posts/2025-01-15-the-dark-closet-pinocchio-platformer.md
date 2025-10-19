@@ -7,8 +7,7 @@ tags: [pygame, procedural-generation, 2d-platformer, python]
 author: Richard Lee
 ---
 
-![The Dark Closet Game]({{ '/assets/images/blog/dark-closet-game.png' | relative
-_url }})
+![The Dark Closet Game]({{ '/assets/images/blog/dark-closet-game.png' | relative_url }})
 *The Dark Closet - where a boy discovers a portal in his closet and chooses conq
 uest over wonder*
 
@@ -63,8 +62,7 @@ The project includes a full test suite with:
 
 ## 🛠️ The Procedural Generation Challenge
 
-![Procedural Generation]({{ '/assets/images/blog/dark-closet-procedural.png' | r
-elative_url }})
+![Procedural Generation]({{ '/assets/images/blog/dark-closet-procedural.png' | relative_url }})
 *The procedural generation system creating unique character sprites*
 
 One of the most fascinating aspects of The Dark Closet is the procedural generat
@@ -146,8 +144,7 @@ The project continues to evolve with plans for:
 
 ## 💡 The Callback System Breakthrough
 
-![Callback System]({{ '/assets/images/blog/dark-closet-callbacks.png' | relative
-_url }})
+![Callback System]({{ '/assets/images/blog/dark-closet-callbacks.png' | relative_url }})
 *The object callback system that made interactive gameplay possible*
 
 One of the most interesting technical challenges was implementing the object cal

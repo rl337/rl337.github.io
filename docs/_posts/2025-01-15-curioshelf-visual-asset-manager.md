@@ -7,8 +7,7 @@ tags: [asset-management, 2d-games, python, pyside6, game-development]
 author: Richard Lee
 ---
 
-![Curioshelf Interface]({{ '/assets/images/blog/curioshelf-interface.png' | rela
-tive_url }})
+![Curioshelf Interface]({{ '/assets/images/blog/curioshelf-interface.png' | relative_url }})
 *The Curioshelf interface showing the tabbed workflow for asset management*
 
 You know that moment when you're working on a 2D game and suddenly realize you h
@@ -23,7 +22,7 @@ d of asset management workflows. Let me take you through this journey.
 
 ## 🎨 The Problem That Started It All
 
-![Asset Chaos]({{ '/assets/images/blog/asset-chaos.png' | relative_url }}})
+![Asset Chaos]({{ '/assets/images/blog/asset-chaos.png' | relative_url }})
 *The typical state of game assets before proper organization*
 
 I was working on a 2D platformer when I hit a wall. Not a literal wall in the ga
@@ -75,8 +74,7 @@ types:
 
 ## 🛠️ The Development Journey
 
-![Development Process]({{ '/assets/images/blog/curioshelf-development.png' | rel
-ative_url }})
+![Development Process]({{ '/assets/images/blog/curioshelf-development.png' | relative_url }})
 *The evolution from V1 to V2 - a complete architectural overhaul*
 
 Looking back at the commit history, I can see exactly where this project took so
@@ -235,8 +233,7 @@ developers need to:
 
 ## 💡 What I Learned
 
-![Project Reflection]({{ '/assets/images/blog/curioshelf-reflection.png' | relat
-ive_url }})
+![Project Reflection]({{ '/assets/images/blog/curioshelf-reflection.png' | relative_url }})
 *The journey from chaos to organization - both in code and assets*
 
 Building Curioshelf taught me more about software development than I expected. T

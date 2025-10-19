@@ -7,7 +7,7 @@ tags: [cli, documentation, static-site, python, github-actions]
 author: Richard Lee
 ---
 
-![Trouble CLI Tool]({{ '/assets/images/blog/trouble-cli.png' | relative_url }}})
+![Trouble CLI Tool]({{ '/assets/images/blog/trouble-cli.png' | relative_url }})
 *Trouble in action - generating documentation from templates and data*
 
 You know that moment when you realize you've been manually updating the same doc
@@ -127,8 +127,7 @@ Trouble is perfect for:
 
 ## 🔧 The Development Journey
 
-![Development Process]({{ '/assets/images/blog/trouble-development.png' | relati
-ve_url }})
+![Development Process]({{ '/assets/images/blog/trouble-development.png' | relative_url }})
 *The evolution from simple script to comprehensive CLI tool*
 
 Looking at the commit history, I can see exactly where Trouble evolved from a si
@@ -236,8 +235,7 @@ Planned enhancements include:
 
 ## 💡 What I Learned About Documentation and AI
 
-![Project Reflection]({{ '/assets/images/blog/trouble-reflection.png' | relative
-_url }})
+![Project Reflection]({{ '/assets/images/blog/trouble-reflection.png' | relative_url }})
 *The intersection of documentation, automation, and AI collaboration*
 
 Building Trouble taught me more about documentation than I expected. The biggest
