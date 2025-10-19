@@ -34,6 +34,12 @@ Here are my most active and interesting projects:
 
 Check out my most recent thoughts and projects below, or browse through the [archives](/archives/) to see everything I've written.
 
+## Meet My Mascot 🦎🍓
+
+You might have noticed the little sugar glider in my header - that's my unofficial logo! Just like Scrat from Ice Age is obsessed with his acorn, my sugar glider is completely fixated on strawberries. It represents my approach to coding: that same single-minded determination and passion for solving problems, even when they seem impossible (or deliciously out of reach).
+
+The strawberry obsession? Well, sometimes the best solutions come from being a little bit obsessed with the things you love! 🍓
+
 ## What I'm About
 
 - **Building things** that solve real problems

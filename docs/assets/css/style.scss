@@ -71,7 +71,29 @@ body {
     }
 }
 
-// Sugar Glider Mascot Styling
+// Sugar Glider Logo Styling
+.site-logo {
+    vertical-align: middle;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+    transition: all 0.4s ease;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+    
+    &:hover {
+        transform: scale(1.15) rotate(10deg);
+        filter: drop-shadow(0 4px 8px rgba(255, 0, 0, 0.3));
+        animation: strawberry-wiggle 0.6s ease-in-out;
+    }
+}
+
+@keyframes strawberry-wiggle {
+    0%, 100% { transform: scale(1.15) rotate(10deg); }
+    25% { transform: scale(1.2) rotate(15deg); }
+    50% { transform: scale(1.15) rotate(5deg); }
+    75% { transform: scale(1.2) rotate(12deg); }
+}
+
+// Sugar Glider Mascot Styling (for other uses)
 .site-mascot {
     vertical-align: middle;
     margin-right: 0.5rem;
@@ -151,6 +173,11 @@ body {
     .social-links {
         flex-direction: column;
         gap: 0.5rem;
+    }
+    
+    .site-logo {
+        width: 32px;
+        height: 32px;
     }
     
     .site-mascot {

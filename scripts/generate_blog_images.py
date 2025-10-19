@@ -21,6 +21,11 @@ except ImportError:
 
 # Sugar glider decorative images for website
 SUGAR_GLIDER_IMAGES = {
+    "logo": {
+        "filename": "sugar-glider-logo.png",
+        "prompt": "A cute, stylized sugar glider character obsessively hugging a large, juicy strawberry with the same intensity as Scrat from Ice Age with his acorn. The sugar glider should have large, wide eyes filled with pure obsession and determination, clutching the strawberry with both tiny hands and feet, as if it's the most precious thing in the world. The strawberry should be oversized compared to the glider, bright red and glossy. The glider's expression should show complete focus and adoration for the strawberry. Clean, modern illustration style suitable for use as a personal logo, with vibrant colors and a warm, friendly aesthetic.",
+        "aspect_ratio": "1:1"
+    },
     "mascot": {
         "filename": "sugar-glider-mascot.png",
         "prompt": "A cute, stylized sugar glider character in a friendly pose, designed as a website mascot. The glider should have large, expressive eyes, soft fur texture, and a welcoming expression. Clean, modern illustration style suitable for web use, with a warm color palette.",
@@ -49,6 +54,16 @@ SUGAR_GLIDER_IMAGES = {
     "success": {
         "filename": "sugar-glider-success.png",
         "prompt": "A happy, celebrating sugar glider with arms raised in victory, surrounded by success symbols like checkmarks, stars, and celebration elements. Bright, positive colors and an energetic pose.",
+        "aspect_ratio": "1:1"
+    },
+    "strawberry-obsession": {
+        "filename": "sugar-glider-strawberry-obsession.png",
+        "prompt": "A sugar glider in a state of pure strawberry obsession, eyes wide with determination, clutching multiple strawberries with both hands and feet, similar to Scrat from Ice Age with his acorn. The glider should look completely focused and slightly manic, with strawberries scattered around. The expression should show that nothing else matters except the strawberries. Clean, modern illustration style.",
+        "aspect_ratio": "1:1"
+    },
+    "logo-minimal": {
+        "filename": "sugar-glider-logo-minimal.png",
+        "prompt": "A minimal, clean version of a sugar glider hugging a strawberry, designed for use as a small logo or favicon. Simple lines, high contrast, easily recognizable at small sizes. The sugar glider should still show the characteristic obsession with the strawberry but in a more simplified, icon-like style.",
         "aspect_ratio": "1:1"
     }
 }
