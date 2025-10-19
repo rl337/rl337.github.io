@@ -1,4 +1,51 @@
 {
+  "sugar_gliders": [
+    {
+      "filename": "sugar-glider-logo.png",
+      "type": "logo",
+      "result": "Error: Failed to get websocket token"
+    },
+    {
+      "filename": "sugar-glider-mascot.png",
+      "type": "mascot",
+      "result": "Error: Failed to get websocket token"
+    },
+    {
+      "filename": "sugar-glider-hero.png",
+      "type": "hero",
+      "result": "Error: Failed to get websocket token"
+    },
+    {
+      "filename": "sugar-glider-footer.png",
+      "type": "footer",
+      "result": "Error: Failed to get websocket token"
+    },
+    {
+      "filename": "sugar-glider-loading.png",
+      "type": "loading",
+      "result": "Error: Failed to get websocket token"
+    },
+    {
+      "filename": "sugar-glider-error.png",
+      "type": "error",
+      "result": "Error: Failed to get websocket token"
+    },
+    {
+      "filename": "sugar-glider-success.png",
+      "type": "success",
+      "result": "Error: Failed to get websocket token"
+    },
+    {
+      "filename": "sugar-glider-strawberry-obsession.png",
+      "type": "strawberry-obsession",
+      "result": "Error: Failed to get websocket token"
+    },
+    {
+      "filename": "sugar-glider-logo-minimal.png",
+      "type": "logo-minimal",
+      "result": "Error: Failed to get websocket token"
+    }
+  ],
   "curioshelf": [
     {
       "filename": "curioshelf-interface.png",

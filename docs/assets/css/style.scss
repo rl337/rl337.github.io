@@ -78,7 +78,7 @@ body {
     border-radius: 50%;
     transition: all 0.4s ease;
     filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
-    
+
     &:hover {
         transform: scale(1.15) rotate(10deg);
         filter: drop-shadow(0 4px 8px rgba(255, 0, 0, 0.3));
@@ -87,10 +87,23 @@ body {
 }
 
 @keyframes strawberry-wiggle {
-    0%, 100% { transform: scale(1.15) rotate(10deg); }
-    25% { transform: scale(1.2) rotate(15deg); }
-    50% { transform: scale(1.15) rotate(5deg); }
-    75% { transform: scale(1.2) rotate(12deg); }
+
+    0%,
+    100% {
+        transform: scale(1.15) rotate(10deg);
+    }
+
+    25% {
+        transform: scale(1.2) rotate(15deg);
+    }
+
+    50% {
+        transform: scale(1.15) rotate(5deg);
+    }
+
+    75% {
+        transform: scale(1.2) rotate(12deg);
+    }
 }
 
 // Sugar Glider Mascot Styling (for other uses)
@@ -99,7 +112,7 @@ body {
     margin-right: 0.5rem;
     border-radius: 50%;
     transition: transform 0.3s ease;
-    
+
     &:hover {
         transform: scale(1.1) rotate(5deg);
     }
@@ -109,7 +122,7 @@ body {
     margin-top: 1rem;
     opacity: 0.7;
     transition: opacity 0.3s ease;
-    
+
     &:hover {
         opacity: 1;
         transform: scale(1.05);
@@ -125,7 +138,7 @@ body {
 .sugar-glider-hero {
     text-align: center;
     margin: 2rem 0;
-    
+
     img {
         max-width: 100%;
         height: auto;
@@ -141,12 +154,19 @@ body {
 }
 
 @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
         transform: translateY(0);
     }
+
     40% {
         transform: translateY(-10px);
     }
+
     60% {
         transform: translateY(-5px);
     }
@@ -157,7 +177,7 @@ body {
 .sugar-glider-success {
     text-align: center;
     margin: 1rem 0;
-    
+
     img {
         max-width: 200px;
         height: auto;
@@ -174,17 +194,17 @@ body {
         flex-direction: column;
         gap: 0.5rem;
     }
-    
+
     .site-logo {
         width: 32px;
         height: 32px;
     }
-    
+
     .site-mascot {
         width: 24px;
         height: 24px;
     }
-    
+
     .footer-mascot {
         width: 36px;
         height: 27px;
