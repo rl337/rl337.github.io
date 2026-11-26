@@ -19,7 +19,7 @@ Hey there! I'm Richard, and this is my digital space where I share thoughts on t
 
 Here are my most active and interesting projects:
 
-{% assign featured_projects = site.projects | where: "featured", true | limit: 5 %}
+{% assign featured_projects = site.projects | where: "featured", true | slice: 0, 5 %}
 {% for project in featured_projects %}
 ### [{{ project.title }}]({{ project.github }})
 {{ project.description }}
@@ -30,9 +30,11 @@ Here are my most active and interesting projects:
 
 [View all projects →](/projects/)
 
-## Latest Posts
+## From the original blog
 
-Check out my most recent thoughts and projects below, or browse through the [archives](/archives/) to see everything I've written.
+The [archives](/archives/) now include posts from 2011 to 2014, including the first
+[Submediant](/2011/09/13/submediant-the-voice-of-robots/) and
+[Hello Seña](/2011/11/03/hello-sena-the-script/) posts.
 
 ## Meet My Mascot 🦎🍓
 
