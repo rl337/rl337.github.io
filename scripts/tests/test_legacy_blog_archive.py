@@ -30,6 +30,8 @@ def test_restored_posts_preserve_metadata_prose_and_recovery_notes():
         expected = manifest[name]
         original_metadata = dict(metadata)
         notes = original_metadata.pop("recovery_notes", "")
+        original_metadata.pop("present_day_note", None)
+        original_metadata.pop("present_day_note_date", None)
         assert original_metadata == expected["metadata"], name
         assert (
             hashlib.sha256(body.strip().encode()).hexdigest()
