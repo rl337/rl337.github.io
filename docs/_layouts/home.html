@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<div class="home">
+  {{ content }}
+
+  <h2 class="post-list-heading">Recent posts</h2>
+  <ul class="post-list">
+    {%- assign recent_posts = site.posts | where_exp: "post", "post.legacy_archive != true" -%}
+    {%- for post in recent_posts limit: 6 -%}
+    <li>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+    </li>
+    {%- endfor -%}
+  </ul>
+  <p><a href="{{ '/archives/' | relative_url }}">Browse all posts, including the original blog</a></p>
+</div>
