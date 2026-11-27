@@ -13,14 +13,13 @@ categories:
 tags:
 - robots
 - sound
+recovery_notes: |
+  The original Flash audio was not recovered.
+
+  [Original audio URL in Wayback][legacy-audio-1].
+
+  [legacy-audio-1]: https://web.archive.org/web/20140000000000/http://rl337.org/wp-content/uploads/2011/09/little_robots-let_them_eat_test-minuet_in_g.mp3
 ---
-
-Originally published on 2011-09-13.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20110930043108/http://rl337.org/2011/09/13/submediant-the-voice-of-robots/
-
 
 This past weekend, I spent some time honing the script from [last blog
 post](/2011/09/08/exit-structured-audio-enter-home-grown/)
@@ -64,10 +63,3 @@ Like all great projects, this one needed a name… and so I scoured
 had no real understanding of… and that became the name of the project…
 [Submediant](http://en.wikipedia.org/wiki/Submediant). Even after trying to read the wiki page… I
 still have no idea what a Submediant is… but I’m sticking to it.
-
-
-The original Flash audio was not recovered.
-
-[Original audio URL in Wayback][legacy-audio-1].
-
-[legacy-audio-1]: https://web.archive.org/web/20140000000000/http://rl337.org/wp-content/uploads/2011/09/little_robots-let_them_eat_test-minuet_in_g.mp3

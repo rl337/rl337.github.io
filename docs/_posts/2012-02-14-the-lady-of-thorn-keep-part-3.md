@@ -9,15 +9,6 @@ archive_source: https://web.archive.org/web/20120307024848/http://rl337.org/2012
 archive_original_timestamp: '2012-02-14T17:27:59+00:00'
 ---
 
-Originally published on 2012-02-14.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120307024848/http://rl337.org/2012/02/14/the-lady-of-thorn-keep-part-3/
-
-
-
-
 Good friend and co-conspirator, [Stephanie Stone](http://lady-cybercat.deviantart.com/) has
 completed the third part of our [on-going
 collaboration](/2011/09/15/collaboration-the-lady-of-thorn-keep/)!

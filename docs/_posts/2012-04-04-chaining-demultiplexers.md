@@ -11,15 +11,6 @@ categories:
 - arduino-2
 ---
 
-Originally published on 2012-04-04.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120410224149/http://rl337.org/2012/04/04/chaining-demultiplexers/
-
-
-
-
 [![IMG_0657](/assets/images/legacy-blog/2012/04/IMG_0657-300x224.jpg.webp)](/assets/images/legacy-blog/2012/04/IMG_0657.jpg.webp)
 
 Before,

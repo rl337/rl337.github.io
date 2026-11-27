@@ -9,15 +9,6 @@ archive_source: https://web.archive.org/web/20131020213921/http://rl337.org/2012
 archive_original_timestamp: '2012-08-24T00:00:17+00:00'
 ---
 
-Originally published on 2012-08-24.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20131020213921/http://rl337.org/2012/08/24/booting-my-raspberry-pi/
-
-
-
-
 [![raspberrypi](/assets/images/legacy-blog/2012/08/raspberrypi-300x300.jpg.webp)](/assets/images/legacy-blog/2012/08/raspberrypi.jpg.webp)
 
 Yeah I spent the \$35 to get myself a [Raspberry Pi](http://www.raspberrypi.org/). Here it is!

@@ -9,15 +9,6 @@ archive_source: https://web.archive.org/web/20120629070848/http://rl337.org/2012
 archive_original_timestamp: '2012-06-19T16:45:12+00:00'
 ---
 
-Originally published on 2012-06-19.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120629070848/http://rl337.org/2012/06/19/modeling-die-rolls/
-
-
-
-
 Modeling out die rolls seems pretty straight forward.  Let’s say that you wanted to figure out the
 distribution of sums. The brute force method for doing this looks like the following chunk of perl
 code:

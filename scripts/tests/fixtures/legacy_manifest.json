@@ -1,0 +1,1518 @@
+{
+  "2012-01-24-blender-background-images.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Using Background Images in Blender",
+      "date": "2012-01-24",
+      "author": "Richard Lee",
+      "permalink": "/2012/01/24/blender-background-images/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120307024838/http://rl337.org/2012/01/24/blender-background-images/",
+      "archive_original_timestamp": "2012-01-24T16:44:08+00:00"
+    },
+    "article_sha256": "da65ed82a95e8eac395d609dd06c08327852462b11f298d8f890edcb99c441a0",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-08-12-sena-wireframe.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Seña Wireframe",
+      "date": "2011-08-12",
+      "author": "Richard Lee",
+      "permalink": "/2011/08/12/sena-wireframe/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20160605151008/http://rl337.org/2011/08/12/sena-wireframe/",
+      "archive_original_timestamp": "2011-08-12T15:40:02+00:00",
+      "categories": [
+        "littlerobots"
+      ],
+      "tags": [
+        "3d",
+        "blender",
+        "robots",
+        "sena"
+      ]
+    },
+    "article_sha256": "0b23c975eec75e5d5f8385a77d413a207269eec8050c79853c4f0367b8fdef48",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-07-19-renders-from-mars.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Renders from Mars",
+      "date": "2011-07-19",
+      "author": "Richard Lee",
+      "permalink": "/2011/07/19/renders-from-mars/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20160605182739/http://rl337.org/2011/07/19/renders-from-mars/",
+      "archive_original_timestamp": "2011-07-19T17:27:24+00:00",
+      "categories": [
+        "mars"
+      ],
+      "tags": [
+        "data",
+        "mars-2"
+      ]
+    },
+    "article_sha256": "8ac7545c56ac5901d6179f956928e6ae6a33d26a3f497884052cbb5df7c21363",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-05-22-another-pi-image-born.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Another Pi Image is Born",
+      "date": "2012-05-22",
+      "author": "Richard Lee",
+      "permalink": "/2012/05/22/another-pi-image-born/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120530095808/http://rl337.org/2012/05/22/another-pi-image-born/",
+      "archive_original_timestamp": "2012-05-22T15:32:49+00:00"
+    },
+    "article_sha256": "59b76c97d9fa8aae63b04204f2eab7c851836781ff823d2f6efb68cdcc1e7333",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-09-25-sparkfun-color-lcd-shield-first-impressions.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "SparkFun Color LCD Shield – First Impressions",
+      "date": "2012-09-25",
+      "author": "Richard Lee",
+      "permalink": "/2012/09/25/sparkfun-color-lcd-shield-first-impressions/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20131021005409/http://rl337.org/2012/09/25/sparkfun-color-lcd-shield-first-impressions/",
+      "archive_original_timestamp": "2012-09-25T21:32:57+00:00",
+      "categories": [
+        "arduino-2"
+      ],
+      "tags": [
+        "arduino",
+        "electronics",
+        "lcd",
+        "sparkfun"
+      ]
+    },
+    "article_sha256": "af3f4e3a87f4e006747ea3e2450dea32a2639d8bac78a21eb6933316b29b7c41",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-04-25-building-for-windows.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Building for Windows!",
+      "date": "2012-04-25",
+      "author": "Richard Lee",
+      "permalink": "/2012/04/25/building-for-windows/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120521180441/http://rl337.org/2012/04/25/building-for-windows/",
+      "archive_original_timestamp": "2012-04-25T08:39:39+00:00"
+    },
+    "article_sha256": "2b64b72886178b5e88898e88f9a45f98eab177f929d8df5f931c9288d01b033f",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-07-14-project-mars.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Project: Mars",
+      "date": "2011-07-14",
+      "author": "Richard Lee",
+      "permalink": "/2011/07/14/project-mars/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20160605152157/http://rl337.org/2011/07/14/project-mars/",
+      "archive_original_timestamp": "2011-07-14T16:21:16+00:00",
+      "categories": [
+        "mars"
+      ],
+      "tags": [
+        "announce",
+        "mars-2"
+      ]
+    },
+    "article_sha256": "b68cb2650d48563238b46663f82cb7256295c4ca4fbee020225d4c035fd14703",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-08-11-rigging-its-tougher-than-it-looks.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Rigging, It’s tougher than it looks…",
+      "date": "2011-08-11",
+      "author": "Richard Lee",
+      "permalink": "/2011/08/11/rigging-its-tougher-than-it-looks/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20111130081814/http://rl337.org/2011/08/11/rigging-its-tougher-than-it-looks/",
+      "archive_original_timestamp": "2011-08-11T16:38:35+00:00",
+      "categories": [
+        "littlerobots"
+      ],
+      "tags": [
+        "3d",
+        "blender",
+        "robots",
+        "sena"
+      ]
+    },
+    "article_sha256": "f80489b81ba4c94f96a9fc2aaf0d86aa5b185dfa98bb7d967ab6782535b3d21a",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2013-01-06-perceptrons-as-a-digit-classifier.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Perceptrons as a digit classifier",
+      "date": "2013-01-06",
+      "author": "Richard Lee",
+      "permalink": "/2013/01/06/perceptrons-as-a-digit-classifier/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20131021050045/http://rl337.org/2013/01/06/perceptrons-as-a-digit-classifier/",
+      "archive_original_timestamp": "2013-01-06T23:39:00+00:00",
+      "categories": [
+        "ml"
+      ]
+    },
+    "article_sha256": "8949a73be8b72d88e6f5b613df3ce7a9abd139eda06316362087eea690a4ca75",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-07-24-approximating-complex-functions-using-linear-regression.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Approximating complex functions using Linear Regression",
+      "date": "2012-07-24",
+      "author": "Richard Lee",
+      "permalink": "/2012/07/24/approximating-complex-functions-using-linear-regression/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120822064923/http://rl337.org/2012/07/24/approximating-complex-functions-using-linear-regression/",
+      "archive_original_timestamp": "2012-07-24T09:23:59+00:00",
+      "categories": [
+        "ml"
+      ]
+    },
+    "article_sha256": "34ccfad9ce3574c75276467416e16dcb0c08f084214729de7134f23f2a11377b",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-04-10-sdl-side-scroller-takes-shape.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "SDL side scroller takes shape",
+      "date": "2012-04-10",
+      "author": "Richard Lee",
+      "permalink": "/2012/04/10/sdl-side-scroller-takes-shape/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120414122454/http://rl337.org/2012/04/10/sdl-side-scroller-takes-shape/",
+      "archive_original_timestamp": "2012-04-10T16:32:43+00:00"
+    },
+    "article_sha256": "72486d9809da93f2e833574d0208952aec0c88f5f8e03e97909d97eb9a256f20",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-10-25-cables.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Cables!",
+      "date": "2011-10-25",
+      "author": "Richard Lee",
+      "permalink": "/2011/10/25/cables/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20111026202132/http://rl337.org/2011/10/25/cables/",
+      "archive_original_timestamp": "2011-10-25T16:51:36+00:00"
+    },
+    "article_sha256": "33d528008974d2f65dcb7c7af4fc420dc83282ac84bd911955d666d30d6970f8",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-05-08-arduino-control-from-web-via-wifly.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Arduino Control from Web via WiFly",
+      "date": "2012-05-08",
+      "author": "Richard Lee",
+      "permalink": "/2012/05/08/arduino-control-from-web-via-wifly/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120521180219/http://rl337.org/2012/05/08/arduino-control-from-web-via-wifly/",
+      "archive_original_timestamp": "2012-05-08T16:45:38+00:00",
+      "categories": [
+        "arduino-2"
+      ]
+    },
+    "article_sha256": "6ce63d2a6e9cbb412236761b6b0f9a5d5f212757d47751c49baf22dc0c4997dc",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-07-05-blender-rtfm.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Getting back to basics – blender rtfm",
+      "date": "2012-07-05",
+      "author": "Richard Lee",
+      "permalink": "/2012/07/05/blender-rtfm/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120719042724/http://rl337.org/2012/07/05/blender-rtfm/",
+      "archive_original_timestamp": "2012-07-05T09:13:27+00:00",
+      "tags": [
+        "blender"
+      ]
+    },
+    "article_sha256": "375ddf204004158d8f35ade1b3ed96e1daf3e8b94489d9e9a76315b1bb81a12f",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2013-08-12-introduction-to-music-production-assignment-3.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Introduction to Music Production, Assignment 3",
+      "date": "2013-08-12",
+      "author": "Richard Lee",
+      "permalink": "/2013/08/12/introduction-to-music-production-assignment-3/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20141014130024/http://rl337.org/2013/08/12/introduction-to-music-production-assignment-3/",
+      "archive_original_timestamp": "2013-08-12T00:24:49+00:00",
+      "categories": [
+        "class"
+      ]
+    },
+    "article_sha256": "7cc1e277fd2dfffeb4c31613e686d2643bb4808e60d9b2074381c5adc704b86b",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-03-06-controlling-6-leds-with-only-3-pins.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Controlling 6 LEDs with only 3 pins",
+      "date": "2012-03-06",
+      "author": "Richard Lee",
+      "permalink": "/2012/03/06/controlling-6-leds-with-only-3-pins/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120308111928/http://rl337.org/2012/03/06/controlling-6-leds-with-only-3-pins/",
+      "archive_original_timestamp": "2012-03-06T08:00:21+00:00",
+      "categories": [
+        "arduino-2"
+      ],
+      "tags": [
+        "demultiplexer-led-inverter"
+      ]
+    },
+    "article_sha256": "608a8b1569660f6aa1bd4d10c2723107409522f0302cb970c9b9b1a1669c50f6",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-07-27-evil-robots-its-all-in-the-leds.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Evil Robots – It’s all in the LEDs",
+      "date": "2012-07-27",
+      "author": "Richard Lee",
+      "permalink": "/2012/07/27/evil-robots-its-all-in-the-leds/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120822064928/http://rl337.org/2012/07/27/evil-robots-its-all-in-the-leds/",
+      "archive_original_timestamp": "2012-07-27T00:56:22+00:00",
+      "categories": [
+        "ml",
+        "soapbox"
+      ]
+    },
+    "article_sha256": "6dc8839abe8cfbddf8b2a4990297b8ce9c65e36a6ee0dd3bca07f2ae9e15aa19",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-09-29-martian-neo-roman-architecture.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Martian Neo-Roman Architecture",
+      "date": "2011-09-29",
+      "author": "Richard Lee",
+      "permalink": "/2011/09/29/martian-neo-roman-architecture/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20111002043241/http://rl337.org/2011/09/29/martian-neo-roman-architecture/",
+      "archive_original_timestamp": "2011-09-29T16:22:56+00:00"
+    },
+    "article_sha256": "0d2206a4ddf4923218af0530b0543aceadd1b9ad3aaa8c77be0c4ee0317d98f8",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-11-02-my-first-blender-animation.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "My first Blender animation",
+      "date": "2011-11-02",
+      "author": "Richard Lee",
+      "permalink": "/2011/11/02/my-first-blender-animation/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20111104083257/http://rl337.org/2011/11/02/my-first-blender-animation/",
+      "archive_original_timestamp": "2011-11-02T03:48:52+00:00",
+      "tags": [
+        "3d-blender"
+      ]
+    },
+    "article_sha256": "e45f58792f3d7843ffc22ec3a66420c6d6de13ce43899a0153473bb560a717f0",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-02-14-the-lady-of-thorn-keep-part-3.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "The Lady of Thorn Keep, Part 3",
+      "date": "2012-02-14",
+      "author": "Richard Lee",
+      "permalink": "/2012/02/14/the-lady-of-thorn-keep-part-3/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120307024848/http://rl337.org/2012/02/14/the-lady-of-thorn-keep-part-3/",
+      "archive_original_timestamp": "2012-02-14T17:27:59+00:00"
+    },
+    "article_sha256": "c8eb31f8dfb9f696abfce361f4e18302930bf9d09db3db4a9466d04146d950f5",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-09-15-collaboration-the-lady-of-thorn-keep.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Collaboration – The Lady of Thorn Keep",
+      "date": "2011-09-15",
+      "author": "Richard Lee",
+      "permalink": "/2011/09/15/collaboration-the-lady-of-thorn-keep/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20110930044411/http://rl337.org/2011/09/15/collaboration-the-lady-of-thorn-keep/",
+      "archive_original_timestamp": "2011-09-15T16:50:10+00:00",
+      "categories": [
+        "thorn-keep"
+      ],
+      "tags": [
+        "announce",
+        "collaboration",
+        "writing"
+      ]
+    },
+    "article_sha256": "2457e41b028326bfcccfa30bdf3bd274b7e3fe24e3825caeddbbf47e8afa64a4",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-08-04-entering-space.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Entering Space",
+      "date": "2011-08-04",
+      "author": "Richard Lee",
+      "permalink": "/2011/08/04/entering-space/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20111130082240/http://rl337.org/2011/08/04/entering-space/",
+      "archive_original_timestamp": "2011-08-04T16:19:57+00:00",
+      "categories": [
+        "mars"
+      ],
+      "tags": [
+        "book",
+        "mars-2",
+        "space",
+        "zubrin"
+      ]
+    },
+    "article_sha256": "07ba4875ba56a37555c42ec06bde755c39d05c4b2bae8a2cd650464d5f1587c2",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-01-05-iphone4-blender-model-still-incomplete-but-oh-well.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "iPhone4 Blender Model – Still incomplete, but oh well..",
+      "date": "2012-01-05",
+      "author": "Richard Lee",
+      "permalink": "/2012/01/05/iphone4-blender-model-still-incomplete-but-oh-well/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120108051714/http://rl337.org/2012/01/05/iphone4-blender-model-still-incomplete-but-oh-well/",
+      "archive_original_timestamp": "2012-01-05T16:33:17+00:00",
+      "categories": [
+        "littlerobots"
+      ],
+      "tags": [
+        "3d",
+        "blender"
+      ]
+    },
+    "article_sha256": "6cf99ce8e804e241669d6d683e469dc7bd657d8acc3a56b6122ab3392d98d700",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-08-09-robo-optics.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Robo Optics",
+      "date": "2011-08-09",
+      "author": "Richard Lee",
+      "permalink": "/2011/08/09/robo-optics/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20151122074727/http://rl337.org/2011/08/09/robo-optics/",
+      "archive_original_timestamp": "2011-08-09T16:47:50+00:00",
+      "categories": [
+        "littlerobots"
+      ],
+      "tags": [
+        "3d",
+        "blender",
+        "drawing",
+        "robots",
+        "sena"
+      ]
+    },
+    "article_sha256": "a239a1b80d78c7f6b0fd0c6ca22c1dbd6e0d514456f29305c4a0029e68bb6826",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2013-08-04-introduction-to-music-production-assignment-2.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Introduction to Music Production, Assignment 2",
+      "date": "2013-08-04",
+      "author": "Richard Lee",
+      "permalink": "/2013/08/04/introduction-to-music-production-assignment-2/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20131222032551/http://rl337.org/2013/08/04/introduction-to-music-production-assignment-2/",
+      "archive_original_timestamp": "2013-08-04T23:54:45+00:00",
+      "categories": [
+        "class"
+      ]
+    },
+    "article_sha256": "bf4db47bbaf7c3a0198938eb53e776df86ac5971f4d6cb47a7f4793a7c052711",
+    "recovery_sha256": "469fa4c3fe5645771c1e6f39aa9048938c0050b353a2afdae9d77a06992e6c1b"
+  },
+  "2012-06-12-hello-sena-dialog-rough.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Hello Seña dialog rough",
+      "date": "2012-06-12",
+      "author": "Richard Lee",
+      "permalink": "/2012/06/12/hello-sena-dialog-rough/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120629070841/http://rl337.org/2012/06/12/hello-sena-dialog-rough/",
+      "archive_original_timestamp": "2012-06-12T16:10:34+00:00"
+    },
+    "article_sha256": "f9e8750fde54a40395f3ce329cb8fa86e5bae80dea6ebddc989f5d6603da2d3a",
+    "recovery_sha256": "435fa385f877d56f2212171eee0db035b52709256e61e82646d5160cb7f6f3d5"
+  },
+  "2012-06-05-weirdo-mythology.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Weirdo mythology",
+      "date": "2012-06-05",
+      "author": "Richard Lee",
+      "permalink": "/2012/06/05/weirdo-mythology/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120629070629/http://rl337.org/2012/06/05/weirdo-mythology/",
+      "archive_original_timestamp": "2012-06-05T16:09:49+00:00",
+      "categories": [
+        "weirdo"
+      ]
+    },
+    "article_sha256": "d9d4a2c9defbe5c69b27ea17b057e683ecd1a96b41f1d61c6fc9d961f86d415c",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-02-02-wrapping-n-body-simulation.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Wrapping N-Body Simulation",
+      "date": "2012-02-02",
+      "author": "Richard Lee",
+      "permalink": "/2012/02/02/wrapping-n-body-simulation/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120424223833/http://rl337.org/2012/02/02/wrapping-n-body-simulation/",
+      "archive_original_timestamp": "2012-02-02T17:33:16+00:00"
+    },
+    "article_sha256": "ff6db7556b59d9c1d403f0794aba53171404ec0290e5914698b41eaea0d5787e",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-10-27-something-to-write-with.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Something to write with",
+      "date": "2011-10-27",
+      "author": "Richard Lee",
+      "permalink": "/2011/10/27/something-to-write-with/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20111102202625/http://rl337.org/2011/10/27/something-to-write-with/",
+      "archive_original_timestamp": "2011-10-27T17:19:49+00:00",
+      "categories": [
+        "littlerobots"
+      ],
+      "tags": [
+        "3d",
+        "blender"
+      ]
+    },
+    "article_sha256": "f78e24740aae5dfe6fdcf63fdddbec427bb2b2ae8c076e0d62a47f56bb9cb362",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-07-03-gradient-descent-and-normalized-data.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Gradient Descent and Normalized Data",
+      "date": "2012-07-03",
+      "author": "Richard Lee",
+      "permalink": "/2012/07/03/gradient-descent-and-normalized-data/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120706234502/http://rl337.org/2012/07/03/gradient-descent-and-normalized-data/",
+      "archive_original_timestamp": "2012-07-03T07:00:39+00:00",
+      "categories": [
+        "ml"
+      ]
+    },
+    "article_sha256": "6f80d26cc4554e1210b343187d58cdbf2dd73890bac6a2bd54be480b241488f0",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-09-06-senas-final-eye-rigging.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Seña’s Final Eye Rigging",
+      "date": "2011-09-06",
+      "author": "Richard Lee",
+      "permalink": "/2011/09/06/senas-final-eye-rigging/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20110930043103/http://rl337.org/2011/09/06/senas-final-eye-rigging/",
+      "archive_original_timestamp": "2011-09-06T15:53:17+00:00",
+      "categories": [
+        "littlerobots"
+      ],
+      "tags": [
+        "3d",
+        "blender",
+        "robots",
+        "sena"
+      ]
+    },
+    "article_sha256": "ef62b9061fa144de8f5a421fb81e3b8da8fa0d24a85136ee12d8296828e4916a",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-11-08-workbench-concept-art.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Workbench Concept Art",
+      "date": "2011-11-08",
+      "author": "Richard Lee",
+      "permalink": "/2011/11/08/workbench-concept-art/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20111111113556/http://rl337.org/2011/11/08/workbench-concept-art/",
+      "archive_original_timestamp": "2011-11-08T18:04:48+00:00",
+      "categories": [
+        "littlerobots"
+      ],
+      "tags": [
+        "drawing",
+        "robots",
+        "sena"
+      ]
+    },
+    "article_sha256": "0e96fe76dc721ef565da8a01bef16f2f958b0a1f6be9c796b3f91b8a1f6cecaa",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-04-04-chaining-demultiplexers.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Chaining Demultiplexers",
+      "date": "2012-04-04",
+      "author": "Richard Lee",
+      "permalink": "/2012/04/04/chaining-demultiplexers/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120410224149/http://rl337.org/2012/04/04/chaining-demultiplexers/",
+      "archive_original_timestamp": "2012-04-04T14:44:15+00:00",
+      "categories": [
+        "arduino-2"
+      ]
+    },
+    "article_sha256": "1c692bbc7f4acf274d96e98e588b4b786b470a79b6b59aa3e421ae8091467f60",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-10-13-whats-on-my-desk.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "What’s on my desk..?",
+      "date": "2011-10-13",
+      "author": "Richard Lee",
+      "permalink": "/2011/10/13/whats-on-my-desk/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20111020070151/http://rl337.org/2011/10/13/whats-on-my-desk/",
+      "archive_original_timestamp": "2011-10-13T17:14:19+00:00",
+      "categories": [
+        "littlerobots"
+      ],
+      "tags": [
+        "3d",
+        "blender"
+      ]
+    },
+    "article_sha256": "b962da5713f11d5f15d1ac5f596eae361316e902abb1493d3bced60c66ab5a97",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-07-21-heightmap-woes.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Heightmap woes",
+      "date": "2011-07-21",
+      "author": "Richard Lee",
+      "permalink": "/2011/07/21/heightmap-woes/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20160605144713/http://rl337.org/2011/07/21/heightmap-woes/",
+      "archive_original_timestamp": "2011-07-21T15:07:36+00:00",
+      "categories": [
+        "mars"
+      ],
+      "tags": [
+        "3d",
+        "blender",
+        "mars-2"
+      ]
+    },
+    "article_sha256": "76d29b48eac88d1b2661438cd4d9ab107e4a1de793d641fb9d0943d1aed23cd2",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-08-18-structured-audio-c-major-scale.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Structured Audio C Major Scale",
+      "date": "2011-08-18",
+      "author": "Richard Lee",
+      "permalink": "/2011/08/18/structured-audio-c-major-scale/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20160605170608/http://rl337.org/2011/08/18/structured-audio-c-major-scale/",
+      "archive_original_timestamp": "2011-08-18T16:48:52+00:00",
+      "categories": [
+        "littlerobots"
+      ],
+      "tags": [
+        "structuredaudio"
+      ]
+    },
+    "article_sha256": "def6af4540d383a926087f71cfed9e7e4b72c2809d177946bf2e854c4fac6ddb",
+    "recovery_sha256": "5e04f14f716eedfa18df402decf5db33707d798896415b740753b3f30845be5d"
+  },
+  "2011-09-27-submediant-imagine-a-work-in-progress.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Submediant: Imagine – A work in progress",
+      "date": "2011-09-27",
+      "author": "Richard Lee",
+      "permalink": "/2011/09/27/submediant-imagine-a-work-in-progress/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20111001121634/http://rl337.org/2011/09/27/submediant-imagine-a-work-in-progress/",
+      "archive_original_timestamp": "2011-09-27T16:35:17+00:00",
+      "categories": [
+        "submediant"
+      ],
+      "tags": [
+        "imagine",
+        "sound"
+      ]
+    },
+    "article_sha256": "b6a5e50a262afa135527c666fec54f2d377a48fd07f6fb0462207ff5b6231925",
+    "recovery_sha256": "88752c493a35cdbf335c437d2d443b9221ebe5c7e52090d1b4cc2f85cc74a331"
+  },
+  "2012-05-03-terrain-tiles.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Terrain Tiles",
+      "date": "2012-05-03",
+      "author": "Richard Lee",
+      "permalink": "/2012/05/03/terrain-tiles/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120521175944/http://rl337.org/2012/05/03/terrain-tiles/",
+      "archive_original_timestamp": "2012-05-03T16:46:48+00:00"
+    },
+    "article_sha256": "d3afd98a67aba75ea1a084b7bbd6624149f0e09c87da24a2b9738055d31f7a45",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-11-15-computer-setup-in-scene.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Computer Setup in Scene",
+      "date": "2011-11-15",
+      "author": "Richard Lee",
+      "permalink": "/2011/11/15/computer-setup-in-scene/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20111116142329/http://rl337.org/2011/11/15/computer-setup-in-scene/",
+      "archive_original_timestamp": "2011-11-15T16:41:35+00:00",
+      "categories": [
+        "littlerobots"
+      ],
+      "tags": [
+        "drawing"
+      ]
+    },
+    "article_sha256": "91bd1e62e6fbe8c74e3aa6ef7af3b7f533298ce2067331165ab5735d6f28437e",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-07-26-just-give-me-a-sena.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Just give me a Seña!",
+      "date": "2011-07-26",
+      "author": "Richard Lee",
+      "permalink": "/2011/07/26/just-give-me-a-sena/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20151122074409/http://rl337.org/2011/07/26/just-give-me-a-sena/",
+      "archive_original_timestamp": "2011-07-26T16:34:53+00:00",
+      "categories": [
+        "littlerobots"
+      ],
+      "tags": [
+        "drawing",
+        "robots",
+        "sena"
+      ]
+    },
+    "article_sha256": "f35b7d13c70557a3549a84838dbff799012e5fa407af0815fb6930528990f316",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-12-18-an-arduino-general-purpose-detector.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "An Arduino general purpose detector!",
+      "date": "2011-12-18",
+      "author": "Richard Lee",
+      "permalink": "/2011/12/18/an-arduino-general-purpose-detector/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120103185442/http://rl337.org/2011/12/18/an-arduino-general-purpose-detector/",
+      "archive_original_timestamp": "2011-12-18T05:15:32+00:00",
+      "tags": [
+        "arduino"
+      ]
+    },
+    "article_sha256": "1bfd2af2f9283f0924d1ae1407b886683bd95cd9b4feb71fc277e031ebaddb11",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-02-28-screw-this-noise-libsdl-to-the-rescue.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "screw this noise, libsdl to the rescue!",
+      "date": "2012-02-28",
+      "author": "Richard Lee",
+      "permalink": "/2012/02/28/screw-this-noise-libsdl-to-the-rescue/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120307025020/http://rl337.org/2012/02/28/screw-this-noise-libsdl-to-the-rescue/",
+      "archive_original_timestamp": "2012-02-28T16:26:10+00:00"
+    },
+    "article_sha256": "cf7271fc39d3e4c3b08588a0abb2e77e2ee26a374b35bfb8f4fede26e01e914c",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-10-18-new-desk-accessories.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "New Desk Accessories",
+      "date": "2011-10-18",
+      "author": "Richard Lee",
+      "permalink": "/2011/10/18/new-desk-accessories/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20111020070226/http://rl337.org/2011/10/18/new-desk-accessories/",
+      "archive_original_timestamp": "2011-10-18T15:30:46+00:00"
+    },
+    "article_sha256": "fc3dff144e42e771758bdc9a05c0071ba787c08285b3b9694c5709874be3dabc",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-10-06-get-it-together-animation-planning.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Get it Together – Animation Planning",
+      "date": "2011-10-06",
+      "author": "Richard Lee",
+      "permalink": "/2011/10/06/get-it-together-animation-planning/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20111007115758/http://rl337.org/2011/10/06/get-it-together-animation-planning/",
+      "archive_original_timestamp": "2011-10-06T15:40:06+00:00",
+      "categories": [
+        "littlerobots"
+      ]
+    },
+    "article_sha256": "72db36538d9b97df1702e27d17f4dd91a033e096bea073659b5b393449c51224",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-09-01-the-pax-2011-sorting-workshop.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "The PAX 2011 Sorting Workshop",
+      "date": "2011-09-01",
+      "author": "Richard Lee",
+      "permalink": "/2011/09/01/the-pax-2011-sorting-workshop/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20110930042850/http://rl337.org/2011/09/01/the-pax-2011-sorting-workshop/",
+      "archive_original_timestamp": "2011-09-01T16:58:00+00:00",
+      "tags": [
+        "pax",
+        "pax2011",
+        "writing"
+      ]
+    },
+    "article_sha256": "082d78bf817cd70387be6dfc17eeba392a522e1b067101330bef41cb382515fb",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-07-10-8x8-led-matrix-animation.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "8×8 LED Matrix animation",
+      "date": "2012-07-10",
+      "author": "Richard Lee",
+      "permalink": "/2012/07/10/8x8-led-matrix-animation/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120719043822/http://rl337.org/2012/07/10/8x8-led-matrix-animation/",
+      "archive_original_timestamp": "2012-07-10T23:44:18+00:00",
+      "categories": [
+        "arduino-2"
+      ]
+    },
+    "article_sha256": "7d7076c3202327212688033c98aea799732e716d4e42ecaaca2b271a09269507",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-08-16-messing-with-structured-audio.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Messing with Structured Audio",
+      "date": "2011-08-16",
+      "author": "Richard Lee",
+      "permalink": "/2011/08/16/messing-with-structured-audio/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20111020212050/http://rl337.org/2011/08/16/messing-with-structured-audio/",
+      "archive_original_timestamp": "2011-08-16T17:33:32+00:00",
+      "categories": [
+        "littlerobots"
+      ],
+      "tags": [
+        "structuredaudio"
+      ]
+    },
+    "article_sha256": "848f99fa330f4da8825bac135ed5e0ff06aaa5d41cb67b7c6dcb47a2bb92dba8",
+    "recovery_sha256": "2af2bffc238d8c350f2716578781be0b8c5d6deeefc189ea1df0cf0eaaa10b7c"
+  },
+  "2011-07-28-sena-eye-detail.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Seña Eye Detail",
+      "date": "2011-07-28",
+      "author": "Richard Lee",
+      "permalink": "/2011/07/28/sena-eye-detail/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20111021153841/http://rl337.org/2011/07/28/sena-eye-detail/",
+      "archive_original_timestamp": "2011-07-28T15:32:22+00:00",
+      "categories": [
+        "littlerobots"
+      ],
+      "tags": [
+        "drawing",
+        "robots",
+        "sena"
+      ]
+    },
+    "article_sha256": "269c674ae31edad475396713586bb22f749d654e383ecd7ce34286371b9545c5",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-06-26-applying-machine-learning.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Applying Machine Learning",
+      "date": "2012-06-26",
+      "author": "Richard Lee",
+      "permalink": "/2012/06/26/applying-machine-learning/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120629070917/http://rl337.org/2012/06/26/applying-machine-learning/",
+      "archive_original_timestamp": "2012-06-26T16:02:43+00:00"
+    },
+    "article_sha256": "8a4276cd4f9f6e258ddd71eb90cb8f8ee65ab7c95ef8d4e9beef61c1cd296db2",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-10-04-submediant-breaking-out-instruments.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Breaking out Instruments",
+      "date": "2011-10-04",
+      "author": "Richard Lee",
+      "permalink": "/2011/10/04/submediant-breaking-out-instruments/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20111007115745/http://rl337.org/2011/10/04/submediant-breaking-out-instruments/",
+      "archive_original_timestamp": "2011-10-04T17:21:36+00:00",
+      "categories": [
+        "submediant"
+      ],
+      "tags": [
+        "lullaby",
+        "music",
+        "sound"
+      ]
+    },
+    "article_sha256": "4a258dd30c24782e735b9d59ef11e92419712cc94c6100337e8a86359e768ec2",
+    "recovery_sha256": "8dfefb78e7464f5830c8f606b12a151cba6d39db6419f42cf30d79ab981a71ff"
+  },
+  "2012-01-26-16x2-lcd-display-contrast.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "16×2 LCD Display Contrast",
+      "date": "2012-01-26",
+      "author": "Richard Lee",
+      "permalink": "/2012/01/26/16x2-lcd-display-contrast/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120307024842/http://rl337.org/2012/01/26/16x2-lcd-display-contrast/",
+      "archive_original_timestamp": "2012-01-26T17:37:08+00:00",
+      "categories": [
+        "arduino-2"
+      ]
+    },
+    "article_sha256": "5a89facd7e9006f47439ef78b9711a145e27d75cfb5efe1a98b9217e46321d40",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-09-20-martian-census-data.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Martian Census Data",
+      "date": "2011-09-20",
+      "author": "Richard Lee",
+      "permalink": "/2011/09/20/martian-census-data/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20110930043132/http://rl337.org/2011/09/20/martian-census-data/",
+      "archive_original_timestamp": "2011-09-20T17:30:06+00:00",
+      "categories": [
+        "mars"
+      ]
+    },
+    "article_sha256": "a2adc0169e071e6640e11b2a02756800377583c3177734365caeb4a63c4cf454",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-11-03-hello-sena-the-script.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Hello Seña – The Script",
+      "date": "2011-11-03",
+      "author": "Richard Lee",
+      "permalink": "/2011/11/03/hello-sena-the-script/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20111111102415/http://rl337.org/2011/11/03/hello-sena-the-script/",
+      "archive_original_timestamp": "2011-11-03T15:58:00+00:00"
+    },
+    "article_sha256": "e9e601f03fb4e15e0851a6d87c068902ae5e6885042e40e04a06a3baf93af537",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-12-13-spherical-robots-and-arduino-uno.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Spherical Robots and Arduino Uno!",
+      "date": "2011-12-13",
+      "author": "Richard Lee",
+      "permalink": "/2011/12/13/spherical-robots-and-arduino-uno/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120103185858/http://rl337.org/2011/12/13/spherical-robots-and-arduino-uno/",
+      "archive_original_timestamp": "2011-12-13T16:29:24+00:00",
+      "tags": [
+        "arduino",
+        "robots"
+      ]
+    },
+    "article_sha256": "e726f85d8d3bc2c7ecfe962c8f0e6f07bc7a2f9d377ae782c068ce6da872e35b",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-09-08-exit-structured-audio-enter-home-grown.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Exit Structured Audio, Enter Home Grown",
+      "date": "2011-09-08",
+      "author": "Richard Lee",
+      "permalink": "/2011/09/08/exit-structured-audio-enter-home-grown/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20110930042945/http://rl337.org/2011/09/08/exit-structured-audio-enter-home-grown/",
+      "archive_original_timestamp": "2011-09-08T16:33:26+00:00",
+      "categories": [
+        "littlerobots",
+        "submediant"
+      ],
+      "tags": [
+        "announce",
+        "robots",
+        "sound",
+        "structuredaudio"
+      ]
+    },
+    "article_sha256": "f6e1d2e9b91a74209dffb2f55d853e8d5b25359e835fc8b7c84dcb56d85ac6d3",
+    "recovery_sha256": "e0ee9c6b554ec198845d3da9049470900758225e5acff20d302a027766761bce"
+  },
+  "2012-08-24-booting-my-raspberry-pi.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Booting my Raspberry Pi",
+      "date": "2012-08-24",
+      "author": "Richard Lee",
+      "permalink": "/2012/08/24/booting-my-raspberry-pi/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20131020213921/http://rl337.org/2012/08/24/booting-my-raspberry-pi/",
+      "archive_original_timestamp": "2012-08-24T00:00:17+00:00"
+    },
+    "article_sha256": "e942290d042e57c28a33264686ef49275cee1472c56d5d798acbb6dd3326d256",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-10-20-books-and-book-covers.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Books and Book Covers",
+      "date": "2011-10-20",
+      "author": "Richard Lee",
+      "permalink": "/2011/10/20/books-and-book-covers/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20111023174801/http://rl337.org/2011/10/20/books-and-book-covers/",
+      "archive_original_timestamp": "2011-10-20T16:18:10+00:00",
+      "categories": [
+        "littlerobots"
+      ],
+      "tags": [
+        "3d",
+        "blender",
+        "books"
+      ]
+    },
+    "article_sha256": "c12eac6c7e8a5a7feb596ba8097b1a64c95810b06db5cd57dd55537cfc865e5b",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-01-03-n-body-simulation.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "N-Body Simulation",
+      "date": "2012-01-03",
+      "author": "Richard Lee",
+      "permalink": "/2012/01/03/n-body-simulation/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120107211637/http://rl337.org/2012/01/03/n-body-simulation/",
+      "archive_original_timestamp": "2012-01-03T16:38:17+00:00"
+    },
+    "article_sha256": "2eb8c7976d1c98dc91ec1d7f9fe9f817b0ac1db1d227177043d8d72cf8bd612a",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-06-19-modeling-die-rolls.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Modeling Die Rolls",
+      "date": "2012-06-19",
+      "author": "Richard Lee",
+      "permalink": "/2012/06/19/modeling-die-rolls/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120629070848/http://rl337.org/2012/06/19/modeling-die-rolls/",
+      "archive_original_timestamp": "2012-06-19T16:45:12+00:00"
+    },
+    "article_sha256": "20ead9dbcadf58812f18dde854f57eea3db6556cdc317f32241ca133a6c736ee",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-03-20-controlling-multiple-lcds-from-one-arduino.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Controlling multiple LCDs from one Arduino",
+      "date": "2012-03-20",
+      "author": "Richard Lee",
+      "permalink": "/2012/03/20/controlling-multiple-lcds-from-one-arduino/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120322020303/http://rl337.org/2012/03/20/controlling-multiple-lcds-from-one-arduino/",
+      "archive_original_timestamp": "2012-03-20T05:13:13+00:00",
+      "categories": [
+        "arduino-2"
+      ],
+      "tags": [
+        "demultiplexer",
+        "hexinverter",
+        "lcd"
+      ]
+    },
+    "article_sha256": "e4243114c01d496cb9d7e7514ca80b888ababb6291be3e991359466c42948f68",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2013-08-19-introduction-to-music-production-assignment-4.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Introduction to Music Production, Assignment 4",
+      "date": "2013-08-19",
+      "author": "Richard Lee",
+      "permalink": "/2013/08/19/introduction-to-music-production-assignment-4/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20141014125321/http://rl337.org/2013/08/19/introduction-to-music-production-assignment-4/",
+      "archive_original_timestamp": "2013-08-19T00:57:14+00:00"
+    },
+    "article_sha256": "e9a6635babdc2d367abbe3b7d131ab7ead63458b75bc0249152e56f7b2f1ecea",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-05-31-the-weirdo.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "The Weirdo",
+      "date": "2012-05-31",
+      "author": "Richard Lee",
+      "permalink": "/2012/05/31/the-weirdo/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120603205237/http://rl337.org/2012/05/31/the-weirdo/",
+      "archive_original_timestamp": "2012-05-31T16:34:47+00:00",
+      "categories": [
+        "weirdo"
+      ]
+    },
+    "article_sha256": "6b8cb6731b02d3713b34ebea1345c3efb41fda21d61272dfb4c2b1b482504117",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-09-22-naive-city-planning.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Naive City Planning",
+      "date": "2011-09-22",
+      "author": "Richard Lee",
+      "permalink": "/2011/09/22/naive-city-planning/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20110930043229/http://rl337.org/2011/09/22/naive-city-planning/",
+      "archive_original_timestamp": "2011-09-22T16:40:54+00:00",
+      "categories": [
+        "mars"
+      ]
+    },
+    "article_sha256": "4ec67ebe4b6f8925f06a84409e505eebe3eb60ea4d3dd2d4fd1c8f92142d184f",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-03-29-wifly-shield-off-to-a-rough-start.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "WyFly Shield off to a rough start",
+      "date": "2012-03-29",
+      "author": "Richard Lee",
+      "permalink": "/2012/03/29/wifly-shield-off-to-a-rough-start/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120410224131/http://rl337.org/2012/03/29/wifly-shield-off-to-a-rough-start/",
+      "archive_original_timestamp": "2012-03-29T16:41:38+00:00"
+    },
+    "article_sha256": "1374649611fdc7d6fabc6265163fe34ed26777de2959dfa87f7992c0598c4eeb",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-03-13-layers-of-detail-with-blitting-in-sdl.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Layers of Detail with Blitting in SDL",
+      "date": "2012-03-13",
+      "author": "Richard Lee",
+      "permalink": "/2012/03/13/layers-of-detail-with-blitting-in-sdl/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120315184832/http://rl337.org/2012/03/13/layers-of-detail-with-blitting-in-sdl/",
+      "archive_original_timestamp": "2012-03-13T16:07:45+00:00"
+    },
+    "article_sha256": "1e5ad6b64a4af35511d8b9374db13901faacd71cd073d15eef41ddb6225a0ca6",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-06-14-simple-ic-blender-model.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Simple IC Blender Model",
+      "date": "2012-06-14",
+      "author": "Richard Lee",
+      "permalink": "/2012/06/14/simple-ic-blender-model/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120629070633/http://rl337.org/2012/06/14/simple-ic-blender-model/",
+      "archive_original_timestamp": "2012-06-14T16:49:15+00:00",
+      "categories": [
+        "littlerobots"
+      ],
+      "tags": [
+        "blender"
+      ]
+    },
+    "article_sha256": "3ad76002a641f0154e9336bb4d553b5e605e95cabcffad2a0622e2e5ec261432",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-08-28-perception-and-pca.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Perception and PCA",
+      "date": "2012-08-28",
+      "author": "Richard Lee",
+      "permalink": "/2012/08/28/perception-and-pca/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20131021001338/http://rl337.org/2012/08/28/perception-and-pca/",
+      "archive_original_timestamp": "2012-08-28T09:19:09+00:00",
+      "categories": [
+        "ml"
+      ]
+    },
+    "article_sha256": "b5d032b93d2da26caf0cd09ebf1a818c19a99038610773e43268e0c2aa4d6fa6",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-12-06-smoke-simulation-and-the-make-human-project.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Smoke Simulation and the Make Human Project",
+      "date": "2011-12-06",
+      "author": "Richard Lee",
+      "permalink": "/2011/12/06/smoke-simulation-and-the-make-human-project/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120103130152/http://rl337.org/2011/12/06/smoke-simulation-and-the-make-human-project/",
+      "archive_original_timestamp": "2011-12-06T16:09:35+00:00"
+    },
+    "article_sha256": "d26c9931d1cec6cc7fc3f4d294267b7d9d73692e8d2669fbbda303d6abf6e91e",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-10-11-submediant-in-stereo-and-the-sounds-of-sputnik.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Submediant in Stereo and the Sounds of Sputnik",
+      "date": "2011-10-11",
+      "author": "Richard Lee",
+      "permalink": "/2011/10/11/submediant-in-stereo-and-the-sounds-of-sputnik/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20111020045837/http://rl337.org/2011/10/11/submediant-in-stereo-and-the-sounds-of-sputnik/",
+      "archive_original_timestamp": "2011-10-11T14:32:43+00:00"
+    },
+    "article_sha256": "21fe2b91c6eac6fb0e6459fb8dd476ac6991c06200defc134f0d3bff3e6ee2e8",
+    "recovery_sha256": "426a14fc3ccef809087432432c879bbc7a122b9538c3b45fb80feee7eb57bc24"
+  },
+  "2014-02-23-building-infrastructure-in-chuck.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Building infrastructure in ChucK",
+      "date": "2014-02-23",
+      "author": "Richard Lee",
+      "permalink": "/2014/02/23/building-infrastructure-in-chuck/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20140324224702/http://rl337.org/2014/02/23/building-infrastructure-in-chuck/",
+      "archive_original_timestamp": "2014-02-23T21:55:48+00:00",
+      "categories": [
+        "chuck"
+      ]
+    },
+    "article_sha256": "e94f6efffb1c24fe4cefcca1aedd5af656852eb3d22d4eccf68017e153501fb5",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-07-12-a-change-in-focus.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "A change in focus",
+      "date": "2011-07-12",
+      "author": "Richard Lee",
+      "permalink": "/2011/07/12/a-change-in-focus/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20111020171911/http://rl337.org/2011/07/12/a-change-in-focus/",
+      "archive_original_timestamp": "2011-07-12T15:40:21+00:00",
+      "categories": [
+        "littlerobots"
+      ],
+      "tags": [
+        "3d",
+        "announce",
+        "blender",
+        "portal2",
+        "robots"
+      ]
+    },
+    "article_sha256": "52b59494d5e6591ceab93671a018881e73dbb3e8015a29e8a4013f983fe5fc6c",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-07-31-in-java-when-is-math-abs-negative.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "When is Math.abs(x) < 0?",
+      "date": "2012-07-31",
+      "author": "Richard Lee",
+      "permalink": "/2012/07/31/in-java-when-is-math-abs-negative/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120822065908/http://rl337.org/2012/07/31/in-java-when-is-math-abs-negative/",
+      "archive_original_timestamp": "2012-07-31T09:07:31+00:00"
+    },
+    "article_sha256": "655ca79b78293153becafba94d1de5d70c32592ee6e8f45b0389397b4bc6e19b",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-08-25-a-case-for-mars.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "A Case for Mars",
+      "date": "2011-08-25",
+      "author": "Richard Lee",
+      "permalink": "/2011/08/25/a-case-for-mars/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20110930042043/http://rl337.org/2011/08/25/a-case-for-mars/",
+      "archive_original_timestamp": "2011-08-25T18:34:23+00:00",
+      "categories": [
+        "mars"
+      ],
+      "tags": [
+        "book",
+        "mars-2",
+        "zubrin"
+      ]
+    },
+    "article_sha256": "24feb857737b582726e6468d04b3918b3a7620aa4444eaa7b5529f1fcec72845",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2013-03-20-anatomy-of-a-robot.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Anatomy of a Robot",
+      "date": "2013-03-20",
+      "author": "Richard Lee",
+      "permalink": "/2013/03/20/anatomy-of-a-robot/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20130504071221/http://rl337.org/2013/03/20/anatomy-of-a-robot/",
+      "archive_original_timestamp": "2013-03-20T00:14:12+00:00",
+      "categories": [
+        "arduino-2",
+        "ml"
+      ]
+    },
+    "article_sha256": "429b8c0f65ab4957b40f9bd571106c2a6f913ee226ea2221c9d0ea24e4999b33",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-03-15-pgm-class-and-octave.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "PGM Class and Octave",
+      "date": "2012-03-15",
+      "author": "Richard Lee",
+      "permalink": "/2012/03/15/pgm-class-and-octave/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120322015347/http://rl337.org/2012/03/15/pgm-class-and-octave/",
+      "archive_original_timestamp": "2012-03-15T15:30:42+00:00"
+    },
+    "article_sha256": "1238abfcfc1d8e38c31674615b17ab2cab4c68f3fa2dad9a5c97d7391376bde6",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-08-23-eureka-strange-pose-behavior-solved.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Eureka! Strange pose behavior solved!",
+      "date": "2011-08-23",
+      "author": "Richard Lee",
+      "permalink": "/2011/08/23/eureka-strange-pose-behavior-solved/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20110930042040/http://rl337.org/2011/08/23/eureka-strange-pose-behavior-solved/",
+      "archive_original_timestamp": "2011-08-23T16:19:36+00:00",
+      "categories": [
+        "littlerobots"
+      ],
+      "tags": [
+        "3d",
+        "blender",
+        "robots",
+        "sena"
+      ]
+    },
+    "article_sha256": "b41c111ca61b6108f0d00636ba8046fb5b827bf9f266ca8871238d53c3c0fd26",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-04-17-weirdo-in-a-weird-land.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Weirdo in a Weird Land",
+      "date": "2012-04-17",
+      "author": "Richard Lee",
+      "permalink": "/2012/04/17/weirdo-in-a-weird-land/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120423062946/http://rl337.org/2012/04/17/weirdo-in-a-weird-land/",
+      "archive_original_timestamp": "2012-04-17T16:46:34+00:00"
+    },
+    "article_sha256": "9152a0fd17585f336255cd1448be212f8129ef40d709ee9bd1823b0c16d014af",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-08-30-pax-2011-redux.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "PAX 2011 Redux",
+      "date": "2011-08-30",
+      "author": "Richard Lee",
+      "permalink": "/2011/08/30/pax-2011-redux/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20110930042106/http://rl337.org/2011/08/30/pax-2011-redux/",
+      "archive_original_timestamp": "2011-08-30T21:36:06+00:00",
+      "tags": [
+        "pax",
+        "pax2011"
+      ]
+    },
+    "article_sha256": "c2cb5f536ce62bab15f7853a6958ca301dffee72ad720b1a8a711ba6a6ff259e",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-05-02-monkeying-with-8-bit-latches.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Monkeying with 8-bit Latches",
+      "date": "2012-05-02",
+      "author": "Richard Lee",
+      "permalink": "/2012/05/02/monkeying-with-8-bit-latches/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120521180524/http://rl337.org/2012/05/02/monkeying-with-8-bit-latches/",
+      "archive_original_timestamp": "2012-05-02T05:04:15+00:00",
+      "categories": [
+        "arduino-2"
+      ]
+    },
+    "article_sha256": "ceffb4b03a80c259bf5c0e9502e856d17fd26d7455c73ea8b6403d96766606e0",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-05-29-coursera-classes.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Coursera Classes",
+      "date": "2012-05-29",
+      "author": "Richard Lee",
+      "permalink": "/2012/05/29/coursera-classes/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120603205157/http://rl337.org/2012/05/29/coursera-classes/",
+      "archive_original_timestamp": "2012-05-29T16:21:27+00:00"
+    },
+    "article_sha256": "8f33dfe089f0765ec79977eeeec9787a8e21d085ee53157e9f3680db01a670ad",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2011-09-13-submediant-the-voice-of-robots.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Submediant, the voice of robots",
+      "date": "2011-09-13",
+      "author": "Richard Lee",
+      "permalink": "/2011/09/13/submediant-the-voice-of-robots/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20110930043108/http://rl337.org/2011/09/13/submediant-the-voice-of-robots/",
+      "archive_original_timestamp": "2011-09-13T15:54:57+00:00",
+      "categories": [
+        "littlerobots",
+        "submediant"
+      ],
+      "tags": [
+        "robots",
+        "sound"
+      ]
+    },
+    "article_sha256": "5ad779f9aaa086bd197632a87992e84bf797b2c5c06a81b7673dbd7e538adc5f",
+    "recovery_sha256": "0b86cd80f10b47fb99d34941f566c3672da68f94985c368182a7f641002f2ff1"
+  },
+  "2012-10-29-happy-birthday-bob-ross.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Happy Birthday, Bob Ross!",
+      "date": "2012-10-29",
+      "author": "Richard Lee",
+      "permalink": "/2012/10/29/happy-birthday-bob-ross/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20131020225241/http://rl337.org/2012/10/29/happy-birthday-bob-ross/",
+      "archive_original_timestamp": "2012-10-29T08:53:01+00:00",
+      "categories": [
+        "soapbox"
+      ]
+    },
+    "article_sha256": "995f5a0343c3715b448f9523ffd990d19813cc638112f340cedaedbb55e1639a",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-02-21-objective-c-c-and-opengl.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Objective C, C++ and OpenGL",
+      "date": "2012-02-21",
+      "author": "Richard Lee",
+      "permalink": "/2012/02/21/objective-c-c-and-opengl/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120307024902/http://rl337.org/2012/02/21/objective-c-c-and-opengl/",
+      "archive_original_timestamp": "2012-02-21T17:40:16+00:00"
+    },
+    "article_sha256": "b07a38e02082a86a88e94ec44e1366f01b3acb14f941e628fa6d3481449d9b63",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-07-17-added-logistic-regression-to-skynet.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Added Logistic Regression to Skynet",
+      "date": "2012-07-17",
+      "author": "Richard Lee",
+      "permalink": "/2012/07/17/added-logistic-regression-to-skynet/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120727181415/http://rl337.org/2012/07/17/added-logistic-regression-to-skynet/",
+      "archive_original_timestamp": "2012-07-17T23:24:30+00:00",
+      "categories": [
+        "ml"
+      ]
+    },
+    "article_sha256": "4a75ed49ded26310ee41de891c4e685399c2ac078f0e2dd1902f690b39eee6ed",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2012-01-11-smooth-analog-input-class-for-arduino.md": {
+    "metadata": {
+      "layout": "post",
+      "title": "Smooth Analog Input Class for Arduino",
+      "date": "2012-01-11",
+      "author": "Richard Lee",
+      "permalink": "/2012/01/11/smooth-analog-input-class-for-arduino/",
+      "legacy_archive": true,
+      "archive_source": "https://web.archive.org/web/20120113230753/http://rl337.org/2012/01/11/smooth-analog-input-class-for-arduino/",
+      "archive_original_timestamp": "2012-01-11T17:51:24+00:00",
+      "categories": [
+        "arduino-2"
+      ]
+    },
+    "article_sha256": "0d105ed4784facdadaf56ceb9df9247ee13f1b3d630d023347bdfbe850e0c222",
+    "recovery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

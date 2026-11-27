@@ -11,15 +11,6 @@ categories:
 - ml
 ---
 
-Originally published on 2013-01-06.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20131021050045/http://rl337.org/2013/01/06/perceptrons-as-a-digit-classifier/
-
-
-
-
 [![perceptron-diag](/assets/images/legacy-blog/2013/01/perceptron-diag.png.webp)][archive-link-1]It’s
 been a while since I posted.  I’ve continued to mess around with [Machine
 Learning](http://en.wikipedia.org/wiki/Machine_learning).  As a seemingly natural extension of

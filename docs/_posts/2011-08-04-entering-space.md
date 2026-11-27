@@ -16,15 +16,6 @@ tags:
 - zubrin
 ---
 
-Originally published on 2011-08-04.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20111130082240/http://rl337.org/2011/08/04/entering-space/
-
-
-
-
 [Original linked image: Entering
 Space](http://ecx.images-amazon.com/images/I/51wNtFuk78L._BO2,204,203,200_PIsitb-76_AA300_SH20_OU01_.jpg)
 

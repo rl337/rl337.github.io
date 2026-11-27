@@ -12,15 +12,6 @@ categories:
 - soapbox
 ---
 
-Originally published on 2012-07-27.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120822064928/http://rl337.org/2012/07/27/evil-robots-its-all-in-the-leds/
-
-
-
-
 By picking up machine learning and micro-controllers, I’ve found myself at a juncture.  A natural
 spot where these two hobbies naturally coincide.  Robots.
 

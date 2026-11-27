@@ -11,15 +11,6 @@ categories:
 - arduino-2
 ---
 
-Originally published on 2012-05-08.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120521180219/http://rl337.org/2012/05/08/arduino-control-from-web-via-wifly/
-
-
-
-
 [![IMG_0691](/assets/images/legacy-blog/2012/05/IMG_0691-300x224.jpg.webp)](/assets/images/legacy-blog/2012/05/IMG_0691.jpg.webp)
 
 I

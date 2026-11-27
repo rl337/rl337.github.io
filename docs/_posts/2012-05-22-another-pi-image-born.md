@@ -9,15 +9,6 @@ archive_source: https://web.archive.org/web/20120530095808/http://rl337.org/2012
 archive_original_timestamp: '2012-05-22T15:32:49+00:00'
 ---
 
-Originally published on 2012-05-22.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120530095808/http://rl337.org/2012/05/22/another-pi-image-born/
-
-
-
-
 [![pi](/assets/images/legacy-blog/2012/05/pi-300x268.jpg.webp)](/assets/images/legacy-blog/2012/05/pi.jpg.webp)
 
 I

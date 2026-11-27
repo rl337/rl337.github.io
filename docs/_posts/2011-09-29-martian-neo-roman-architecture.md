@@ -9,15 +9,6 @@ archive_source: https://web.archive.org/web/20111002043241/http://rl337.org/2011
 archive_original_timestamp: '2011-09-29T16:22:56+00:00'
 ---
 
-Originally published on 2011-09-29.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20111002043241/http://rl337.org/2011/09/29/martian-neo-roman-architecture/
-
-
-
-
 As I mentioned in my previous [Mars related blog](/2011/09/22/naive-city-planning/) post, it’s
 likely that the first settlement on the [Red Planet](http://en.wikipedia.org/wiki/Mars) will be made
 of [bricks](http://en.wikipedia.org/wiki/Brick).  So what will these early structures look like?

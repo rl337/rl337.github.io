@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<article class="post{% if page.legacy_archive %} restored-post{% endif %}">
+  <header class="post-header">
+    {% if page.legacy_archive %}<p class="eyebrow">From the original blog</p>{% endif %}
+    <h1>{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      {% if page.legacy_archive %}Originally published {% endif %}
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      · {{ page.author | default: site.author | escape }}
+    </p>
+  </header>
+  {% if page.legacy_archive %}
+  <aside class="archive-notice" aria-label="About this restored post">
+    <p>This post was recovered from the original rl337.org blog.
+      It reflects what I was working on and thinking about at the time.
+      Some old links, downloads, or embeds may no longer work.</p>
+    <a href="{{ page.archive_source | escape }}">View the Wayback Machine capture</a>
+  </aside>
+  {% endif %}
+  <div class="post-content prose">{{ content }}</div>
+  {% if page.recovery_notes %}
+  <aside class="recovery-notes prose" aria-labelledby="recovery-heading">
+    <h2 id="recovery-heading">Recovery notes</h2>
+    {{ page.recovery_notes | markdownify }}
+  </aside>
+  {% endif %}
+  {% if page.present_day_note %}
+  <aside class="present-day-note prose" aria-labelledby="note-heading">
+    <h2 id="note-heading">A present-day note</h2>
+    <p class="post-meta"><time datetime="{{ page.present_day_note_date | date: '%Y-%m-%d' }}">{{ page.present_day_note_date | date: "%B %-d, %Y" }}</time></p>
+    {{ page.present_day_note | markdownify }}
+  </aside>
+  {% endif %}
+  <footer class="post-footer">
+    {% if page.categories.size > 0 %}
+    <ul class="topic-list" aria-label="Categories">
+      {% for category in page.categories %}
+      {% assign slug = category | slugify %}
+      <li><a href="{{ '/categories/' | append: slug | append: '/' | relative_url }}">{{ category | escape }}</a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    <a href="{{ '/archives/' | relative_url }}">Browse the archive</a>
+  </footer>
+</article>

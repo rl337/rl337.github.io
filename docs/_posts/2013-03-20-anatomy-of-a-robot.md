@@ -12,15 +12,6 @@ categories:
 - ml
 ---
 
-Originally published on 2013-03-20.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20130504071221/http://rl337.org/2013/03/20/anatomy-of-a-robot/
-
-
-
-
 A while back, I wrote a [blog post](/2011/12/13/spherical-robots-and-arduino-uno/) about [spherical
 robots](http://www.google.com/?q=spherical+robot).   I had taken it upon myself to learn a bit more
 about [robotics](http://en.wikipedia.org/wiki/Robotics) with the intention of building a simple

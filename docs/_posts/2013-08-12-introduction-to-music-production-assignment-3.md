@@ -11,15 +11,6 @@ categories:
 - class
 ---
 
-Originally published on 2013-08-12.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20141014130024/http://rl337.org/2013/08/12/introduction-to-music-production-assignment-3/
-
-
-
-
 Hi. I’m Richard Lee from San Francisco.  This is my 3rd peer review assignment for [Berklee College
 of Music](http://www.berklee.edu/)‘s [Introduction to Music
 Production](https://class.coursera.org/musicproduction-002) Coursera Class.

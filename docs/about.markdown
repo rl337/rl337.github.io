@@ -2,23 +2,24 @@
 layout: page
 title: About
 permalink: /about/
+description: "Richard Lee · rl337.org"
 ---
 
-Hi, I'm Richard! Welcome to my corner of the internet.
+I'm Richard. This is my personal blog: a place for life, changing interests, and the
+projects I start, stop, or return to.
 
-This is where I share my thoughts, projects, and the occasional crazy idea. I'm passionate about technology, development, and exploring new ways to solve problems.
+My [Substack](https://rl337.substack.com) is home to my semi-professional writing.
+Here, there's room to talk about the decisions around a project as well as the thing itself.
 
-## What You'll Find Here
+## The original blog
 
-- **Tech insights** and lessons learned from building software
-- **Project showcases** and behind-the-scenes development stories  
-- **Random thoughts** on technology, productivity, and life
-- **Tutorials** and guides for things I've figured out
+The [archive]({{ '/archives/' | relative_url }}) includes posts from 2011–2014,
+recovered from the Wayback Machine. They cover robots, animation, electronics, music,
+and programming. They keep their original dates and addresses, with recovery notes
+where parts of the old site couldn't be brought back.
 
-## Connect With Me
+## Elsewhere
 
-- [GitHub](https://github.com/rl337) - Where the code lives
-- [Twitter](https://twitter.com/rl337) - Quick thoughts and updates
-- Email: rlee@tokyo3.com
-
-Thanks for stopping by! Feel free to reach out if you want to chat about anything you see here.
+- [Substack](https://rl337.substack.com)
+- [GitHub](https://github.com/rl337)
+- [Email](mailto:rlee@tokyo3.com)

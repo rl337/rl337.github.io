@@ -7,7 +7,8 @@ tags: [jekyll, github-pages, blogging]
 author: Richard Lee
 ---
 
-Welcome to my newly modernized blog! After years of letting this site sit dormant, I've finally given it the attention it deserves.
+Welcome to my newly modernized blog!
+After years of letting this site sit dormant, I've finally given it the attention it deserves.
 
 ## What's New
 

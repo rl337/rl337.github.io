@@ -15,15 +15,6 @@ tags:
 - sena
 ---
 
-Originally published on 2011-07-28.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20111021153841/http://rl337.org/2011/07/28/sena-eye-detail/
-
-
-
-
 [![Seña Eye
 Detail](/assets/images/legacy-blog/2011/07/sena-eye-concept.jpg.webp)](/assets/images/legacy-blog/2011/07/sena-eye-concept.jpg.webp)
 

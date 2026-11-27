@@ -9,15 +9,6 @@ archive_source: https://web.archive.org/web/20111111102415/http://rl337.org/2011
 archive_original_timestamp: '2011-11-03T15:58:00+00:00'
 ---
 
-Originally published on 2011-11-03.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20111111102415/http://rl337.org/2011/11/03/hello-sena-the-script/
-
-
-
-
 Last weekend I worked out the first draft of “Hello Seña”, the script that I’ll use for the first
 [Little
 Robots](https://web.archive.org/web/20111111102415/http://rl337.org/category/littlerobots/?sortby=ID&order=ASC)

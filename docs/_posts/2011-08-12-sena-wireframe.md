@@ -16,15 +16,6 @@ tags:
 - sena
 ---
 
-Originally published on 2011-08-12.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20160605151008/http://rl337.org/2011/08/12/sena-wireframe/
-
-
-
-
 [![Seña
 Wireframe](/assets/images/legacy-blog/2011/08/sena-wireframe-284x300.jpg.webp)](/assets/images/legacy-blog/2011/08/sena-wireframe.jpg.webp)
 

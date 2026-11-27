@@ -2,123 +2,41 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: "A showcase of my development projects and experiments"
+description: "Projects with documentation and other things to explore."
 ---
 
-Here are all the projects I've worked on, automatically analyzed from my GitHub repositories. Projects are ranked by activity level, from most active to archived.
+A selection of projects, with links to their published sites and source code.
+Related Substack writing is linked where available.
 
-## 🔥 Very Active Projects
-
-{% assign very_active = site.projects | where: "activity_level", "very_active" %}
-{% for project in very_active %}
-### {{ project.title }}
-
-{{ project.description }}
-
-**Technologies:** {{ project.technologies | join: ', ' }}  
-**Status:** 🔥 Very Active | ⭐ {{ project.stars }} stars | 🍴 {{ project.forks }} forks  
-**Last Updated:** {{ project.last_updated }}
-
-{% if project.github %}[View on GitHub]({{ project.github }}){% endif %}{% if project.live_url %} | [Live Demo]({{ project.live_url }}){% endif %}
-
----
+<div class="project-grid">
+{% assign featured_projects = site.data.projects | where: "featured", true %}
+{% for project in featured_projects %}
+<article class="project-card">
+  <p class="eyebrow">{{ project.kind | escape }}</p>
+  <h2><a href="{{ project.site_url | relative_url | escape }}">{{ project.title | escape }}</a></h2>
+  <p>{{ project.description | escape }}</p>
+  <ul class="project-links">
+    <li><a href="{{ project.site_url | relative_url | escape }}">{{ project.site_label | escape }}</a></li>
+    {% if project.repository %}<li><a href="{{ project.repository | escape }}">Source code</a></li>{% endif %}
+    {% for tag in project.substack_tags %}
+    <li><a href="{{ tag.url | escape }}">Substack: {{ tag.title | escape }}</a></li>
+    {% endfor %}
+    {% for post in project.substack_posts %}
+    <li><a href="{{ post.url | escape }}">{{ post.title | escape }} · Substack</a></li>
+    {% endfor %}
+  </ul>
+</article>
 {% endfor %}
+</div>
 
-## ⚡ Active Projects
+## More published sites
 
-{% assign active = site.projects | where: "activity_level", "active" %}
-{% for project in active %}
-### {{ project.title }}
+Other project sites, demos, and collections you can visit.
 
-{{ project.description }}
-
-**Technologies:** {{ project.technologies | join: ', ' }}  
-**Status:** ⚡ Active | ⭐ {{ project.stars }} stars | 🍴 {{ project.forks }} forks  
-**Last Updated:** {{ project.last_updated }}
-
-{% if project.github %}[View on GitHub]({{ project.github }}){% endif %}{% if project.live_url %} | [Live Demo]({{ project.live_url }}){% endif %}
-
----
+<ul class="project-preview">
+{% assign other_projects = site.data.projects | where: "featured", false %}
+{% for project in other_projects %}
+<li><a href="{{ project.site_url | relative_url | escape }}">{{ project.title | escape }}</a>
+<span>{{ project.summary | escape }}</span></li>
 {% endfor %}
-
-## 📈 Moderate Activity
-
-{% assign moderate = site.projects | where: "activity_level", "moderate" %}
-{% for project in moderate %}
-### {{ project.title }}
-
-{{ project.description }}
-
-**Technologies:** {{ project.technologies | join: ', ' }}  
-**Status:** 📈 Moderate | ⭐ {{ project.stars }} stars | 🍴 {{ project.forks }} forks  
-**Last Updated:** {{ project.last_updated }}
-
-{% if project.github %}[View on GitHub]({{ project.github }}){% endif %}{% if project.live_url %} | [Live Demo]({{ project.live_url }}){% endif %}
-
----
-{% endfor %}
-
-## 📉 Low Activity
-
-{% assign low = site.projects | where: "activity_level", "low" %}
-{% for project in low %}
-### {{ project.title }}
-
-{{ project.description }}
-
-**Technologies:** {{ project.technologies | join: ', ' }}  
-**Status:** 📉 Low | ⭐ {{ project.stars }} stars | 🍴 {{ project.forks }} forks  
-**Last Updated:** {{ project.last_updated }}
-
-{% if project.github %}[View on GitHub]({{ project.github }}){% endif %}{% if project.live_url %} | [Live Demo]({{ project.live_url }}){% endif %}
-
----
-{% endfor %}
-
-## 😴 Idle Projects
-
-{% assign idle = site.projects | where: "activity_level", "idle" %}
-{% for project in idle %}
-### {{ project.title }}
-
-{{ project.description }}
-
-**Technologies:** {{ project.technologies | join: ', ' }}  
-**Status:** 😴 Idle | ⭐ {{ project.stars }} stars | 🍴 {{ project.forks }} forks  
-**Last Updated:** {{ project.last_updated }}
-
-{% if project.github %}[View on GitHub]({{ project.github }}){% endif %}{% if project.live_url %} | [Live Demo]({{ project.live_url }}){% endif %}
-
----
-{% endfor %}
-
-## 📦 Archived Projects
-
-{% assign archived = site.projects | where: "activity_level", "archived" %}
-{% for project in archived %}
-### {{ project.title }}
-
-{{ project.description }}
-
-**Technologies:** {{ project.technologies | join: ', ' }}  
-**Status:** 📦 Archived | ⭐ {{ project.stars }} stars | 🍴 {{ project.forks }} forks  
-**Last Updated:** {{ project.last_updated }}
-
-{% if project.github %}[View on GitHub]({{ project.github }}){% endif %}{% if project.live_url %} | [Live Demo]({{ project.live_url }}){% endif %}
-
----
-{% endfor %}
-
----
-
-## Project Statistics
-
-- **Total Projects:** {{ site.projects.size }}
-- **Very Active:** {{ very_active.size }}
-- **Active:** {{ active.size }}
-- **Moderate:** {{ moderate.size }}
-- **Low Activity:** {{ low.size }}
-- **Idle:** {{ idle.size }}
-- **Archived:** {{ archived.size }}
-
-*This page is automatically updated from my GitHub repositories. Have a project idea you'd like to collaborate on? [Get in touch](mailto:rlee@tokyo3.com)!*
+</ul>

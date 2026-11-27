@@ -11,15 +11,6 @@ categories:
 - chuck
 ---
 
-Originally published on 2014-02-23.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20140324224702/http://rl337.org/2014/02/23/building-infrastructure-in-chuck/
-
-
-
-
 [ChucK](http://chuck.cs.princeton.edu/) is a programming environment specifically geared toward
 generating sound.  I was first exposed to it through the Coursera Class [Introduction to Programming
 for Musicians and Digital Artists](https://www.coursera.org/course/chuck101).

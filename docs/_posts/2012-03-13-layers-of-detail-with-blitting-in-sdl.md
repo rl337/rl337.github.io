@@ -9,15 +9,6 @@ archive_source: https://web.archive.org/web/20120315184832/http://rl337.org/2012
 archive_original_timestamp: '2012-03-13T16:07:45+00:00'
 ---
 
-Originally published on 2012-03-13.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120315184832/http://rl337.org/2012/03/13/layers-of-detail-with-blitting-in-sdl/
-
-
-
-
 [![example-composite](/assets/images/legacy-blog/2012/03/example-composite-300x225.jpg.webp)](/assets/images/legacy-blog/2012/03/example-composite.jpg.webp)
 
 Continuing

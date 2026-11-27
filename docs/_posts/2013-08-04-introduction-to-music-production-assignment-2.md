@@ -9,14 +9,13 @@ archive_source: https://web.archive.org/web/20131222032551/http://rl337.org/2013
 archive_original_timestamp: '2013-08-04T23:54:45+00:00'
 categories:
 - class
+recovery_notes: |
+  The original Flash audio was not recovered.
+
+  [Original audio URL in Wayback][legacy-audio-1].
+
+  [legacy-audio-1]: https://web.archive.org/web/20140000000000/http://rl337.org/wp-content/uploads/2013/08/Introduction-to-Music-Production-2.mp3
 ---
-
-Originally published on 2013-08-04.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20131222032551/http://rl337.org/2013/08/04/introduction-to-music-production-assignment-2/
-
 
 My name is Richard Lee from San Francisco.  I’d like to welcome you to my second peer reviewed
 assignment for Berklee College of Music’s [Introduction to Music Production Coursera
@@ -117,16 +116,3 @@ difficult to film yourself doing tight actions such as adjusting gains or pluggi
  Perhaps I’ll be inspired by the creativity of my classmates and give it a shot next week.
 
 Thanks for reviewing me.
-
-
-
-
-
-
-
-
-The original Flash audio was not recovered.
-
-[Original audio URL in Wayback][legacy-audio-1].
-
-[legacy-audio-1]: https://web.archive.org/web/20140000000000/http://rl337.org/wp-content/uploads/2013/08/Introduction-to-Music-Production-2.mp3

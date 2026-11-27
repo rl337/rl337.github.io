@@ -9,15 +9,6 @@ archive_source: https://web.archive.org/web/20120107211637/http://rl337.org/2012
 archive_original_timestamp: '2012-01-03T16:38:17+00:00'
 ---
 
-Originally published on 2012-01-03.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120107211637/http://rl337.org/2012/01/03/n-body-simulation/
-
-
-
-
 A long time ago, I created a simple animation using [POV-Ray](http://povray.org/) that simulated a
 [Neptune](http://en.wikipedia.org/wiki/Neptune)-like planet that I named Augustus-Voltaire 4.  I
 used POV-Ray’s built-in [programmatic texturing](http://povray.org/documentation/view/3.6.1/331/)

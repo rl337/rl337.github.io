@@ -11,15 +11,6 @@ categories:
 - ml
 ---
 
-Originally published on 2012-07-17.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120727181415/http://rl337.org/2012/07/17/added-logistic-regression-to-skynet/
-
-
-
-
 [![logisticregression-label](/assets/images/legacy-blog/2012/07/logisticregression-label-290x300.png.webp)](/assets/images/legacy-blog/2012/07/logisticregression-label.png.webp)[Skynet](https://github.com/rl337/incubator/tree/master/main/skynet)
 has continued to progress.  I’ve now validated my [Logistic
 Regression](http://en.wikipedia.org/wiki/Logistic_regression) code.

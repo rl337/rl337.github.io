@@ -14,15 +14,6 @@ tags:
 - mars-2
 ---
 
-Originally published on 2011-07-14.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20160605152157/http://rl337.org/2011/07/14/project-mars/
-
-
-
-
 [Project: Mars](https://web.archive.org/web/20160605152157/http://rl337.org/project-mars/) is the
 more generic name for a podcast concept that I came up with which is loosely modeled on [This
 American Life](http://www.thisamericanlife.org/).  Essentially, what I would like to do is explore

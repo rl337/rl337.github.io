@@ -9,15 +9,6 @@ archive_source: https://web.archive.org/web/20120410224131/http://rl337.org/2012
 archive_original_timestamp: '2012-03-29T16:41:38+00:00'
 ---
 
-Originally published on 2012-03-29.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120410224131/http://rl337.org/2012/03/29/wifly-shield-off-to-a-rough-start/
-
-
-
-
 [![IMG_0652](/assets/images/legacy-blog/2012/03/IMG_0652-300x224.jpg.webp)](/assets/images/legacy-blog/2012/03/IMG_0652.jpg.webp)
 
 Here

@@ -11,15 +11,6 @@ categories:
 - arduino-2
 ---
 
-Originally published on 2012-05-02.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120521180524/http://rl337.org/2012/05/02/monkeying-with-8-bit-latches/
-
-
-
-
 I while back, I bought a couple of [8-bit
 Latches][archive-link-1]
 which I had intended to conquer the world with… but just never got around to it. As I’ve just found

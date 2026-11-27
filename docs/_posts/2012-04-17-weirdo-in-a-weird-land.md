@@ -9,15 +9,6 @@ archive_source: https://web.archive.org/web/20120423062946/http://rl337.org/2012
 archive_original_timestamp: '2012-04-17T16:46:34+00:00'
 ---
 
-Originally published on 2012-04-17.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120423062946/http://rl337.org/2012/04/17/weirdo-in-a-weird-land/
-
-
-
-
 Weirdo in a Weird Land is the working title for the slowly [progressing
 game.](/2012/04/10/sdl-side-scroller-takes-shape/)
 

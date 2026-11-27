@@ -16,15 +16,6 @@ tags:
 - sena
 ---
 
-Originally published on 2011-08-11.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20111130081814/http://rl337.org/2011/08/11/rigging-its-tougher-than-it-looks/
-
-
-
-
 So I spent the last few hours trying to figure out why my aperture lines up correctly in one pose
 but not in another.  I’m sure that there’s a simple solution to the problem… and looking back I’ll
 think, “D’oh! yeah, that was a dumb newb mistake.”   In a previous life, I was told that experiences

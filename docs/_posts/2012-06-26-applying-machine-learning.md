@@ -9,15 +9,6 @@ archive_source: https://web.archive.org/web/20120629070917/http://rl337.org/2012
 archive_original_timestamp: '2012-06-26T16:02:43+00:00'
 ---
 
-Originally published on 2012-06-26.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120629070917/http://rl337.org/2012/06/26/applying-machine-learning/
-
-
-
-
 [![small-icon.hover](/assets/images/legacy-blog/2012/05/small-icon.hover_-150x135.png.webp)](/assets/images/legacy-blog/2012/05/small-icon.hover_.png.webp)
 
 I’ve

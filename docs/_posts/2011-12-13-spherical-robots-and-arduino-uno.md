@@ -12,15 +12,6 @@ tags:
 - robots
 ---
 
-Originally published on 2011-12-13.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120103185858/http://rl337.org/2011/12/13/spherical-robots-and-arduino-uno/
-
-
-
-
 Back in November, I was at the [Academy of Science](http://www.calacademy.org) for
 [Nightlife](http://www.calacademy.org/events/nightlife/) and found nestled in the creepy taxidermy
 ([African Hall](http://www.calacademy.org/academy/exhibits/nat_history/)), I ran into Spherical

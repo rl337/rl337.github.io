@@ -15,15 +15,6 @@ tags:
 - mars-2
 ---
 
-Originally published on 2011-07-21.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20160605144713/http://rl337.org/2011/07/21/heightmap-woes/
-
-
-
-
 I started toying with converting some of the mars bitmaps into [height
 maps](http://en.wikipedia.org/wiki/Heightmap).
 

@@ -11,15 +11,6 @@ categories:
 - ml
 ---
 
-Originally published on 2012-08-28.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20131021001338/http://rl337.org/2012/08/28/perception-and-pca/
-
-
-
-
 In [Machine Learning](http://en.wikipedia.org/wiki/Machine_learning), you can use [Principal
 Component Analysis](http://en.wikipedia.org/wiki/Principal_component_analysis) as a lossy transform
 that lets you reduce the complexity of data in order to improve the performance of computationally

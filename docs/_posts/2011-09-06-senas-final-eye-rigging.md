@@ -16,15 +16,6 @@ tags:
 - sena
 ---
 
-Originally published on 2011-09-06.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20110930043103/http://rl337.org/2011/09/06/senas-final-eye-rigging/
-
-
-
-
 [![eye-rigging-final](/assets/images/legacy-blog/2011/09/eye-rigging-final-300x271.jpg.webp)](/assets/images/legacy-blog/2011/09/eye-rigging-final.jpg.webp)
 
 I

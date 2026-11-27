@@ -15,15 +15,6 @@ tags:
 - books
 ---
 
-Originally published on 2011-10-20.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20111023174801/http://rl337.org/2011/10/20/books-and-book-covers/
-
-
-
-
 Creating book covers, particularly when you don’t really care about how well the book will actually
 sell… is a lot of fun.  For the first [Little
 Robots](https://web.archive.org/web/20111023174801/http://rl337.org/category/littlerobots/?sortby=ID&order=ASC)

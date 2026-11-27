@@ -11,15 +11,6 @@ categories:
 - arduino-2
 ---
 
-Originally published on 2012-07-10.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120719043822/http://rl337.org/2012/07/10/8x8-led-matrix-animation/
-
-
-
-
 [![IMG_0781](/assets/images/legacy-blog/2012/07/IMG_0781-300x225.jpg.webp)](/assets/images/legacy-blog/2012/07/IMG_0781.jpg.webp)
 
 It’s

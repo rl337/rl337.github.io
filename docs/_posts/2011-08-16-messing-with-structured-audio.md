@@ -11,14 +11,13 @@ categories:
 - littlerobots
 tags:
 - structuredaudio
+recovery_notes: |
+  The original Flash audio was not recovered.
+
+  [Original audio URL in Wayback][legacy-audio-1].
+
+  [legacy-audio-1]: https://web.archive.org/web/20140000000000/http://rl337.org/wp-content/uploads/2011/08/simplesine-threetone.mp3
 ---
-
-Originally published on 2011-08-16.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20111020212050/http://rl337.org/2011/08/16/messing-with-structured-audio/
-
 
 It’s time to seriously consider what Seña will sound like. To accomplish that, I’ve started messing
 with [structured audio](http://www.cs.berkeley.edu/~lazzaro/sa/book/index.html).  What does that
@@ -75,10 +74,3 @@ able to get it to play with an itunes converted m4a…
 
 UPDATE: I managed to get a proper mp3 toolchain going. I might describe that in more detail on
 Thursday. For now, here is a proper flash audio player
-
-
-The original Flash audio was not recovered.
-
-[Original audio URL in Wayback][legacy-audio-1].
-
-[legacy-audio-1]: https://web.archive.org/web/20140000000000/http://rl337.org/wp-content/uploads/2011/08/simplesine-threetone.mp3

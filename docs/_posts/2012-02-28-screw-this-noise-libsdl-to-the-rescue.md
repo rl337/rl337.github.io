@@ -9,15 +9,6 @@ archive_source: https://web.archive.org/web/20120307025020/http://rl337.org/2012
 archive_original_timestamp: '2012-02-28T16:26:10+00:00'
 ---
 
-Originally published on 2012-02-28.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120307025020/http://rl337.org/2012/02/28/screw-this-noise-libsdl-to-the-rescue/
-
-
-
-
 [Archived image:
 SDL_logo][archive-link-1]I’d
 spent the last week beating my head trying to learn the dark arts of programming for the [OS

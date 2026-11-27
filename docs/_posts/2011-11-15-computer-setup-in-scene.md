@@ -13,15 +13,6 @@ tags:
 - drawing
 ---
 
-Originally published on 2011-11-15.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20111116142329/http://rl337.org/2011/11/15/computer-setup-in-scene/
-
-
-
-
 [![computer-setup](/assets/images/legacy-blog/2011/11/computer-setup.jpg.webp)](/assets/images/legacy-blog/2011/11/computer-setup.jpg.webp)
 
 This

@@ -1,0 +1,72 @@
+# Curated public project catalog. Audited 2026-11-27.
+# See README.md for maintenance and Substack tag fields.
+- title: Mechaharness
+  featured: true
+  kind: Agents & tools
+  summary: A harness for working with language models.
+  description: An agent harness that brings context, tools, rules, and execution loops to local or remote language models.
+  repository: https://github.com/rl337/mechaharness
+  site_url: https://rl337.org/mechaharness/
+  site_label: Read the documentation
+  substack_tags: []
+- title: pyiv
+  featured: true
+  kind: Python
+  summary: Dependency injection and utility modules.
+  description: A lightweight Python dependency injection framework with utilities for filesystems, configuration, and clocks.
+  repository: https://github.com/rl337/pyiv
+  site_url: https://rl337.org/pyiv/
+  site_label: Read the documentation
+  substack_tags: []
+  substack_posts:
+    - title: Getting your agents to use Dependency Injection
+      url: https://rl337.substack.com/p/getting-your-agents-to-use-dependency
+- title: Metro
+  featured: true
+  kind: Generative experiments
+  summary: City layouts with SVG previews.
+  description: A city layout generator that produces SVG previews.
+  repository: https://github.com/rl337/metro
+  site_url: https://rl337.org/metro/
+  site_label: Explore the project site
+  substack_tags: []
+- title: Submediant
+  featured: true
+  kind: Sound & robots
+  summary: Experiments in giving robots a voice.
+  description: Synthesized sound and music for the Little Robots, with posts from the original blog.
+  site_url: /categories/submediant/
+  site_label: Read the original project posts
+  substack_tags: []
+- title: The Dark Closet
+  featured: false
+  kind: Game
+  summary: A Pinocchio-inspired platformer.
+  description: A Pinocchio-inspired 2D platformer built with Python and Pygame.
+  site_url: https://rl337.org/pale-blue-dot/
+  site_label: Explore the published site
+  substack_tags: []
+- title: Confidence
+  featured: false
+  kind: Data
+  summary: BTC/USD charts and reference material.
+  description: Published BTC/USD charts, analysis, and reference material.
+  site_url: https://rl337.org/coinmageddon/
+  site_label: Open the published site
+  substack_tags: []
+- title: Inspiration
+  featured: false
+  kind: Reading
+  summary: Curated threads and topic indexes.
+  description: A collection of curated threads, with topic and archive indexes.
+  site_url: https://rl337.org/trouble/
+  site_label: Browse the published collection
+  substack_tags: []
+- title: CorbyCarby
+  featured: false
+  kind: Game
+  summary: A browser-based project.
+  description: The published CorbyCarby browser project.
+  site_url: https://rl337.org/CorbyCarby/
+  site_label: Open the published project
+  substack_tags: []

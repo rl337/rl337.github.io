@@ -9,16 +9,6 @@ archive_source: https://web.archive.org/web/20120521180441/http://rl337.org/2012
 archive_original_timestamp: '2012-04-25T08:39:39+00:00'
 ---
 
-Originally published on 2012-04-25.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120521180441/http://rl337.org/2012/04/25/building-for-windows/
-
-
-
-
-
 [![Download Windows
 Version!](/assets/images/legacy-blog/2012/04/windows-logo.jpg.webp)][archive-link-1]
 

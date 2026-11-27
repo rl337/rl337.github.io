@@ -14,15 +14,6 @@ tags:
 - blender
 ---
 
-Originally published on 2012-01-05.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120108051714/http://rl337.org/2012/01/05/iphone4-blender-model-still-incomplete-but-oh-well/
-
-
-
-
 [![iphone4-screenshot](/assets/images/legacy-blog/2012/01/iphone4-screenshot-236x300.png.webp)](/assets/images/legacy-blog/2012/01/iphone4-screenshot.png.webp)
 
 Continuing

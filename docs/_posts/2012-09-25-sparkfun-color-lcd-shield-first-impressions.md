@@ -16,15 +16,6 @@ tags:
 - sparkfun
 ---
 
-Originally published on 2012-09-25.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20131021005409/http://rl337.org/2012/09/25/sparkfun-color-lcd-shield-first-impressions/
-
-
-
-
 [![IMG_0935](/assets/images/legacy-blog/2012/09/IMG_0935-e1348631879326-300x225.jpg.webp)](/assets/images/legacy-blog/2012/09/IMG_0935-e1348631879326.jpg.webp)
 
 I

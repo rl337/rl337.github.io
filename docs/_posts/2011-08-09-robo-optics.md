@@ -17,15 +17,6 @@ tags:
 - sena
 ---
 
-Originally published on 2011-08-09.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20151122074727/http://rl337.org/2011/08/09/robo-optics/
-
-
-
-
 I’m finally getting into the grave details of modeling robot optics.  There is something that I’ve
 noticed about sci-fi movie optics that make no real sense logically, but they definitely add drama
 and emotiveness… the idea of eye color.

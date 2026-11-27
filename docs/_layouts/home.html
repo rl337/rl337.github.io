@@ -3,16 +3,29 @@ layout: default
 ---
 <div class="home">
   {{ content }}
-
-  <h2 class="post-list-heading">Recent posts</h2>
-  <ul class="post-list">
-    {%- assign recent_posts = site.posts | where_exp: "post", "post.legacy_archive != true" -%}
-    {%- for post in recent_posts limit: 6 -%}
-    <li>
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
-    </li>
-    {%- endfor -%}
-  </ul>
-  <p><a href="{{ '/archives/' | relative_url }}">Browse all posts, including the original blog</a></p>
+  <section class="home-section" aria-labelledby="original-blog">
+    <div class="section-heading"><h2 id="original-blog">From the original blog</h2><a href="{{ '/archives/' | relative_url }}">Browse the archive</a></div>
+    <p class="section-intro">Posts from 2011–2014, recovered from the Wayback Machine. Robots, animation, music, and things I was trying to figure out.</p>
+    <div class="archive-highlights">
+      {% assign archive_urls = "/2011/09/13/submediant-the-voice-of-robots/|/2011/11/03/hello-sena-the-script/|/2014/02/23/building-infrastructure-in-chuck/" | split: "|" %}
+      {% for url in archive_urls %}
+      {% assign entry = site.posts | where: "url", url | first %}
+      <article>
+        <p class="eyebrow">{{ entry.date | date: "%Y" }}</p>
+        <h3><a href="{{ entry.url | relative_url }}">{{ entry.title | escape }}</a></h3>
+        <p>{% case forloop.index %}{% when 1 %}Giving the Little Robots a voice through synthesized sound.{% when 2 %}A first script for a Little Robots animation.{% when 3 %}Exploring music theory through code.{% endcase %}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+  <section class="home-section" aria-labelledby="projects-heading">
+    <div class="section-heading"><h2 id="projects-heading">Projects &amp; experiments</h2><a href="{{ '/projects/' | relative_url }}">All projects</a></div>
+    <p class="section-intro">Documentation and other things you can explore.</p>
+    <ul class="project-preview">
+      {% assign featured_projects = site.data.projects | where: "featured", true %}
+      {% for project in featured_projects %}
+      <li><a href="{{ project.site_url | relative_url | escape }}">{{ project.title | escape }}</a><span>{{ project.summary | escape }}</span></li>
+      {% endfor %}
+    </ul>
+  </section>
 </div>
