@@ -12,4 +12,4 @@ jobs:
       - name: Build development environment
         run: docker build -t rl337-dev .
       - name: Build production site
-        run: ./docker-run.sh bash -c 'cd docs && JEKYLL_ENV=production bundle exec jekyll build --strict_front_matter --trace'
+        run: ./docker-run.sh bash -c 'cd docs && bundle install && JEKYLL_ENV=production bundle exec jekyll build --strict_front_matter --trace'
