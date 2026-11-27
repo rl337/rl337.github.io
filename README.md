@@ -79,9 +79,9 @@ Leave unknown or nonexistent tags empty; never manufacture tag pages.
 The public-repository audit on 2026-11-27 found Pages sites for Mechaharness,
 Metro, pyiv, c10y, and this website. Richard explicitly excluded c10y and requested
 Submediant, which links to its restored archive until a current public site exists.
-A subsequent authenticated audit also found reachable public sites for The Dark Closet,
-Confidence, Inspiration, and CorbyCarby. These appear in the secondary published-site list
-without links to private source repositories. Submediant has Pages configured, but its
+A subsequent authenticated audit also found reachable public sites for Confidence
+and CorbyCarby. These appear in the secondary published-site list without links to private
+source repositories. References to the two retired project sites were removed. Submediant has Pages configured, but its
 expected public URL returned 404 during verification.
 This is a manually maintained selection, not a claim of perpetual completeness.
 Recheck public repositories and final site URLs when updating the catalog.
@@ -96,3 +96,32 @@ Tag mappings can be added as Richard establishes them.
 `socials/tools/studio/assets/skins.css`. Keep dark, readable text and visible
 keyboard focus against the soft background and pastel surfaces. Shared layouts
 cover personal pages, current posts, restored articles, and taxonomy archives.
+
+## Project notes and crow illustrations
+
+The three retained January 2025 project posts (Curioshelf, June, and Metro) were rewritten
+using the Richard Lee editorial guides in the sibling `socials` project. Facts were checked
+against the repositories' current contents. The two obsolete writeups and their project-directory
+links were removed; both old article URLs redirect to the writing index.
+
+The revised posts keep their original dates and have explicit permalinks matching their existing
+addresses. A visible revision date distinguishes the rewrite from the original publication.
+Keep invented experiences, feature inventories, random checklists, and project-status reports out
+of these posts. Use verified details and supplied personal observations instead.
+
+Each retained note uses one conceptual crow illustration generated with Qwen-Image 2.1.
+The public prompt, seed, model, output hash, and encoding manifest lives in
+`scripts/imagegen/crow-illustrations.json`. Original PNG generations, unused variations,
+and service job state are local-only under `.env/crow-imagegen/`; the website serves
+optimized WebP copies. The Metro note also uses its explicitly identified 2011 settlement sketch.
+
+Generation used the existing Qwen-Image 2.1 ComfyUI workflow. Configure its endpoint locally;
+do not put private service addresses or credentials in the public manifest. The old
+Midjourney/placeholder scripts are legacy utilities and should not replace the new illustrations.
+Tests validate retained metadata and URLs, generated image references, removal of the obsolete
+project links and status/checklist sections, and preservation of the 85 original archive posts.
+
+The three revised project notes include small Python examples checked against their
+current source. June also includes a conceptual architecture SVG exported from
+the shared socials visualization studio with the Watercolor skin. Its editable
+composition is kept locally under socials/.env/diagrams/.
