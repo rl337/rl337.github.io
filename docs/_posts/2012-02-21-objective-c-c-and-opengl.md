@@ -9,15 +9,6 @@ archive_source: https://web.archive.org/web/20120307024902/http://rl337.org/2012
 archive_original_timestamp: '2012-02-21T17:40:16+00:00'
 ---
 
-Originally published on 2012-02-21.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120307024902/http://rl337.org/2012/02/21/objective-c-c-and-opengl/
-
-
-
-
 [Archived image:
 silver-apple-logo][archive-link-1]I
 started working on converting my

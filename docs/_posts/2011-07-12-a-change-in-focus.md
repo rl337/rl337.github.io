@@ -17,15 +17,6 @@ tags:
 - robots
 ---
 
-Originally published on 2011-07-12.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20111020171911/http://rl337.org/2011/07/12/a-change-in-focus/
-
-
-
-
 So I gave Drupal a try but found that I had no patience for actually writing HTML or messing with
 the hundreds of little plugins… blah. How things have changed… so.. hello WordPress!
 

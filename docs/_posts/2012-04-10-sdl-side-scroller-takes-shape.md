@@ -9,16 +9,7 @@ archive_source: https://web.archive.org/web/20120414122454/http://rl337.org/2012
 archive_original_timestamp: '2012-04-10T16:32:43+00:00'
 ---
 
-Originally published on 2012-04-10.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120414122454/http://rl337.org/2012/04/10/sdl-side-scroller-takes-shape/
-
-
-
-
- In my [previous
+In my [previous
 post](/2012/03/13/layers-of-detail-with-blitting-in-sdl/) on
 [SDL](http://libsdl.org), I talked a little bit about layering bitmaps to create a simple [side
 scroller](http://en.wikipedia.org/wiki/Side-scrolling_video_game).

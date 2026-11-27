@@ -11,15 +11,6 @@ categories:
 - ml
 ---
 
-Originally published on 2012-07-24.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120822064923/http://rl337.org/2012/07/24/approximating-complex-functions-using-linear-regression/
-
-
-
-
 [![approx-ex](/assets/images/legacy-blog/2012/07/approx-ex-290x300.png.webp)](/assets/images/legacy-blog/2012/07/approx-ex.png.webp)
 
 So

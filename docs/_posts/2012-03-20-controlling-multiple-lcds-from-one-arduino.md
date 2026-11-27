@@ -15,15 +15,6 @@ tags:
 - lcd
 ---
 
-Originally published on 2012-03-20.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120322020303/http://rl337.org/2012/03/20/controlling-multiple-lcds-from-one-arduino/
-
-
-
-
 [![IMG_0641](/assets/images/legacy-blog/2012/03/IMG_0641-300x224.jpg.webp)](/assets/images/legacy-blog/2012/03/IMG_0641.jpg.webp)
 
 Taking

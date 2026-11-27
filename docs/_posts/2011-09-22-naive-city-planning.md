@@ -11,15 +11,6 @@ categories:
 - mars
 ---
 
-Originally published on 2011-09-22.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20110930043229/http://rl337.org/2011/09/22/naive-city-planning/
-
-
-
-
 In order to make a realistic city of 240,000 people, I wanted to go back to the very beginnings of
 the city, all the way back to its first founding.  In my
 [mythology](http://en.wikipedia.org/wiki/Mythology), 250 years before the podcast takes place, we

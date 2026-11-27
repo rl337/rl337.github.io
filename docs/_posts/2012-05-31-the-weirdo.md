@@ -11,15 +11,6 @@ categories:
 - weirdo
 ---
 
-Originally published on 2012-05-31.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120603205237/http://rl337.org/2012/05/31/the-weirdo/
-
-
-
-
 [![weirdo](/assets/images/legacy-blog/2012/05/weirdo.jpg.webp)](/assets/images/legacy-blog/2012/05/weirdo.jpg.webp)
 
 After

@@ -11,15 +11,6 @@ categories:
 - mars
 ---
 
-Originally published on 2011-09-20.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20110930043132/http://rl337.org/2011/09/20/martian-census-data/
-
-
-
-
 It’s been a while since I posted anything about [Project:
 Mars](https://web.archive.org/web/20110930043132/http://rl337.org/category/mars/?sortby=ID&order=ASC),
 so here we go…

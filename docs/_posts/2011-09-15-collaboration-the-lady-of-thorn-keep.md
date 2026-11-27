@@ -15,15 +15,6 @@ tags:
 - writing
 ---
 
-Originally published on 2011-09-15.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20110930044411/http://rl337.org/2011/09/15/collaboration-the-lady-of-thorn-keep/
-
-
-
-
 [Archived image: The Lady of Thorn Keep, Part
 1][archive-link-1]One
 of my on-going writing projects is a collaboration with artist and friend

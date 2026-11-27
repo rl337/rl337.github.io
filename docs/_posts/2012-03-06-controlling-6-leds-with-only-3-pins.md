@@ -13,15 +13,6 @@ tags:
 - demultiplexer-led-inverter
 ---
 
-Originally published on 2012-03-06.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120308111928/http://rl337.org/2012/03/06/controlling-6-leds-with-only-3-pins/
-
-
-
-
 The [Arduino Uno](http://arduino.cc/en/Main/ArduinoBoardUno) has something like 13 [digital I/O
 pins](http://arduino.cc/en/Tutorial/DigitalPins) and 5 [analog I/O
 pins](http://arduino.cc/en/Tutorial/AnalogInputPins) which can be re-tasked to act like digital pins

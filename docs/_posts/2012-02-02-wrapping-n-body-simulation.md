@@ -9,15 +9,6 @@ archive_source: https://web.archive.org/web/20120424223833/http://rl337.org/2012
 archive_original_timestamp: '2012-02-02T17:33:16+00:00'
 ---
 
-Originally published on 2012-02-02.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120424223833/http://rl337.org/2012/02/02/wrapping-n-body-simulation/
-
-
-
-
 [Original embedded media](http://www.youtube.com/embed/zHEIBDKso5w?rel=0)
 
 Continuing with my [previous efforts](/2012/01/03/n-body-simulation/), I updated

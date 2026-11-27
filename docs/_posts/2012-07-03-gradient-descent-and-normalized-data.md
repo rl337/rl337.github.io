@@ -11,15 +11,6 @@ categories:
 - ml
 ---
 
-Originally published on 2012-07-03.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120706234502/http://rl337.org/2012/07/03/gradient-descent-and-normalized-data/
-
-
-
-
 [Skynet](https://github.com/rl337/incubator/tree/master/main/skynet) is coming along nicely. I’ve
 gotten the chance to build out a fairly comprehensive [Linear
 Regression](http://en.wikipedia.org/wiki/Linear_regression) object model.

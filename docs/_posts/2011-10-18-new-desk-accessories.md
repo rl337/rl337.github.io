@@ -9,15 +9,6 @@ archive_source: https://web.archive.org/web/20111020070226/http://rl337.org/2011
 archive_original_timestamp: '2011-10-18T15:30:46+00:00'
 ---
 
-Originally published on 2011-10-18.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20111020070226/http://rl337.org/2011/10/18/new-desk-accessories/
-
-
-
-
 This weekend I went through and added a couple new models to my desk
 scene..[![mini-wireframe](/assets/images/legacy-blog/2011/10/mini-wireframe.png.webp)](/assets/images/legacy-blog/2011/10/mini-wireframe.png.webp)
 

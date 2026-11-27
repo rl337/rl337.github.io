@@ -11,15 +11,6 @@ categories:
 - littlerobots
 ---
 
-Originally published on 2011-10-06.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20111007115758/http://rl337.org/2011/10/06/get-it-together-animation-planning/
-
-
-
-
 [![seña-magnifier](/assets/images/legacy-blog/2011/10/se%C3%B1a-magnifier-150x150.jpg.webp)](/assets/images/legacy-blog/2011/10/se%C3%B1a-magnifier.jpg.webp)
 
 It’s

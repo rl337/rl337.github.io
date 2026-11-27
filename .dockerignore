@@ -1,0 +1,15 @@
+.git
+.env
+**/.env
+**/vendor
+**/_site
+**/__pycache__
+**/.mypy_cache
+**/.pytest_cache
+**/.jekyll-cache
+**/.jekyll-metadata
+**/.coverage
+**/htmlcov
+**/venv
+**/node_modules
+**/*.log

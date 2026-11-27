@@ -9,15 +9,6 @@ archive_source: https://web.archive.org/web/20120322015347/http://rl337.org/2012
 archive_original_timestamp: '2012-03-15T15:30:42+00:00'
 ---
 
-Originally published on 2012-03-15.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120322015347/http://rl337.org/2012/03/15/pgm-class-and-octave/
-
-
-
-
 [![octave](/assets/images/legacy-blog/2012/03/octave.png.webp)](/assets/images/legacy-blog/2012/03/octave.png.webp)
 
 About

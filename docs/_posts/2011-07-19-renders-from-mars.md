@@ -14,15 +14,6 @@ tags:
 - mars-2
 ---
 
-Originally published on 2011-07-19.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20160605182739/http://rl337.org/2011/07/19/renders-from-mars/
-
-
-
-
 I’ve started to put some thought into where the martian city is to be located.  To do that, I need
 to study a little bit on martian martian topology.  It turns out that we have some raw
 [data](http://pds-geosciences.wustl.edu/geo/mgs-m-mola-5-megdr-l3-v1/mgsl_300x/) from

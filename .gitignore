@@ -65,7 +65,6 @@ Thumbs.db
 *.temp
 
 # Docker artifacts
-.dockerignore
 docker-compose.override.yml
 
 # Coverage reports
@@ -76,3 +75,6 @@ scripts/htmlcov/
 env.sh
 .env
 *.env
+
+.mypy_cache/
+.env/

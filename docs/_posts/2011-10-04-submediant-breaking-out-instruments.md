@@ -13,14 +13,13 @@ tags:
 - lullaby
 - music
 - sound
+recovery_notes: |
+  The original Flash audio was not recovered.
+
+  [Original audio URL in Wayback][legacy-audio-1].
+
+  [legacy-audio-1]: https://web.archive.org/web/20140000000000/http://rl337.org/wp-content/uploads/2011/10/little_robots-let_them_eat_test-all_through_the_night.mp3
 ---
-
-Originally published on 2011-10-04.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20111007115745/http://rl337.org/2011/10/04/submediant-breaking-out-instruments/
-
 
 I did a bit more work on
 [Submediant](/2011/09/13/submediant-the-voice-of-robots/). The
@@ -45,10 +44,3 @@ In case you’re curious… here’s the Submediant score file:
 
 [View the original score in the archived
 post](https://web.archive.org/web/20111007115745/http://rl337.org/2011/10/04/submediant-breaking-out-instruments/)
-
-
-The original Flash audio was not recovered.
-
-[Original audio URL in Wayback][legacy-audio-1].
-
-[legacy-audio-1]: https://web.archive.org/web/20140000000000/http://rl337.org/wp-content/uploads/2011/10/little_robots-let_them_eat_test-all_through_the_night.mp3

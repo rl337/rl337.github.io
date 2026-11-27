@@ -12,14 +12,13 @@ categories:
 tags:
 - imagine
 - sound
+recovery_notes: |
+  The original Flash audio was not recovered.
+
+  [Original audio URL in Wayback][legacy-audio-1].
+
+  [legacy-audio-1]: https://web.archive.org/web/20140000000000/http://rl337.org/wp-content/uploads/2011/09/little_robots-let_them_eat_test-imagine.mp3
 ---
-
-Originally published on 2011-09-27.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20111001121634/http://rl337.org/2011/09/27/submediant-imagine-a-work-in-progress/
-
 
 This past weekend, I worked more on [Submediant](/2011/09/13/submediant-the-voice-of-robots/).  This
 time through included both an internal [refactor](http://en.wikipedia.org/wiki/Code_refactoring) as
@@ -53,10 +52,3 @@ There are a few aspects of the code that bother meâ€¦ it needs more refactoringâ
 the point where I need it.  I can now use Submediant as a framework to give [Little
 Robots](https://web.archive.org/web/20111001121634/http://rl337.org/category/littlerobots/?sortby=ID&order=ASC)
 the ability to speak.
-
-
-The original Flash audio was not recovered.
-
-[Original audio URL in Wayback][legacy-audio-1].
-
-[legacy-audio-1]: https://web.archive.org/web/20140000000000/http://rl337.org/wp-content/uploads/2011/09/little_robots-let_them_eat_test-imagine.mp3

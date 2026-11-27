@@ -9,15 +9,6 @@ archive_source: https://web.archive.org/web/20120603205157/http://rl337.org/2012
 archive_original_timestamp: '2012-05-29T16:21:27+00:00'
 ---
 
-Originally published on 2012-05-29.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120603205157/http://rl337.org/2012/05/29/coursera-classes/
-
-
-
-
 I’ve been increasingly impressed by the quality of the online classes on
 [Coursera](http://coursera.org).
 

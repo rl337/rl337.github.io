@@ -9,15 +9,6 @@ archive_source: https://web.archive.org/web/20120103130152/http://rl337.org/2011
 archive_original_timestamp: '2011-12-06T16:09:35+00:00'
 ---
 
-Originally published on 2011-12-06.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120103130152/http://rl337.org/2011/12/06/smoke-simulation-and-the-make-human-project/
-
-
-
-
 Over Thanksgiving, I spent time back in Miami, where I grew up.  During that time I essentially took
 a break from everything… including projects.  However… I did find some interesting material
 regarding 3D that I made note of to try…

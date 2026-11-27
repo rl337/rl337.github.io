@@ -11,14 +11,13 @@ categories:
 - littlerobots
 tags:
 - structuredaudio
+recovery_notes: |
+  The original Flash audio was not recovered.
+
+  [Original audio URL in Wayback][legacy-audio-1].
+
+  [legacy-audio-1]: https://web.archive.org/web/20140000000000/http://rl337.org/wp-content/uploads/2011/08/sine-cmajor.mp3
 ---
-
-Originally published on 2011-08-18.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20160605170608/http://rl337.org/2011/08/18/structured-audio-c-major-scale/
-
 
 I’m continuing to experiment with [MP4-SA](http://www.cs.berkeley.edu/%7Elazzaro/sa/index.html).
 This time around I have a bit more refined infrastructure built.  The major trouble that I had with
@@ -88,10 +87,3 @@ this should be a global variable of some kind but I could not seem to get that t
 One thing I will probably do in the future is change the frequency numbers of each note to be
 aliases, much like the @INSTRUMENT@.  This will make it easier to score more complex songs.  I
 should also do that for note duration.
-
-
-The original Flash audio was not recovered.
-
-[Original audio URL in Wayback][legacy-audio-1].
-
-[legacy-audio-1]: https://web.archive.org/web/20140000000000/http://rl337.org/wp-content/uploads/2011/08/sine-cmajor.mp3

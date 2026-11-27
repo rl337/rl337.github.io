@@ -11,15 +11,6 @@ categories:
 - weirdo
 ---
 
-Originally published on 2012-06-05.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120629070629/http://rl337.org/2012/06/05/weirdo-mythology/
-
-
-
-
 [![weirdo-kid](/assets/images/legacy-blog/2012/06/weirdo-kid.jpg.webp)](/assets/images/legacy-blog/2012/06/weirdo-kid.jpg.webp)
 
 I

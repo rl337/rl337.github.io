@@ -14,15 +14,6 @@ tags:
 - blender
 ---
 
-Originally published on 2011-10-27.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20111102202625/http://rl337.org/2011/10/27/something-to-write-with/
-
-
-
-
 [![A Pen and
 Paper](/assets/images/legacy-blog/2011/10/pen_and_paper-300x168.png.webp)](/assets/images/legacy-blog/2011/10/pen_and_paper.png.webp)
 

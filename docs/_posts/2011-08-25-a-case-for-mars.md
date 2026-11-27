@@ -15,15 +15,6 @@ tags:
 - zubrin
 ---
 
-Originally published on 2011-08-25.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20110930042043/http://rl337.org/2011/08/25/a-case-for-mars/
-
-
-
-
 About 3 weeks ago, I wrote a [post](/2011/08/04/entering-space/) about [Robert
 Zubrin](http://en.wikipedia.org/wiki/Robert_Zubrin)‘s book [Entering
 Space](http://www.amazon.com/gp/product/1585420360).  My full review (although admittedly kinda

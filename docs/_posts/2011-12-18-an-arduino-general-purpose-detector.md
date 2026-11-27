@@ -11,15 +11,6 @@ tags:
 - arduino
 ---
 
-Originally published on 2011-12-18.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120103185442/http://rl337.org/2011/12/18/an-arduino-general-purpose-detector/
-
-
-
-
 I’ve been spending some time getting acquainted with my new [Arduino
 Uno](http://arduino.cc/en/Main/ArduinoBoardUno).
 

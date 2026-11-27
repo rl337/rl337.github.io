@@ -1,0 +1,15 @@
+---
+layout: page
+title: Writing
+permalink: /writing/
+description: "Personal notes and posts from the blog."
+---
+<p>For the original 2011–2014 posts, <a href="{{ '/archives/' | relative_url }}">browse the restored archive</a>.
+My semi-professional writing is on <a href="{{ site.substack_url }}">Substack</a>.</p>
+{% assign posts = site.posts | where_exp: "post", "post.legacy_archive != true" %}
+<ul class="writing-list">
+{% for post in posts %}
+  <li><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2></li>
+{% endfor %}
+</ul>

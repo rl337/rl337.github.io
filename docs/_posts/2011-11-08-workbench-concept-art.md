@@ -15,15 +15,6 @@ tags:
 - sena
 ---
 
-Originally published on 2011-11-08.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20111111113556/http://rl337.org/2011/11/08/workbench-concept-art/
-
-
-
-
 [![workbench-arm](/assets/images/legacy-blog/2011/11/workbench-arm.jpg.webp)](/assets/images/legacy-blog/2011/11/workbench-arm.jpg.webp)
 
 Over

@@ -9,15 +9,6 @@ archive_source: https://web.archive.org/web/20120307024838/http://rl337.org/2012
 archive_original_timestamp: '2012-01-24T16:44:08+00:00'
 ---
 
-Originally published on 2012-01-24.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120307024838/http://rl337.org/2012/01/24/blender-background-images/
-
-
-
-
 While I was building the [iPhone4
 model](/2012/01/05/iphone4-blender-model-still-incomplete-but-oh-well/),
 I began to realize that my proportions were off.  The Home Button seemed out of place. The front

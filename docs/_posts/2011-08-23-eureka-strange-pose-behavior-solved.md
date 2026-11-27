@@ -16,15 +16,6 @@ tags:
 - sena
 ---
 
-Originally published on 2011-08-23.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20110930042040/http://rl337.org/2011/08/23/eureka-strange-pose-behavior-solved/
-
-
-
-
 A while back, I had
 [posted](/2011/08/11/rigging-its-tougher-than-it-looks/)
 about a strange rigging behavior that I was seeing.  I’m not sure that the description that I was

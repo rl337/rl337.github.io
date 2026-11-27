@@ -11,15 +11,6 @@ tags:
 - blender
 ---
 
-Originally published on 2012-07-05.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120719042724/http://rl337.org/2012/07/05/blender-rtfm/
-
-
-
-
 A while back, I picked up the book [Introducing Character Animation with
 Blender](http://www.blender3d.org/e-shop/product_info_n.php?products_id=136) from
 [blender3d.org](http://blender3d.org).  I primarily bought it to support the [blender

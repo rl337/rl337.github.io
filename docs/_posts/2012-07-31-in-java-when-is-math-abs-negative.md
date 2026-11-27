@@ -9,15 +9,6 @@ archive_source: https://web.archive.org/web/20120822065908/http://rl337.org/2012
 archive_original_timestamp: '2012-07-31T09:07:31+00:00'
 ---
 
-Originally published on 2012-07-31.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120822065908/http://rl337.org/2012/07/31/in-java-when-is-math-abs-negative/
-
-
-
-
 [![drunk-duke](/assets/images/legacy-blog/2012/07/drunk-duke-280x300.png.webp)](/assets/images/legacy-blog/2012/07/drunk-duke.png.webp)
 
 I

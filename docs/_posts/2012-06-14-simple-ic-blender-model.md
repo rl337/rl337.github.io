@@ -13,15 +13,6 @@ tags:
 - blender
 ---
 
-Originally published on 2012-06-14.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120629070633/http://rl337.org/2012/06/14/simple-ic-blender-model/
-
-
-
-
 [![ic](/assets/images/legacy-blog/2012/06/ic.jpg.webp)](/assets/images/legacy-blog/2012/06/ic.jpg.webp)
 
 It’s

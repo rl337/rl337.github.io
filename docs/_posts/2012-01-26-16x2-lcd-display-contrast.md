@@ -11,15 +11,6 @@ categories:
 - arduino-2
 ---
 
-Originally published on 2012-01-26.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120307024842/http://rl337.org/2012/01/26/16x2-lcd-display-contrast/
-
-
-
-
 [![lcd-rig](/assets/images/legacy-blog/2012/01/lcd-rig-266x300.jpg.webp)](/assets/images/legacy-blog/2012/01/lcd-rig.jpg.webp)
 
 A

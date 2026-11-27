@@ -13,15 +13,6 @@ tags:
 - writing
 ---
 
-Originally published on 2011-09-01.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20110930042850/http://rl337.org/2011/09/01/the-pax-2011-sorting-workshop/
-
-
-
-
 [![IMG_0310](/assets/images/legacy-blog/2011/09/IMG_0310-224x300.jpg.webp)](/assets/images/legacy-blog/2011/09/IMG_0310.jpg.webp)
 
 I

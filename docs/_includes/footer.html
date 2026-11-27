@@ -1,42 +1,11 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-        <div class="footer-sugar-glider">
-          <img src="{{ '/assets/images/sugar-gliders/sugar-glider-footer.png' | relative_url }}" 
-               alt="Sugar Glider Footer" 
-               class="footer-mascot" 
-               width="48" 
-               height="36">
-        </div>
-      </div>
-    </div>
-
+<footer class="site-footer">
+  <div class="wrapper footer-inner">
+    <p><strong>Richard Lee</strong><br>Life, projects, and personal notes.</p>
+    <nav aria-label="Elsewhere and feeds">
+      <a href="{{ site.substack_url }}">Substack</a>
+      <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+      <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+      <a href="mailto:{{ site.email }}">Email</a>
+    </nav>
   </div>
-
 </footer>

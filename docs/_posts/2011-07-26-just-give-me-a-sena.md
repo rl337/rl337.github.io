@@ -15,15 +15,6 @@ tags:
 - sena
 ---
 
-Originally published on 2011-07-26.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20151122074409/http://rl337.org/2011/07/26/just-give-me-a-sena/
-
-
-
-
 [![Seña Skeletal
 design](/assets/images/legacy-blog/2011/07/sena-concept-300x287.jpg.webp)](/assets/images/legacy-blog/2011/07/sena-concept.jpg.webp)
 

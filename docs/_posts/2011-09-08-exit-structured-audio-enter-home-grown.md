@@ -15,14 +15,13 @@ tags:
 - robots
 - sound
 - structuredaudio
+recovery_notes: |
+  The original Flash audio was not recovered.
+
+  [Original audio URL in Wayback][legacy-audio-1].
+
+  [legacy-audio-1]: https://web.archive.org/web/20140000000000/http://rl337.org/wp-content/uploads/2011/09/wavegen-temp.mp3
 ---
-
-Originally published on 2011-09-08.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20110930042945/http://rl337.org/2011/09/08/exit-structured-audio-enter-home-grown/
-
 
 In a previous [blog
 post](/2011/08/16/messing-with-structured-audio/), I had explored
@@ -102,10 +101,3 @@ I decided to write the thing in [perl](http://perl.org) for the practice.  I use
 perl at work, so as this project grows, it’ll force me to learn the proper perl patterns.
 
 If you’re curious what that program produces? Here’s the converted MP3:
-
-
-The original Flash audio was not recovered.
-
-[Original audio URL in Wayback][legacy-audio-1].
-
-[legacy-audio-1]: https://web.archive.org/web/20140000000000/http://rl337.org/wp-content/uploads/2011/09/wavegen-temp.mp3

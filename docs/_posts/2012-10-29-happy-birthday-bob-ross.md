@@ -11,15 +11,6 @@ categories:
 - soapbox
 ---
 
-Originally published on 2012-10-29.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20131020225241/http://rl337.org/2012/10/29/happy-birthday-bob-ross/
-
-
-
-
 Today would be [Bob Ross](http://en.wikipedia.org/wiki/Bob_Ross)‘s 70th
 birthday. [![Bob_at_Easel](/assets/images/legacy-blog/2012/10/Bob_at_Easel-232x300.jpeg.webp)](/assets/images/legacy-blog/2012/10/Bob_at_Easel.jpeg.webp)
 

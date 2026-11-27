@@ -14,15 +14,6 @@ tags:
 - blender
 ---
 
-Originally published on 2011-10-13.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20111020070151/http://rl337.org/2011/10/13/whats-on-my-desk/
-
-
-
-
 … stays on my desk…
 
 This image is just me showing off the new desk model that I created in

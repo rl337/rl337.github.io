@@ -11,15 +11,6 @@ categories:
 - arduino-2
 ---
 
-Originally published on 2012-01-11.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20120113230753/http://rl337.org/2012/01/11/smooth-analog-input-class-for-arduino/
-
-
-
-
 [![IMG_0465](/assets/images/legacy-blog/2012/01/IMG_0465-1024x764.jpg.webp)](/assets/images/legacy-blog/2012/01/IMG_0465.jpg.webp)
 
 In

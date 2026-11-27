@@ -1,10 +1,9 @@
-# Main navigation items
 main:
-  - title: "Home"
-    url: "/"
-  - title: "About"
-    url: "/about/"
-  - title: "Projects"
-    url: "/projects/"
-  - title: "Archives"
-    url: "/archives/"
+  - title: Writing
+    url: /writing/
+  - title: Projects
+    url: /projects/
+  - title: Archive
+    url: /archives/
+  - title: About
+    url: /about/

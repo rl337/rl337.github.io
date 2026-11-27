@@ -9,15 +9,6 @@ archive_source: https://web.archive.org/web/20141014125321/http://rl337.org/2013
 archive_original_timestamp: '2013-08-19T00:57:14+00:00'
 ---
 
-Originally published on 2013-08-19.
-
-[View the Wayback capture][legacy-source].
-
-[legacy-source]: https://web.archive.org/web/20141014125321/http://rl337.org/2013/08/19/introduction-to-music-production-assignment-4/
-
-
-
-
 This is Richard Lee from San Francisco welcoming you to my 4th assignment for
 [Coursera](http://coursera.org) and [Berklee College of Music’s](http://www.berklee.edu/) class,
 [Introduction to Music Production](https://class.coursera.org/musicproduction-002/class).
