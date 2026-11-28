@@ -38,14 +38,6 @@
   site_url: /categories/submediant/
   site_label: Read the original project posts
   substack_tags: []
-- title: The Dark Closet
-  featured: false
-  kind: Game
-  summary: A Pinocchio-inspired platformer.
-  description: A Pinocchio-inspired 2D platformer built with Python and Pygame.
-  site_url: https://rl337.org/pale-blue-dot/
-  site_label: Explore the published site
-  substack_tags: []
 - title: Confidence
   featured: false
   kind: Data
@@ -53,14 +45,6 @@
   description: Published BTC/USD charts, analysis, and reference material.
   site_url: https://rl337.org/coinmageddon/
   site_label: Open the published site
-  substack_tags: []
-- title: Inspiration
-  featured: false
-  kind: Reading
-  summary: Curated threads and topic indexes.
-  description: A collection of curated threads, with topic and archive indexes.
-  site_url: https://rl337.org/trouble/
-  site_label: Browse the published collection
   substack_tags: []
 - title: CorbyCarby
   featured: false

@@ -113,3 +113,9 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2rem 0; }
   .archive-list li { gap: .5rem; }
   .archive-notice,.recovery-notes,.present-day-note { padding: 1rem; }
 }
+
+.post-illustration, .architecture-figure { margin: 2rem 0; }
+.post-illustration img, .architecture-figure img { display: block; width: 100%; height: auto; }
+.post-illustration figcaption, .architecture-figure figcaption {
+  margin-top: .7rem; color: var(--muted); font: .875rem/1.65 system-ui,sans-serif;
+}

@@ -1,0 +1,119 @@
+{
+  "model": "Qwen-Image 2.1",
+  "unet": "qwen_image_2.1_int8_convrot.safetensors",
+  "clip": "qwen3vl_8b_int8_convrot.safetensors",
+  "vae": "qwen_image_2.1_vae_bf16.safetensors",
+  "width": 1280,
+  "height": 720,
+  "steps": 25,
+  "cfg": 1,
+  "sampler": "euler",
+  "scheduler": "simple",
+  "negative_prompt": "text, letters, words, typography, watermark, logo, screenshot, user interface, photograph, human, sugar glider, blurry, low quality, extra wings, extra legs",
+  "images": [
+    {
+      "filename": "curioshelf-interface.webp",
+      "post": "curioshelf",
+      "seed": 3371200,
+      "prompt": "Editorial illustration in delicate ink and granulated watercolor on warm white cotton paper. A clever black crow with subtle indigo and violet feather iridescence is the recurring character, with natural bird anatomy and no clothing. Gentle muted pastel blue, sage green, dusty pink, peach and lavender washes; charcoal details, airy composition, tactile paper, quiet curiosity and understated humor. A polished wide landscape composition, cohesive with an understated personal blog. Conceptual illustration, not a software screenshot. No typography, letters, labels, logos, watermarks, human faces, or sugar gliders. A crow carefully arranging miniature painted game sprites, pebbles, leaves and texture swatches into tidy shallow wooden specimen drawers. An organized visual collection seen from a slightly elevated angle.",
+      "alt": "A crow arranging small game assets in neatly divided drawers.",
+      "caption": "Crow illustration of organizing visual assets. Generated with Qwen-Image 2.1.",
+      "source_filename": "curioshelf-interface.png",
+      "sha256": "c0dcc035a9244800d2f4f4a74d1dff55b2411ee43532035a57d5a39f7bfc8e99"
+    },
+    {
+      "filename": "june-ai-agent.webp",
+      "post": "june",
+      "seed": 3371204,
+      "prompt": "Editorial illustration in delicate ink and granulated watercolor on warm white cotton paper. A clever black crow with subtle indigo and violet feather iridescence is the recurring character, with natural bird anatomy and no clothing. Gentle muted pastel blue, sage green, dusty pink, peach and lavender washes; charcoal details, airy composition, tactile paper, quiet curiosity and understated humor. A polished wide landscape composition, cohesive with an understated personal blog. Conceptual illustration, not a software screenshot. No typography, letters, labels, logos, watermarks, human faces, or sugar gliders. Two crows collaborating at a modest wooden desk, one selecting a small puzzle piece while the other fits matching pieces into a little mechanical construction. A softly glowing abstract monitor in the background, without readable interface elements. The image conveys delegation and shared problem-solving.",
+      "alt": "Two crows working together on a small mechanical puzzle.",
+      "caption": "Crow illustration of collaborating with a coding assistant. Generated with Qwen-Image 2.1.",
+      "source_filename": "june-ai-agent.png",
+      "sha256": "265a7eec97e4a75728fa3bbd43fd9b5eec87978b9e833930d9e619aaaa846040"
+    },
+    {
+      "filename": "metro-city-simulation.webp",
+      "post": "metro",
+      "seed": 3371208,
+      "prompt": "Editorial illustration in delicate ink and granulated watercolor on warm white cotton paper. A clever black crow with subtle indigo and violet feather iridescence is the recurring character, with natural bird anatomy and no clothing. Gentle muted pastel blue, sage green, dusty pink, peach and lavender washes; charcoal details, airy composition, tactile paper, quiet curiosity and understated humor. A polished wide landscape composition, cohesive with an understated personal blog. Conceptual illustration, not a software screenshot. No typography, letters, labels, logos, watermarks, human faces, or sugar gliders. A crow standing on a low rooftop above an intricate miniature city made of watercolor paper and wooden blocks. Streets form a loose grid, with small parks and varied buildings; a bird's-eye oblique composition suggests exploring urban structure. No technical map labels.",
+      "alt": "A crow overlooking a miniature city of paper and wooden blocks.",
+      "caption": "Crow illustration of exploring city layouts. Generated with Qwen-Image 2.1.",
+      "source_filename": "metro-city-simulation.png",
+      "sha256": "165dd7493a911c332c8025657aad2cba515fb534abe7da107a02d31f9fb75154"
+    }
+  ],
+  "encoding": {
+    "format": "WEBP",
+    "quality": 88,
+    "method": 6
+  },
+  "posts": {
+    "2025-01-15-curioshelf-visual-asset-manager.md": {
+      "preserved_metadata": {
+        "layout": "post",
+        "date": "2025-01-15 12:00:00 -0500",
+        "categories": [
+          "projects",
+          "tools",
+          "python",
+          "game-development"
+        ],
+        "author": "Richard Lee"
+      },
+      "permalink": "/projects/tools/python/game-development/2025/01/15/curioshelf-visual-asset-manager.html",
+      "tags": [
+        "asset-management",
+        "2d-games",
+        "python",
+        "pyside6",
+        "game-development"
+      ]
+    },
+    "2025-01-15-june-coding-agent-with-web-interface.md": {
+      "preserved_metadata": {
+        "layout": "post",
+        "date": "2025-01-15 14:00:00 -0500",
+        "categories": [
+          "projects",
+          "ai",
+          "python",
+          "web-development"
+        ],
+        "author": "Richard Lee"
+      },
+      "permalink": "/projects/ai/python/web-development/2025/01/15/june-coding-agent-with-web-interface.html",
+      "tags": [
+        "agents",
+        "orchestration",
+        "python",
+        "mechaharness"
+      ]
+    },
+    "2025-01-15-metro-metropolitan-simulation-framework.md": {
+      "preserved_metadata": {
+        "layout": "post",
+        "date": "2025-01-15 13:00:00 -0500",
+        "categories": [
+          "projects",
+          "python",
+          "simulation",
+          "visualization"
+        ],
+        "author": "Richard Lee"
+      },
+      "permalink": "/projects/python/simulation/visualization/2025/01/15/metro-metropolitan-simulation-framework.html",
+      "tags": [
+        "python",
+        "simulation",
+        "matplotlib",
+        "demographics",
+        "visualization",
+        "urban-planning"
+      ]
+    }
+  },
+  "retired_urls": [
+    "/projects/tools/python/2025/01/15/trouble-static-documentation-generator.html",
+    "/projects/games/python/2025/01/15/the-dark-closet-pinocchio-platformer.html"
+  ]
+}

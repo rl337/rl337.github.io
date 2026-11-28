@@ -1,288 +1,91 @@
 ---
 layout: post
-title: "June - A Coding Agent with Web Interface"
+title: "June: what happens between agent runs"
 date: 2025-01-15 14:00:00 -0500
 categories: [projects, ai, python, web-development]
-tags: [ai, coding-agent, together-ai, flask, web-interface, automation]
+tags: [agents, orchestration, python, mechaharness]
 author: Richard Lee
+permalink: /projects/ai/python/web-development/2025/01/15/june-coding-agent-with-web-interface.html
+last_modified_at: 2026-11-27
 ---
 
-![June AI Agent]({{ '/assets/images/blog/june-ai-agent.png' | relative_url }})
-*June's web interface showing the AI coding agent in action*
+<p class="post-meta">Revised November 27, 2026.</p>
 
-Have you ever wished you had a coding assistant that could just... work in the b
-ackground, handling the tedious parts of development while you focus on the big picture? T
-hat's exactly what I was thinking when I started building **June** - an AI-powered co
-ding agent that's become one of my most experimental and surprisingly useful project
-s.
+Suppose I give an agent a goal that needs more than one run. It finishes the first
+task and produces a result. What tells it whether to continue, what to do next,
+or what to keep for the next run?
 
-What began as a simple experiment with Together.ai's API quickly evolved into so
-mething much more interesting: a persistent coding assistant that could actually execut
-e code, save files, and provide real-time feedback through a web interface. Let m
-e tell you about the journey.
+That's the part of the system that [June](https://github.com/rl337/june) is
+concerned with. Its current design puts persistent goals, scheduling, and the
+work ledger around the execution machinery in
+[MechaHarness](https://github.com/rl337/mechaharness).
 
-## 🤖 The AI Assistant Experiment
+<figure class="post-illustration">
+  <img src="{{ '/assets/images/blog/june-ai-agent.webp' | relative_url }}"
+       alt="Two crows working together on a small mechanical puzzle."
+       width="1280" height="720" loading="eager" decoding="async">
+  <figcaption>
+    Crow illustration of collaborating with a coding assistant. Generated with Qwen-Image 2.1.
+  </figcaption>
+</figure>
 
-![AI Development]({{ '/assets/images/blog/june-development.png' | relative_url }}
-})
-*The evolution from simple API calls to a full-featured coding assistant*
+If the second task depends on what the first produces, remembering that dependency
+belongs with the application. So does deciding whether the result is sufficient
+and making the second task runnable. Executing a task and deciding what it means
+for the goal are different responsibilities.
 
-The idea for June came from a simple frustration: I was spending too much time o
-n boilerplate code and repetitive tasks. I'd heard about Together.ai's API and th
-ought "what if I could just ask an AI to handle the boring stuff?"
+MechaHarness supplies reusable graph templates, checkpoints, and verification
+hooks. June chooses the concrete templates and bindings for the work it is
+managing. The runner shouldn't have to acquire a new understanding of goals
+every time the application changes how it schedules them.
 
-But here's the thing - most AI coding assistants are just chat interfaces. They 
-can suggest code, but they can't actually *do* anything with it. I wanted something
- that could take action, execute code, save files, and give me real results.
+<figure class="architecture-figure">
+  <a href="{{ '/assets/images/blog/june-architecture.svg' | relative_url }}">
+    <img src="{{ '/assets/images/blog/june-architecture.svg' | relative_url }}"
+         alt="June owns goals and work records; its runner calls MechaHarness graph execution and receives the result."
+         width="1600" height="533" loading="lazy" decoding="async">
+  </a>
+  <figcaption>
+    Conceptual architecture showing selected responsibilities, based on June's
+    <a href="https://github.com/rl337/june/blob/main/src/june/runner/task_runner.py">TaskRunner</a>
+    and <a href="https://github.com/rl337/june/blob/main/src/june/harness/__init__.py">MechaHarnessClient</a>.
+    Open the diagram for a larger view.
+  </figcaption>
+</figure>
 
-Looking at the commit history, I can see exactly where this project took off. Th
-e early commits show me struggling with basic API integration, but then something
- interesting happened in commit `24cf0631` - I added function calling capabiliti
-es.
+One small piece of that application state is a stored goal. This example
+reopens the same directory through a new store and reads the goal back:
 
-That's when June went from being a fancy chatbot to being a real coding assistan
-t.
+```python
+from pathlib import Path
+from tempfile import TemporaryDirectory
 
-## 🎯 Key Features
+from june.goals import Goal, GoalStore
+from june.persist import JsonStore
 
-### AI-Powered Coding
+with TemporaryDirectory() as folder:
+    first = GoalStore(JsonStore(Path(folder)))
+    goal = first.put(Goal("Revise a draft", "Draft reviewed"))
 
-- **Together.ai integration** for intelligent code generation
-- **Task-based workflow** for structured coding assistance
-- **Automated processing** of coding requests
-- **Error handling** and result management
+    reopened = GoalStore(JsonStore(Path(folder)))
+    print(reopened.get(goal.id).title)
+```
 
-### Web Interface
-
-- **Real-time status** monitoring
-- **Task management** with status tracking
-- **Live updates** with automatic refresh
-- **Form-based** task submission
-- **Activity logging** for transparency
-
-### API Endpoints
-
-- **GET /status**: Current agent status and task counts
-- **GET /tasks**: List all tasks with statuses and results
-- **POST /tasks**: Submit new coding tasks via JSON
-
-## 🛠️ Technical Implementation
-
-### Modern Python Architecture
-
-June is built with modern Python practices:
-
-- **Python 3.x** with Poetry for dependency management
-- **Flask** for the web service
-- **Together.ai API** for AI-powered coding
-- **Modular design** for maintainability
-- **Comprehensive testing** with pytest
-
-### Core Components
+Output:
 
 ```text
-june_agent/
-├── __init__.py           # Package initialization
-├── __main__.py          # Main entry point and agent loop
-├── request.py           # API request handling
-├── task.py              # Task management and processing
-├── web_service.py       # Flask web server
-├── svg.py               # SVG generation utilities
-└── chart.py             # Chart generation utilities
+Revise a draft
 ```
 
-### Web Service Architecture
+This only demonstrates saving and reopening a goal; it doesn't start a model
+run. The goal's identity and completion criteria can exist outside any one
+execution.
 
-The Flask web service provides:
+In [Getting your agents to use Dependency Injection](https://rl337.substack.com/p/getting-your-agents-to-use-dependency),
+I wrote about how easy patterns can keep spreading as an agent adds more code.
+This is another place where the boundary matters. If scheduling decisions and
+application state keep accumulating inside the reusable execution layer, that
+layer gradually becomes tied to the application it was meant to support.
 
-- **RESTful API** for task management
-- **Real-time updates** through automatic refresh
-- **Error handling** for robust operation
-- **Status monitoring** for system health
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- **Python 3.8+**
-- **Poetry** for dependency management
-- **Together.ai API key**
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/rl337/june
-cd june
-
-# Install dependencies
-poetry install
-
-# Set up API key
-export TOGETHER_API_KEY="your_api_key_here"
-```
-
-### Running the Agent
-
-```bash
-# Using Poetry
-poetry run python -m june_agent
-
-# Or activate virtual environment
-poetry shell
-python -m june_agent
-```
-
-The agent will start and be available at `http://localhost:8080`.
-
-## 🌐 Web Interface
-
-### Dashboard Features
-
-- **Agent Status**: Current operational status
-- **Task Queue**: Pending, processing, completed, and failed tasks
-- **Task Submission**: Form for submitting new coding tasks
-- **Activity Log**: Recent agent activities and updates
-
-### API Usage
-
-#### Submit a Task
-
-```bash
-curl -X POST -H "Content-Type: application/json" \
-  -d '{"description":"Write a python function to calculate factorial"}' \
-  http://localhost:8080/tasks
-```
-
-#### Check Status
-
-```bash
-curl http://localhost:8080/status
-```
-
-#### List Tasks
-
-```bash
-curl http://localhost:8080/tasks
-```
-
-## 🧪 The Testing Challenge
-
-![Testing AI]({{ '/assets/images/blog/june-testing.png' | relative_url }})
-*Testing an AI agent that can modify its own code - a unique challenge*
-
-One of the most interesting aspects of developing June was figuring out how to t
-est an AI system. How do you write tests for something that's designed to be unpred
-ictable and creative?
-
-The breakthrough came when I realized I needed to test the *system*, not the AI'
-s responses. I focused on testing the function calling mechanism, the file operat
-ions, and the web interface - the parts that needed to work reliably regardless of wh
-at the AI decided to do.
-
-Looking at commits like `43cddf7e` ("Add context to scenario test assertions"), 
-I can see the evolution of my testing approach. I started with simple unit tests,
- then moved to scenario-based testing where I'd give June a task and verify it c
-ould complete it end-to-end.
-
-The most fascinating part? June actually helped me improve its own tests. I'd as
-k it to write test cases, and it would come up with scenarios I hadn't thought of
-.
-
-```bash
-# Run all tests
-poetry run pytest
-
-# Run with coverage
-poetry run pytest --cov=june_agent
-
-# Run specific test files
-poetry run pytest tests/test_task.py
-```
-
-## 📊 Project Status
-
-### Current Features
-
-- ✅ **AI-powered coding** with Together.ai
-- ✅ **Web interface** for task management
-- ✅ **RESTful API** for programmatic access
-- ✅ **Task queuing** and status tracking
-- ✅ **Error handling** and result management
-- ✅ **Comprehensive testing** with pytest
-- ✅ **Modern Python packaging** with Poetry
-
-### Planned Features
-
-- 🔄 **Enhanced AI models** for better code generation
-- 🔄 **Task prioritization** and scheduling
-- 🔄 **Result caching** for improved performance
-- 🔄 **User authentication** and access control
-- 🔄 **Advanced task types** beyond coding
-
-## 🎯 Use Cases
-
-June is perfect for:
-
-- **Automated coding assistance** for developers
-- **Code generation** for repetitive tasks
-- **Learning and experimentation** with AI coding
-- **Prototype development** and rapid iteration
-- **Educational tools** for programming courses
-
-## 🔗 Links and Resources
-
-- **[GitHub Repository](https://github.com/rl337/june)** - Source code and
-  documentation
-- **[Project README](https://github.com/rl337/june/blob/main/README.md)** -
-  Detailed setup and usage instructions
-- **[Together.ai Documentation](https://docs.together.ai/)** - AI API
-  documentation
-- **[Flask Documentation](https://flask.palletsprojects.com/)** - Web framework
-  documentation
-
-## 💡 What I Learned About AI Development
-
-![AI Insights]({{ '/assets/images/blog/june-insights.png' | relative_url }})
-*The surprising lessons from building an AI coding assistant*
-
-Building June taught me more about AI development than I expected. The biggest s
-urprise? The AI isn't the hard part - it's everything around it.
-
-### The Real Challenges
-
-The Together.ai API is actually quite straightforward to use. The real challenge
-s were:
-
-1. **Function calling reliability** - Making sure the AI could consistently call
- the right functions with the right parameters
-2. **Error handling** - What happens when the AI generates invalid code or tries
- to access files it shouldn't?
-3. **Security** - How do you give an AI agent the ability to execute code withou
-t creating a security nightmare?
-4. **Testing** - How do you test a system that's designed to be unpredictable?
-
-### The Unexpected Benefits
-
-The most surprising thing about June isn't what it can do - it's how it changed 
-my own development process. Having an AI that can actually execute code and save f
-iles means I can offload the tedious parts of development and focus on the interesti
-ng problems.
-
-I've used June to:
-- Generate boilerplate code for new projects
-- Write test cases for complex functions
-- Refactor large codebases
-- Debug issues by having it analyze error logs
-
-### The Name
-
-I named it "June" because it's like having a helpful assistant available year-ro
-und, but also because "June" sounds friendly and approachable - not intimidating lik
-e "AI Agent" or "Coding Bot."
-
----
-
-*If you're curious about AI-powered development tools or want to experiment with
- automated coding assistance, check out [June](https://github.com/rl337/june). I
-t might just change how you think about the future of software development!*
+A successful model call is one event in the life of the work. The application
+still has to know what that event means.
